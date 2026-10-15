@@ -1,0 +1,150 @@
+title: Recent Publications
+papers:
+- title: Shared PRAME epitopes are T-cell targets in NUT carcinoma
+  authors: Jeffrey L Jensen, Sara K Peterson, Maria J Sambade, Jessica R Alley, Shawn Yu,
+    Tomoaki Kinjo, Sarah N Bennett, Steven P Vensko II, Mitra Shabrang, Johnathan D Debetta,
+    Julie K Geyer, Brandon A Price, Kwangok P Nickel, Randall J Kimple, Rishi S Kotecha,
+    Laura E Herring, Ian J Davis, Jeremy R Wang, Christopher A French, Brian Kuhlman, Jared
+    M Weiss, Alex Rubinsteyn, Benjamin G Vincent
+  venue: Journal for ImmunoTherapy of Cancer
+  year: 2026
+  url: https://doi.org/10.1136/jitc-2025-013539
+  images:
+  - assets/papers/papers-1.png
+  - assets/papers/papers-2.png
+  paragraphs:
+  - We identify PRAME as a frequently expressed cancer/testis antigen in NUT carcinoma
+    and confirm presentation of PRAME-derived HLA ligands using targeted mass spectrometry.
+    PRAME-targeting T-cell receptor therapies kill NUT carcinoma cells in vitro, supporting
+    further clinical investigation.
+- title: Conditional generation of real antigen-specific T cell receptor sequences
+  authors: Dhuvarakesh Karthikeyan, Sarah N. Bennett, Amy G. Reynolds, Benjamin G. Vincent,
+    Alex Rubinsteyn
+  venue: Nature Machine Intelligence
+  year: 2025
+  url: https://doi.org/10.1038/s42256-025-01096-6
+  images: []
+  paragraphs:
+  - We introduce TCR-TRANSLATE, a sequence-to-sequence framework that adapts methods from
+    low-resource machine translation to generate T-cell receptor sequences conditioned
+    on target antigens. We experimentally validate a designed receptor against Wilms’ tumor
+    antigen, while identifying cross-reactivity with pathogen-derived peptides that highlights
+    remaining challenges in specificity.
+- title: 'PGV001, a Multi-Peptide Personalized Neoantigen Vaccine Platform: Phase I Study
+    in Patients with Solid and Hematologic Malignancies in the Adjuvant Setting'
+  authors: Mansi Saxena, Thomas U. Marron, Julia Kodysh, John P. Finnigan Jr, Sayali Onkar,
+    Anna Kaminska, Kevin Tuballes, Ruiwei Guo, Rachel Lubong Sabado, Marcia Meseck, Timothy
+    J. O’Donnell, Robert P. Sebra, Samir Parekh, Matthew D. Galsky, Ana Blasquez, Gustavo
+    Gimenez, Mesude Bicak, Cansu Cimen Bozkus, Daniela Delbeau-Zagelbaum, Denise Rodriguez,
+    Ana Acuna-Villaorduna, Krzysztof J. Misiukiewicz, Marshall R. Posner, Brett A. Miles,
+    Hanna Y. Irie, Amy Tiersten, Deborah B. Doroshow, Andrea Wolf, John Mandeli, Rachel
+    Brody, Andres M. Salazar, Sacha Gnjatic, Jeff Hammerbacher, Eric Schadt, Philip Friedlander,
+    Alexander Rubinsteyn, Nina Bhardwaj
+  venue: Cancer Discovery
+  year: 2025
+  url: https://doi.org/10.1158/2159-8290.cd-24-0934
+  images: []
+  paragraphs:
+  - This phase 1 study evaluates personalized peptide vaccines targeting neoantigens selected
+    by the OpenVax computational pipeline in patients with solid and hematologic malignancies
+    at high risk of recurrence. The study demonstrates feasibility and induction of targeted
+    T-cell and B-cell responses.
+- title: 'Atezolizumab plus personalized neoantigen vaccination in urothelial cancer: a
+    phase 1 trial'
+  authors: Mansi Saxena, Jonathan F. Anker, Julia Kodysh, Timothy O’Donnell, Anna M. Kaminska,
+    Marcia Meseck, Olivia Hapanowicz, Scot Anthony Niglio, Andres M. Salazar, Hardik R.
+    Shah, Yayoi Kinoshita, Rachel Brody, Alex Rubinsteyn, Robert P. Sebra, Nina Bhardwaj,
+    Matthew D. Galsky
+  venue: Nature Cancer
+  year: 2025
+  url: https://doi.org/10.1038/s43018-025-00966-7
+  images: []
+  paragraphs:
+  - This phase 1 trial evaluates the combination of atezolizumab and personalized neoantigen
+    vaccination in urothelial cancer, examining the feasibility, safety, and immune responses
+    associated with the combination.
+- title: 'LENS: Landscape of Effective Neoantigens Software'
+  authors: Steven P Vensko II, Kelly Olsen, Dante Bortone, Christof C Smith, Shengjie Chai,
+    Wolfgang Beckabir, Misha Fini, Othmane Jadi, Alex Rubinsteyn, Benjamin G Vincent
+  venue: Bioinformatics
+  year: 2023
+  url: https://doi.org/10.1093/bioinformatics/btad322
+  images: []
+  paragraphs:
+  - LENS is an open-source Nextflow workflow for predicting tumor antigens from mutations,
+    gene fusions, splice variants, cancer/testis antigens, overexpressed genes, and viral
+    sources. An analysis of 115 acute myeloid leukemia samples demonstrates its use for
+    antigen discovery across multiple genomic sources.
+- title: 'MHCflurry 2.0: Improved Pan-Allele Prediction of MHC Class I-Presented Peptides
+    by Incorporating Antigen Processing'
+  authors: Tim O’Donnell, Alex Rubinsteyn, Uri Laserson
+  venue: Cell Systems
+  year: 2020
+  url: https://doi.org/10.1016/j.cels.2020.06.010
+  images:
+  - assets/papers/papers-3.jpg
+  image_style: rounded
+  paragraphs:
+  - This paper presents an extensions of our peptide-MHC binding predictor MHCflurry to
+    explicitly consider allele-invariant sequence motifs that correspond to signatures
+    of antigen processing by the proteasome, TAP, and ERAP. The antigen processing score
+    is combined with an allele specific MHC affinity score to derive a combined presentation
+    score.
+- title: Alternative tumour-specific antigens
+  authors: Christof C. Smith, Sara R. Selitsky, Shengjie Chai, Paul M. Armistead, Benjamin
+    G. Vincent, Jonathan S. Serody
+  venue: Nature Reviews Cancer
+  year: 2019
+  url: https://doi.org/10.1038/s41568-019-0162-4
+  images:
+  - assets/papers/papers-4.jpg
+  paragraphs:
+  - The most commonly studied class of tumor specific antigens are those derived from non-synonymous
+    single-nucleotide variants (SNVs), or SNV neoantigens. To increase the repertoire of
+    available therapeutic targets, antigens derived from mutational frameshifts, splice
+    variants, gene fusions, endogenous retroelements and other processes are appealing.
+    In this Opinion article, we  outline the biology, available computational tools, preclinical
+    and/or clinical studies and relevant cancers for each alternative tumor specific antigen
+    class. We also discuss both current challenges preventing the therapeutic application
+    of alternative tumor specific antigens and potential solutions to aid in their clinical
+    translation.
+- title: Improved T-cell Receptor Diversity Estimates Associate with Survival and Response
+    to Anti–PD-1 Therapy
+  authors: Dante S. Bortone, Mark G. Woodcock, Joel S. Parker and Benjamin G. Vincent
+  venue: Cancer Immunology Research
+  year: 2021
+  url: https://doi.org/10.1158/2326-6066.CIR-20-0398
+  images:
+  - assets/papers/papers-5.png
+  paragraphs:
+  - We examine the performance characteristics of methods for T-cell receptor repertoire
+    profiling from RNA-sequencing data and found under-sampling as a prominent source of
+    bias in diversity estimates. We then derived a model via statistical learning that
+    attenuates bias to produce corrected diversity estimates. This modeled diversity improved
+    discrimination in The Cancer Genome Atlas data and associated with survival and treatment
+    response in patients with melanoma treated with anti–PD-1 therapy, where the commonly
+    used diversity normalizations did not. These findings have the potential to increase
+    our understanding of the tumor immune microenvironment and improve the accuracy of
+    predictions of patient responses to immunotherapy.
+- title: Landscape and Selection of Vaccine Epitopes in SARS-CoV-2
+  authors: Christof C. Smith, Sarah Entwistle, Caryn Willis, Steven Vensko, Wolfgang Beck,
+    Jason Garness, Maria Sambade, Eric Routh, Kelly Olsen, Julia Kodysh, Timothy O’Donnell,
+    Carsten Haber, Kirsten Heiss, Volker Stadler, Erik Garrison, Oliver C. Grant, Robert
+    J. Woods, Mark Heise, Benjamin G. Vincent, Alex Rubinsteyn
+  venue: Genome Medicine
+  year: 2021
+  url: https://doi.org/10.1186/s13073-021-00910-1
+  images:
+  - assets/papers/papers-6.png
+  paragraphs:
+  - We combine computational prediction of T cell epitopes, recently published B cell epitope
+    mapping studies, and epitope accessibility to select candidate peptide vaccines for
+    SARS-CoV-2. In addition to predicted MHC affinity, candidate T cell epitopes were refined
+    by predicted immunogenicity, viral source protein abundance, sequence conservation,
+    coverage of high frequency HLA alleles and co-localization of CD4+ and CD8+ T cell
+    epitopes. B cell epitope regions were chosen from linear epitope mapping studies of
+    convalescent patient serum, followed by filtering to select regions with surface accessibility,
+    high sequence conservation, spatial localization near functional domains of the spike
+    glycoprotein, and avoidance of glycosylation sites. By combining B cell and T cell
+    analyses, as well as a manufacturability heuristic, we propose a set of SARS-CoV-2
+    vaccine peptides for use in subsequent murine studies and clinical trials.

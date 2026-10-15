@@ -1,0 +1,40 @@
+title: Open Source Computational Tools
+intro: PIRL uses and creates a variety of computational tools for our work in genomics
+  and computational immunology. Many of these tools are carried over from previous work
+  by the <a href="https://github.com/Benjamin-Vincent-Lab">Vincent Lab at UNC</a>, and
+  <a href="https://github.com/openvax">OpenVax</a>. Newer tools which are developed by
+  PIRL will be listed below.
+featured:
+- name: TCR-TRANSLATE
+  url: https://github.com/dhuvik/tcr_translate
+  image: assets/code/code-1.png
+  description: A sequence-to-sequence language model for antigen-specific TCR design that
+    addresses data sparsity through techniques from low-resource machine translation.
+- name: LENS
+  url: https://uselens.io
+  image: assets/code/code-2.png
+  description: Tumor antigen prediction pipeline used to curate tumor-specific predicted
+    MHC ligands from a variety of mutational and expression sources.
+- name: ACE
+  url: https://github.com/pirl-unc/ace
+  image: assets/code/code-3.png
+  description: Multiplex ELISpot assay design and deconvolution tool for determining epitope-specific
+    T-cell responses from a large number of candidate peptides.
+- name: MHCgnomes
+  url: https://github.com/pirl-unc/mhcgnomes
+  image: assets/code/code-4.png
+  description: A tricky part of constructing large immunological datasets is dealing with
+    the chaotic variability in naming of MHC molecules across species and within different
+    research communities. MHCgnomes is a parser for MHC nomenclature which uses several
+    reference data sources and a robust parsing strategy to standardize MHC nomenclature
+    from a variety of different naming schemes you might encounter in the wild.
+- name: RAFT
+  url: https://github.com/pirl-unc/raft
+  description: 'Reproducible Analyses Framework and Tools: infrastructure for configuring
+    and running reproducible Nextflow analyses.'
+- name: Exacto
+  url: https://github.com/pirl-unc/exacto
+  description: A long-read toolkit for mutant proteoform prediction that integrates DNA
+    and RNA variants, assembles transcripts, and translates them into annotated proteoforms
+    and mutant peptides.
+hide_repos: []

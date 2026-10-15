@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Page not found — {{ site.name }}{% endblock %}
+{% block canonical %}/404.html{% endblock %}
+
+{% block content %}
+<h1 class="page-title">Page not found</h1>
+<p class="lede">
+  There is nothing at this address. Try the <a href="{{ site_path('/') }}">home page</a>,
+  <a href="{{ site_path('/people/') }}">people</a>, <a href="{{ site_path('/papers/') }}">papers</a>,
+  <a href="{{ site_path('/code/') }}">code</a>, or the <a href="{{ site.blog_url }}" rel="noopener">blog</a>.
+</p>
+{% endblock %}

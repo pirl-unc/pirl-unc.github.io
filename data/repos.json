@@ -1,0 +1,928 @@
+[
+  {
+    "name": "presto",
+    "description": "All of T-cell:pMHC prediction in one model",
+    "url": "https://github.com/pirl-unc/presto",
+    "language": "Python",
+    "stars": 1,
+    "pushed_at": "2026-10-15",
+    "topics": []
+  },
+  {
+    "name": "hitlist",
+    "description": "Curated mass spectrometry evidence for MHC ligand data from IEDB and CEDAR",
+    "url": "https://github.com/pirl-unc/hitlist",
+    "language": "Python",
+    "stars": 3,
+    "pushed_at": "2026-10-15",
+    "topics": []
+  },
+  {
+    "name": "oncoref",
+    "description": "Curated cancer reference data: ontology, TMB, incidence/mortality, and expression. Bottom-of-stack for the openvax/PIRL libraries.",
+    "url": "https://github.com/pirl-unc/oncoref",
+    "language": "Python",
+    "stars": 3,
+    "pushed_at": "2026-10-15",
+    "topics": []
+  },
+  {
+    "name": "pirlygenes",
+    "description": "Gene sets used for cancer immunotherapy expression analysis",
+    "url": "https://github.com/pirl-unc/pirlygenes",
+    "language": "Python",
+    "stars": 1,
+    "pushed_at": "2026-10-14",
+    "topics": []
+  },
+  {
+    "name": "mhcgnomes",
+    "description": "Parsing MHC nomenclature in the wild",
+    "url": "https://github.com/pirl-unc/mhcgnomes",
+    "language": "Python",
+    "stars": 21,
+    "pushed_at": "2026-10-13",
+    "topics": []
+  },
+  {
+    "name": "mhcseqs",
+    "description": "MHC sequences",
+    "url": "https://github.com/pirl-unc/mhcseqs",
+    "language": "Python",
+    "stars": 2,
+    "pushed_at": "2026-10-13",
+    "topics": []
+  },
+  {
+    "name": "io-resistance-genie",
+    "description": "[WIP / experiment] Living literature review of resistance to immune checkpoint inhibitors",
+    "url": "https://github.com/pirl-unc/io-resistance-genie",
+    "language": "Python",
+    "stars": 2,
+    "pushed_at": "2026-10-12",
+    "topics": [
+      "anti-pd1",
+      "experiment",
+      "immunotherapy",
+      "literature-review",
+      "living-review",
+      "wip"
+    ]
+  },
+  {
+    "name": "DoesExactoWorkYet",
+    "description": "Simple end-to-end test of Exacto",
+    "url": "https://github.com/pirl-unc/DoesExactoWorkYet",
+    "language": "Python",
+    "stars": 0,
+    "pushed_at": "2026-10-12",
+    "topics": []
+  },
+  {
+    "name": "vmwhere",
+    "description": "exploring microsatellites in the human genome",
+    "url": "https://github.com/pirl-unc/vmwhere",
+    "language": "Python",
+    "stars": 0,
+    "pushed_at": "2026-10-09",
+    "topics": [
+      "ewing-sarcoma",
+      "long-read-sequencing",
+      "microsatellites",
+      "tandem-repeats"
+    ]
+  },
+  {
+    "name": "tsarina",
+    "description": "Tumor Specific Antigen discovery: personalized cancer immunotherapy targets from curated shared antigen data",
+    "url": "https://github.com/pirl-unc/tsarina",
+    "language": "Python",
+    "stars": 4,
+    "pushed_at": "2026-10-09",
+    "topics": []
+  },
+  {
+    "name": "trufflepig",
+    "description": "Step-by-step RNA tumor analysis driven by pirlygenes gene sets — subsumes pirlygenes.analyze as many composable sub-commands with serializable intermediate state.",
+    "url": "https://github.com/pirl-unc/trufflepig",
+    "language": "Python",
+    "stars": 0,
+    "pushed_at": "2026-10-09",
+    "topics": []
+  },
+  {
+    "name": "tcrsift",
+    "description": "",
+    "url": "https://github.com/pirl-unc/tcrsift",
+    "language": "Python",
+    "stars": 0,
+    "pushed_at": "2026-10-07",
+    "topics": []
+  },
+  {
+    "name": "exacto",
+    "description": "Long-read toolkit for mutant proteoform prediction - somatic/germline DNA and RNA assembly, variant calling, integration, and translation",
+    "url": "https://github.com/pirl-unc/exacto",
+    "language": "Rust",
+    "stars": 4,
+    "pushed_at": "2026-10-06",
+    "topics": [
+      "long-read-sequencing",
+      "mutant-proteoforms",
+      "neoantigens",
+      "rna-assembly",
+      "variant-calling",
+      "variant-isoforms"
+    ]
+  },
+  {
+    "name": "singlecell_images",
+    "description": "Docker files for images containing seurat + scCDC and seurat + decontx ( celda )",
+    "url": "https://github.com/pirl-unc/singlecell_images",
+    "language": "Shell",
+    "stars": 0,
+    "pushed_at": "2026-09-30",
+    "topics": []
+  },
+  {
+    "name": "weirdo",
+    "description": "Metrics of immunological foreignness for candidate T-cell epitopes",
+    "url": "https://github.com/pirl-unc/weirdo",
+    "language": "Jupyter Notebook",
+    "stars": 0,
+    "pushed_at": "2026-09-29",
+    "topics": []
+  },
+  {
+    "name": "alcohol-immunotherapy",
+    "description": "Data and code for \"Alcohol use reduces the efficacy of anti-PD1 immunotherapy by disrupting anti-tumor immunity\"",
+    "url": "https://github.com/pirl-unc/alcohol-immunotherapy",
+    "language": "",
+    "stars": 0,
+    "pushed_at": "2026-09-22",
+    "topics": []
+  },
+  {
+    "name": "runplz",
+    "description": "Tiny Modal-shaped job harness",
+    "url": "https://github.com/pirl-unc/runplz",
+    "language": "Python",
+    "stars": 3,
+    "pushed_at": "2026-09-09",
+    "topics": []
+  },
+  {
+    "name": "raft-ui",
+    "description": "RAFT web interface for generating manifests and configuration files.",
+    "url": "https://github.com/pirl-unc/raft-ui",
+    "language": "HTML",
+    "stars": 0,
+    "pushed_at": "2026-08-08",
+    "topics": []
+  },
+  {
+    "name": "nexus",
+    "description": "A command-line streamliner for Nextflow bioinformatics pipelines.",
+    "url": "https://github.com/pirl-unc/nexus",
+    "language": "Nextflow",
+    "stars": 2,
+    "pushed_at": "2026-08-06",
+    "topics": [
+      "bioinformatics-pipelines",
+      "nextflow"
+    ]
+  },
+  {
+    "name": "aggrescan3d-slurm-workflow",
+    "description": "",
+    "url": "https://github.com/pirl-unc/aggrescan3d-slurm-workflow",
+    "language": "Python",
+    "stars": 0,
+    "pushed_at": "2026-06-19",
+    "topics": []
+  },
+  {
+    "name": "pdockq-slurm-workflow",
+    "description": "",
+    "url": "https://github.com/pirl-unc/pdockq-slurm-workflow",
+    "language": "Python",
+    "stars": 0,
+    "pushed_at": "2026-06-19",
+    "topics": []
+  },
+  {
+    "name": "vstol",
+    "description": "Variant Standardization, Tabulation, and Operations Library",
+    "url": "https://github.com/pirl-unc/vstol",
+    "language": "Python",
+    "stars": 4,
+    "pushed_at": "2026-06-04",
+    "topics": [
+      "variant-analysis",
+      "variant-annotation",
+      "variant-filtration"
+    ]
+  },
+  {
+    "name": "io-shieldbreak",
+    "description": "",
+    "url": "https://github.com/pirl-unc/io-shieldbreak",
+    "language": "Python",
+    "stars": 0,
+    "pushed_at": "2026-04-27",
+    "topics": []
+  },
+  {
+    "name": "squid-tui",
+    "description": "Squid-TUI (Slurm QUeue Interactive Dashboard): Terminal UI (TUI) for organizing, filtering, and managing SLURM jobs.",
+    "url": "https://github.com/pirl-unc/squid-tui",
+    "language": "Python",
+    "stars": 0,
+    "pushed_at": "2026-04-13",
+    "topics": []
+  },
+  {
+    "name": "golfy",
+    "description": "Heuristic solver for pooled peptide experiment design",
+    "url": "https://github.com/pirl-unc/golfy",
+    "language": "Jupyter Notebook",
+    "stars": 0,
+    "pushed_at": "2026-04-08",
+    "topics": []
+  },
+  {
+    "name": "perseo",
+    "description": "Personalized cancer immunotherapy target selection from curated shared antigen data",
+    "url": "https://github.com/pirl-unc/perseo",
+    "language": "Python",
+    "stars": 0,
+    "pushed_at": "2026-03-28",
+    "topics": []
+  },
+  {
+    "name": "hf-tcr",
+    "description": "HuggingFace Scaffolding for EZ TCR Generation and Evaluation",
+    "url": "https://github.com/pirl-unc/hf-tcr",
+    "language": "Python",
+    "stars": 1,
+    "pushed_at": "2026-01-17",
+    "topics": []
+  },
+  {
+    "name": "TCRpMHCdataset",
+    "description": "Python Class for Handling Many-to-Many Nature of TCR::pMHC Data",
+    "url": "https://github.com/pirl-unc/TCRpMHCdataset",
+    "language": "Python",
+    "stars": 1,
+    "pushed_at": "2026-01-12",
+    "topics": []
+  },
+  {
+    "name": "pirl-blog-notebooks",
+    "description": "Jupyter notebooks accompanying PIRL Blog posts",
+    "url": "https://github.com/pirl-unc/pirl-blog-notebooks",
+    "language": "Jupyter Notebook",
+    "stars": 0,
+    "pushed_at": "2025-12-05",
+    "topics": []
+  },
+  {
+    "name": "PRAME_in_NUT_Carcinoma",
+    "description": "",
+    "url": "https://github.com/pirl-unc/PRAME_in_NUT_Carcinoma",
+    "language": "R",
+    "stars": 0,
+    "pushed_at": "2025-11-21",
+    "topics": []
+  },
+  {
+    "name": "tahp",
+    "description": "Tumor Antigen Heterogeneity Profiler",
+    "url": "https://github.com/pirl-unc/tahp",
+    "language": "Python",
+    "stars": 0,
+    "pushed_at": "2025-10-17",
+    "topics": []
+  },
+  {
+    "name": "pdf-reports",
+    "description": "Helping code for compiling plots and other outputs into presentation pdfs.",
+    "url": "https://github.com/pirl-unc/pdf-reports",
+    "language": "R",
+    "stars": 0,
+    "pushed_at": "2025-08-15",
+    "topics": []
+  },
+  {
+    "name": "ace",
+    "description": "Deep learning-powered multiplexed ELISpot assay design and deconvolution of pool readouts for immunogenic peptide identification.",
+    "url": "https://github.com/pirl-unc/ace",
+    "language": "Jupyter Notebook",
+    "stars": 2,
+    "pushed_at": "2025-05-13",
+    "topics": []
+  },
+  {
+    "name": "datasetprep",
+    "description": "Methods to make life easier when preparing datasets for analysis.",
+    "url": "https://github.com/pirl-unc/datasetprep",
+    "language": "R",
+    "stars": 0,
+    "pushed_at": "2025-05-05",
+    "topics": []
+  },
+  {
+    "name": "lens_demo_workflow_outputs",
+    "description": "",
+    "url": "https://github.com/pirl-unc/lens_demo_workflow_outputs",
+    "language": "HTML",
+    "stars": 0,
+    "pushed_at": "2025-04-30",
+    "topics": []
+  },
+  {
+    "name": "binfotron",
+    "description": "",
+    "url": "https://github.com/pirl-unc/binfotron",
+    "language": "R",
+    "stars": 1,
+    "pushed_at": "2025-04-01",
+    "topics": []
+  },
+  {
+    "name": "housekeeping",
+    "description": "",
+    "url": "https://github.com/pirl-unc/housekeeping",
+    "language": "R",
+    "stars": 0,
+    "pushed_at": "2025-04-01",
+    "topics": []
+  },
+  {
+    "name": "rserver-binfotron",
+    "description": "",
+    "url": "https://github.com/pirl-unc/rserver-binfotron",
+    "language": "Dockerfile",
+    "stars": 0,
+    "pushed_at": "2025-04-01",
+    "topics": []
+  },
+  {
+    "name": "translate-pacbio-reads-for-bbn963",
+    "description": "",
+    "url": "https://github.com/pirl-unc/translate-pacbio-reads-for-bbn963",
+    "language": "Jupyter Notebook",
+    "stars": 0,
+    "pushed_at": "2025-03-26",
+    "topics": []
+  },
+  {
+    "name": "longread-fusion-transcript-pipeline",
+    "description": "",
+    "url": "https://github.com/pirl-unc/longread-fusion-transcript-pipeline",
+    "language": "R",
+    "stars": 0,
+    "pushed_at": "2025-03-24",
+    "topics": []
+  },
+  {
+    "name": "lineardesign",
+    "description": "docker image to run externally developed LinearDesign software",
+    "url": "https://github.com/pirl-unc/lineardesign",
+    "language": "",
+    "stars": 0,
+    "pushed_at": "2025-02-28",
+    "topics": []
+  },
+  {
+    "name": "MiXCR",
+    "description": "Dockerfile and script to run MiXCR",
+    "url": "https://github.com/pirl-unc/MiXCR",
+    "language": "Dockerfile",
+    "stars": 0,
+    "pushed_at": "2025-02-25",
+    "topics": []
+  },
+  {
+    "name": "pvacitopes",
+    "description": "Epitope selection from pVACtools output",
+    "url": "https://github.com/pirl-unc/pvacitopes",
+    "language": "Python",
+    "stars": 0,
+    "pushed_at": "2025-02-19",
+    "topics": []
+  },
+  {
+    "name": "bbn963_fusion_transcript_pipeline",
+    "description": "A pipeline associated with the longread fusion pipeline used to extract fusions from our associated pacbio bbn963 data.",
+    "url": "https://github.com/pirl-unc/bbn963_fusion_transcript_pipeline",
+    "language": "R",
+    "stars": 0,
+    "pushed_at": "2024-12-13",
+    "topics": []
+  },
+  {
+    "name": "NeoantigenProfiler",
+    "description": "",
+    "url": "https://github.com/pirl-unc/NeoantigenProfiler",
+    "language": "R",
+    "stars": 0,
+    "pushed_at": "2024-12-13",
+    "topics": []
+  },
+  {
+    "name": "nutm1-fusions",
+    "description": "Hunting for T-cell epitopes in recurrent NUTM1 somatic fusions",
+    "url": "https://github.com/pirl-unc/nutm1-fusions",
+    "language": "Jupyter Notebook",
+    "stars": 0,
+    "pushed_at": "2024-12-11",
+    "topics": []
+  },
+  {
+    "name": "lens",
+    "description": "Landscape of Effective Neoantigens Software",
+    "url": "https://github.com/pirl-unc/lens",
+    "language": "",
+    "stars": 0,
+    "pushed_at": "2024-11-12",
+    "topics": []
+  },
+  {
+    "name": "yolotrim",
+    "description": "Heuristic read trimming for PacBio IsoSeq data",
+    "url": "https://github.com/pirl-unc/yolotrim",
+    "language": "Rust",
+    "stars": 0,
+    "pushed_at": "2024-10-07",
+    "topics": []
+  },
+  {
+    "name": "PostRNASeqAlign",
+    "description": "",
+    "url": "https://github.com/pirl-unc/PostRNASeqAlign",
+    "language": "R",
+    "stars": 0,
+    "pushed_at": "2024-07-24",
+    "topics": []
+  },
+  {
+    "name": "nara",
+    "description": "NUTM1 Associated Recurrent Antigens: possible T-cell targets on NUTM1 rearranged neoplasms",
+    "url": "https://github.com/pirl-unc/nara",
+    "language": "Jupyter Notebook",
+    "stars": 0,
+    "pushed_at": "2024-06-25",
+    "topics": []
+  },
+  {
+    "name": "rserver-immunesubtypes",
+    "description": "hosts dockerfile for running immune subtypes package",
+    "url": "https://github.com/pirl-unc/rserver-immunesubtypes",
+    "language": "Dockerfile",
+    "stars": 0,
+    "pushed_at": "2024-06-13",
+    "topics": []
+  },
+  {
+    "name": "variform",
+    "description": "Variant isoform detection for large mutations in long-read RNA sequencing",
+    "url": "https://github.com/pirl-unc/variform",
+    "language": "Python",
+    "stars": 1,
+    "pushed_at": "2024-04-09",
+    "topics": []
+  },
+  {
+    "name": "python-project-template",
+    "description": "Template of a basic Python project",
+    "url": "https://github.com/pirl-unc/python-project-template",
+    "language": "Python",
+    "stars": 1,
+    "pushed_at": "2024-03-29",
+    "topics": []
+  },
+  {
+    "name": "coding-guidelines",
+    "description": "Coding guidelines and recommendations for tools developed by PIRL",
+    "url": "https://github.com/pirl-unc/coding-guidelines",
+    "language": "",
+    "stars": 0,
+    "pushed_at": "2024-02-20",
+    "topics": []
+  },
+  {
+    "name": "rserver",
+    "description": "rserver",
+    "url": "https://github.com/pirl-unc/rserver",
+    "language": "Shell",
+    "stars": 0,
+    "pushed_at": "2024-02-13",
+    "topics": []
+  },
+  {
+    "name": "PrePostMiXCR",
+    "description": "Functions for writing commands and post processing the MiXCR pipeline.",
+    "url": "https://github.com/pirl-unc/PrePostMiXCR",
+    "language": "R",
+    "stars": 0,
+    "pushed_at": "2024-02-13",
+    "topics": []
+  },
+  {
+    "name": "rserver-postproc-rnaseq",
+    "description": "Dockerfile to make RStudio server for doing post processing of rnaseq data using the StarSalmon R-package",
+    "url": "https://github.com/pirl-unc/rserver-postproc-rnaseq",
+    "language": "Dockerfile",
+    "stars": 0,
+    "pushed_at": "2024-02-13",
+    "topics": []
+  },
+  {
+    "name": "Landscape-and-Selection-of-Vaccine-Epitopes-in-SARS-CoV-2",
+    "description": "Code and data for \"Landscape and Selection of Vaccine Epitopes in SARS-CoV-2\"",
+    "url": "https://github.com/pirl-unc/Landscape-and-Selection-of-Vaccine-Epitopes-in-SARS-CoV-2",
+    "language": "Jupyter Notebook",
+    "stars": 2,
+    "pushed_at": "2024-02-13",
+    "topics": []
+  },
+  {
+    "name": "mHA-dockerfile",
+    "description": "",
+    "url": "https://github.com/pirl-unc/mHA-dockerfile",
+    "language": "Dockerfile",
+    "stars": 0,
+    "pushed_at": "2024-02-13",
+    "topics": []
+  },
+  {
+    "name": "lenstools",
+    "description": "",
+    "url": "https://github.com/pirl-unc/lenstools",
+    "language": "Dockerfile",
+    "stars": 0,
+    "pushed_at": "2024-02-13",
+    "topics": []
+  },
+  {
+    "name": "command-line-tools",
+    "description": "Tools helpful for working with data, nextflow, etc.",
+    "url": "https://github.com/pirl-unc/command-line-tools",
+    "language": "R",
+    "stars": 0,
+    "pushed_at": "2024-02-13",
+    "topics": []
+  },
+  {
+    "name": "picard",
+    "description": "Adds magrittr to docker://broadinstitute/picard:2.27.5 to bypass error when using apptainer.",
+    "url": "https://github.com/pirl-unc/picard",
+    "language": "Dockerfile",
+    "stars": 0,
+    "pushed_at": "2024-02-13",
+    "topics": []
+  },
+  {
+    "name": "are-we-good",
+    "description": "CI status of every project we develop and/or help maintain",
+    "url": "https://github.com/pirl-unc/are-we-good",
+    "language": "",
+    "stars": 0,
+    "pushed_at": "2024-02-13",
+    "topics": []
+  },
+  {
+    "name": "HLAProfiler",
+    "description": "",
+    "url": "https://github.com/pirl-unc/HLAProfiler",
+    "language": "R",
+    "stars": 0,
+    "pushed_at": "2024-02-12",
+    "topics": []
+  },
+  {
+    "name": "StarSalmon",
+    "description": "",
+    "url": "https://github.com/pirl-unc/StarSalmon",
+    "language": "R",
+    "stars": 0,
+    "pushed_at": "2024-02-12",
+    "topics": []
+  },
+  {
+    "name": "rserver-sc",
+    "description": "RServer for single cell analyses.  Contains monocle3, zinbwave and scRNAseq",
+    "url": "https://github.com/pirl-unc/rserver-sc",
+    "language": "Dockerfile",
+    "stars": 0,
+    "pushed_at": "2024-02-12",
+    "topics": []
+  },
+  {
+    "name": "VincentLabFormatter",
+    "description": "",
+    "url": "https://github.com/pirl-unc/VincentLabFormatter",
+    "language": "R",
+    "stars": 0,
+    "pushed_at": "2024-02-12",
+    "topics": []
+  },
+  {
+    "name": "stig",
+    "description": "Synthetic T-cell Informatics Generator",
+    "url": "https://github.com/pirl-unc/stig",
+    "language": "Python",
+    "stars": 1,
+    "pushed_at": "2024-02-12",
+    "topics": []
+  },
+  {
+    "name": "fastmultiqc",
+    "description": "Has environment and script for running fastqc and then multiqc on the results.",
+    "url": "https://github.com/pirl-unc/fastmultiqc",
+    "language": "Shell",
+    "stars": 0,
+    "pushed_at": "2024-02-12",
+    "topics": []
+  },
+  {
+    "name": "trust_published",
+    "description": "Dockerfile for running the original published version of TRUST.",
+    "url": "https://github.com/pirl-unc/trust_published",
+    "language": "Dockerfile",
+    "stars": 0,
+    "pushed_at": "2024-02-12",
+    "topics": []
+  },
+  {
+    "name": "trust",
+    "description": "Dockerfile for running TRUST 3.0",
+    "url": "https://github.com/pirl-unc/trust",
+    "language": "R",
+    "stars": 0,
+    "pushed_at": "2024-02-12",
+    "topics": []
+  },
+  {
+    "name": "MiXCR-2.1.7",
+    "description": "Dockerfile and script to run MiXCR 2.1.7 RNAseq",
+    "url": "https://github.com/pirl-unc/MiXCR-2.1.7",
+    "language": "Java",
+    "stars": 0,
+    "pushed_at": "2024-02-12",
+    "topics": []
+  },
+  {
+    "name": "MiXCR-amplicon-2.1.7",
+    "description": "Dockerfile & script used for the diversity paper MiXCR amplicon runs. ",
+    "url": "https://github.com/pirl-unc/MiXCR-amplicon-2.1.7",
+    "language": "Java",
+    "stars": 0,
+    "pushed_at": "2024-02-12",
+    "topics": []
+  },
+  {
+    "name": "Bowtie2",
+    "description": "Dockerfile and examples for using Bowtie2",
+    "url": "https://github.com/pirl-unc/Bowtie2",
+    "language": "Shell",
+    "stars": 0,
+    "pushed_at": "2024-02-12",
+    "topics": []
+  },
+  {
+    "name": "tide",
+    "description": "",
+    "url": "https://github.com/pirl-unc/tide",
+    "language": "Dockerfile",
+    "stars": 0,
+    "pushed_at": "2024-02-12",
+    "topics": []
+  },
+  {
+    "name": "rserver-impro",
+    "description": "",
+    "url": "https://github.com/pirl-unc/rserver-impro",
+    "language": "Dockerfile",
+    "stars": 0,
+    "pushed_at": "2024-02-12",
+    "topics": []
+  },
+  {
+    "name": "making-sense-of-tesla",
+    "description": "",
+    "url": "https://github.com/pirl-unc/making-sense-of-tesla",
+    "language": "Jupyter Notebook",
+    "stars": 0,
+    "pushed_at": "2024-02-03",
+    "topics": []
+  },
+  {
+    "name": ".github",
+    "description": "Personalized Immunotherapy Research Lab at UNC",
+    "url": "https://github.com/pirl-unc/.github",
+    "language": "",
+    "stars": 0,
+    "pushed_at": "2024-01-31",
+    "topics": []
+  },
+  {
+    "name": "neoag",
+    "description": "Mirror of vincentlaboratories / neoag",
+    "url": "https://github.com/pirl-unc/neoag",
+    "language": "R",
+    "stars": 0,
+    "pushed_at": "2024-01-30",
+    "topics": []
+  },
+  {
+    "name": "fusion-transcript-workflow",
+    "description": "",
+    "url": "https://github.com/pirl-unc/fusion-transcript-workflow",
+    "language": "",
+    "stars": 0,
+    "pushed_at": "2024-01-29",
+    "topics": []
+  },
+  {
+    "name": "ace-analysis",
+    "description": "",
+    "url": "https://github.com/pirl-unc/ace-analysis",
+    "language": "HTML",
+    "stars": 0,
+    "pushed_at": "2023-12-08",
+    "topics": []
+  },
+  {
+    "name": "raft",
+    "description": "",
+    "url": "https://github.com/pirl-unc/raft",
+    "language": "Python",
+    "stars": 0,
+    "pushed_at": "2023-12-07",
+    "topics": []
+  },
+  {
+    "name": "bbn963-mutations",
+    "description": "Exploring long read WGS somatic variants for BBN963 cell line",
+    "url": "https://github.com/pirl-unc/bbn963-mutations",
+    "language": "Jupyter Notebook",
+    "stars": 0,
+    "pushed_at": "2023-11-21",
+    "topics": []
+  },
+  {
+    "name": "python-rust-template",
+    "description": "The purpose of this repository is to test continuous integration using GitHub Actions",
+    "url": "https://github.com/pirl-unc/python-rust-template",
+    "language": "Python",
+    "stars": 0,
+    "pushed_at": "2023-11-20",
+    "topics": []
+  },
+  {
+    "name": "defense-against-the-dark-arts",
+    "description": "Course website and resources for BCB 731",
+    "url": "https://github.com/pirl-unc/defense-against-the-dark-arts",
+    "language": "HTML",
+    "stars": 0,
+    "pushed_at": "2023-07-04",
+    "topics": []
+  },
+  {
+    "name": "lbg-guide",
+    "description": "Basic usage tips for the LBG cluster at UNC-CH",
+    "url": "https://github.com/pirl-unc/lbg-guide",
+    "language": "",
+    "stars": 0,
+    "pushed_at": "2023-04-03",
+    "topics": []
+  },
+  {
+    "name": "Rmbleven",
+    "description": "An R utility for string comparisons using the mbleven algorithm written in Rcpp.",
+    "url": "https://github.com/pirl-unc/Rmbleven",
+    "language": "C++",
+    "stars": 0,
+    "pushed_at": "2023-01-31",
+    "topics": []
+  },
+  {
+    "name": "tricking_nextflow_cache",
+    "description": "This is a minimal code example demonstrating use of the clean_work_files.sh script to delete intermediate files in Nextflow workflows.",
+    "url": "https://github.com/pirl-unc/tricking_nextflow_cache",
+    "language": "Nextflow",
+    "stars": 3,
+    "pushed_at": "2022-12-19",
+    "topics": []
+  },
+  {
+    "name": "blogs",
+    "description": "Repositories for Code Associated with Blog Posts on PIRL Website",
+    "url": "https://github.com/pirl-unc/blogs",
+    "language": "Jupyter Notebook",
+    "stars": 0,
+    "pushed_at": "2022-11-19",
+    "topics": []
+  },
+  {
+    "name": "immproper",
+    "description": "T-cell epitope predictor",
+    "url": "https://github.com/pirl-unc/immproper",
+    "language": "Python",
+    "stars": 0,
+    "pushed_at": "2022-11-16",
+    "topics": []
+  },
+  {
+    "name": "u87-ttf-mutational-signature",
+    "description": "Mutational signature analysis of U87 glioma cells exposed to Tumor Treating Fields",
+    "url": "https://github.com/pirl-unc/u87-ttf-mutational-signature",
+    "language": "Shell",
+    "stars": 0,
+    "pushed_at": "2022-04-07",
+    "topics": []
+  },
+  {
+    "name": "sv-web-parser-and-visualizer",
+    "description": "",
+    "url": "https://github.com/pirl-unc/sv-web-parser-and-visualizer",
+    "language": "Python",
+    "stars": 0,
+    "pushed_at": "2022-04-05",
+    "topics": []
+  },
+  {
+    "name": "u87-u937-isoseq-demux",
+    "description": "Demultiplexing of Iso-Seq cell line data",
+    "url": "https://github.com/pirl-unc/u87-u937-isoseq-demux",
+    "language": "Python",
+    "stars": 1,
+    "pushed_at": "2021-12-10",
+    "topics": []
+  },
+  {
+    "name": "metaseq",
+    "description": "Metadata format for collections of FASTA files containing genomic sequencing reads",
+    "url": "https://github.com/pirl-unc/metaseq",
+    "language": "",
+    "stars": 1,
+    "pushed_at": "2021-10-16",
+    "topics": []
+  },
+  {
+    "name": "SeqPipe",
+    "description": "Reusable pipeline for sequence alignment and variant calling.",
+    "url": "https://github.com/pirl-unc/SeqPipe",
+    "language": "",
+    "stars": 0,
+    "pushed_at": "2021-07-07",
+    "topics": []
+  },
+  {
+    "name": "unc-sars-cov-2-sequencing",
+    "description": "Analysis of SARS-CoV-2 viral sequencing data",
+    "url": "https://github.com/pirl-unc/unc-sars-cov-2-sequencing",
+    "language": "Jupyter Notebook",
+    "stars": 0,
+    "pushed_at": "2021-01-15",
+    "topics": []
+  },
+  {
+    "name": "isovar-on-mouse-cell-lines-shell-scripts",
+    "description": "Shell script that runs the RNA aligner star",
+    "url": "https://github.com/pirl-unc/isovar-on-mouse-cell-lines-shell-scripts",
+    "language": "Jupyter Notebook",
+    "stars": 0,
+    "pushed_at": "2020-12-23",
+    "topics": []
+  },
+  {
+    "name": "til-unc.github.io",
+    "description": "Website for Translational Immunogenomics Lab",
+    "url": "https://github.com/pirl-unc/til-unc.github.io",
+    "language": "HTML",
+    "stars": 0,
+    "pushed_at": "2020-12-18",
+    "topics": []
+  },
+  {
+    "name": "klamp",
+    "description": "SARS-CoV-2 detection from LamPORE sequencing data",
+    "url": "https://github.com/pirl-unc/klamp",
+    "language": "Python",
+    "stars": 1,
+    "pushed_at": "2020-10-26",
+    "topics": []
+  },
+  {
+    "name": "cd8-tcell-epitope-prediction-data",
+    "description": "Data for building predictive models of CD8+ T-cell epitopes",
+    "url": "https://github.com/pirl-unc/cd8-tcell-epitope-prediction-data",
+    "language": "Jupyter Notebook",
+    "stars": 4,
+    "pushed_at": "2020-10-01",
+    "topics": []
+  }
+]

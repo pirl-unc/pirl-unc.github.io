@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block title %}People — {{ site.name }}{% endblock %}
+{% block canonical %}/people/{% endblock %}
+
+{% block content %}
+<h1 class="sr-only">People</h1>
+
+{% for group in people.groups %}
+<section class="people-group people-group-{{ group.layout | default('members') }}" aria-labelledby="group-{{ loop.index }}">
+  <h2 id="group-{{ loop.index }}">{{ group.title }}</h2>
+  <ul class="people-grid">
+    {% for person in group.people %}
+    <li class="person">
+      {% set src = photo(person) %}
+      {% if src %}
+      <img src="{{ src }}" alt="" loading="lazy" width="300" height="300">
+      {% else %}
+      <div class="person-placeholder" aria-hidden="true"></div>
+      {% endif %}
+      <h3>{{ person.name }}</h3>
+      {% if person.role %}<p class="role">{{ person.role }}</p>{% endif %}
+      {% if person.links %}
+      <ul class="links">
+        {% for link in person.links %}
+        {% for label, href in link.items() %}
+        <li><a href="{{ href }}" rel="noopener">{{ label }}</a></li>
+        {% endfor %}
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endfor %}
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %}Papers — {{ site.name }}{% endblock %}
+{% block canonical %}/papers/{% endblock %}
+
+{% block content %}
+<h1 class="page-title">{{ papers.title }}</h1>
+
+<ol class="paper-list">
+  {% for paper in papers.papers %}
+  <li class="paper{% if not paper.images %} paper-text-only{% endif %}">
+    {% if paper.images %}<div class="paper-images{% if paper.image_style %} paper-images-{{ paper.image_style }}{% endif %}">{% for image in paper.images %}<img src="{{ asset(image) }}" alt="Figure from {{ paper.title }}" loading="lazy">{% endfor %}</div>{% endif %}
+    <div class="paper-text">
+    <h2>
+      {% if paper.url %}<a href="{{ paper.url }}" rel="noopener">{{ paper.title }}</a>
+      {% else %}{{ paper.title }}{% endif %}
+    </h2>
+    <p class="authors">{{ paper.authors }}</p>
+    {% for paragraph in paper.paragraphs %}<p class="summary">{{ paragraph }}</p>{% endfor %}
+    </div>
+  </li>
+  {% endfor %}
+</ol>
+{% endblock %}

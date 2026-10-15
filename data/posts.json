@@ -1,0 +1,56 @@
+[
+  {
+    "title": "OpenAI Foundation gave us $40M to improve cancer vaccines",
+    "subtitle": "Introducing the Initiative for Generative Immunotherapy at UNC.",
+    "url": "https://pirlblog.substack.com/p/openai-foundation-gave-us-40m-to",
+    "date": "2026-09-15",
+    "author": "Alex Rubinsteyn and Benjamin Vincent",
+    "image": "",
+    "excerpt": "What will make personalized cancer vaccines more effective? With support from the OpenAI Foundation, PIRL is launching the Initiative for Generative Immunotherapy at UNC. The initiative will release data connecting tumor mutations, presented antigens, and T-cell responses, alongside a clinical trial comparing vaccine formulations to help improve target selection and immune responses."
+  },
+  {
+    "title": "Announcing RAFT v1.5.1 and LENS v1.9.0",
+    "subtitle": "Updates to installation, cloud execution, quality control, and tumor antigen reports.",
+    "url": "https://pirlblog.substack.com/p/announcing-raft-v151-and-lens-v190",
+    "date": "2026-08-19",
+    "author": "Steven P. Vensko II",
+    "image": "",
+    "excerpt": "The latest RAFT and LENS releases simplify installation, workflow configuration, and results review. They bring more reliable cloud execution, automatic resource scaling, and expanded quality control, plus tiered tumor antigen reports that help researchers distinguish the full set of predictions from candidates with stronger supporting evidence."
+  },
+  {
+    "title": "Some advice to companies and clinics starting personalized neoantigen vaccine programs",
+    "subtitle": "The problems aren't all solved yet...",
+    "url": "https://pirlblog.substack.com/p/some-advice-to-companies-and-clinics",
+    "date": "2026-02-02",
+    "author": "Benjamin Vincent",
+    "image": "https://substack-post-media.s3.amazonaws.com/public/images/58942fee-9c0c-4b8e-bcf4-6fa30b22dbb4_1536x1024.png",
+    "image_local": "assets/posts/8e5542d97549608e8d3d.png"
+  },
+  {
+    "title": "Quantifying Tumor Antigen Heterogeneity with TAHP",
+    "subtitle": "Using single-cell data to examine variation in tumor antigen expression.",
+    "url": "https://pirlblog.substack.com/p/quantifying-tumor-antigen-heterogeneity",
+    "date": "2025-10-17",
+    "author": "Steven P. Vensko II",
+    "image": "https://substack-post-media.s3.amazonaws.com/public/images/f284cc70-2b04-4554-ba6a-ff3cd5166ee7_2040x798.png",
+    "image_local": "assets/posts/a5e7c26ec7a29ba8c87a.png"
+  },
+  {
+    "title": "Expanding the Unified Grammar for RNA Variants",
+    "subtitle": "Extending a shared representation of variants to RNA.",
+    "url": "https://pirlblog.substack.com/p/expanding-the-unified-grammar-for",
+    "date": "2025-10-09",
+    "author": "Jin Seok (Andy) Lee",
+    "image": "https://substack-post-media.s3.amazonaws.com/public/images/fabd1f75-89bf-4e49-8f97-7eb1d10255a5_2074x2079.png",
+    "image_local": "assets/posts/264448674316341d4a77.png"
+  },
+  {
+    "title": "Inversion: Temporal Pincer in Cancer Genome",
+    "subtitle": "Explaining the orientation of inversion breakpoints.",
+    "url": "https://pirlblog.substack.com/p/inversion",
+    "date": "2025-06-27",
+    "author": "Jin Seok (Andy) Lee",
+    "image": "https://substack-post-media.s3.amazonaws.com/public/images/f843ff1b-7068-48c6-a2f7-ba555f472be7_2103x2013.png",
+    "image_local": "assets/posts/703427265f6c22253ebe.png"
+  }
+]

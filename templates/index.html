@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block canonical %}/{% endblock %}
+
+{% block content %}
+<section class="statement">
+  <p>
+    The Personalized Immunotherapy Research Lab (PIRL) is a multi-investigator research group
+    at the <a href="https://www.med.unc.edu" rel="noopener">University of North Carolina’s School of Medicine</a>,
+    whose <a href="{{ site_path('/people/') }}">members</a> bring together expertise in
+    <strong>immunology</strong>, <strong>genomics</strong>, <strong>oncology</strong>, and
+    <strong>machine learning</strong>. We work on developing cancer immunotherapies that use a
+    patient’s immune system to attack tumor-specific targets. We are committed to
+    <em>open science</em> through building open source research <a href="{{ site_path('/code/') }}">software</a>,
+    making experimental data unconditionally available, and disseminating results quickly through
+    <a href="{{ site.blog_url }}" rel="noopener">blog</a> posts and <a href="{{ site_path('/papers/') }}">preprints</a>.
+  </p>
+</section>
+
+<section class="posts" aria-labelledby="posts-heading">
+  <div class="posts-head">
+    <h2 id="posts-heading"><a href="{{ site.blog_url }}" rel="noopener">Blog Posts</a></h2>
+  </div>
+
+  {% if recent_posts %}
+  <ol class="post-list">
+    {% for post in recent_posts %}
+    <li class="post">
+      {% set cover = post_image(post) %}
+      {% if cover %}
+      <a class="post-cover" href="{{ post.url }}" tabindex="-1" aria-hidden="true">
+        <img src="{{ cover }}" alt="" loading="lazy" width="600" height="400">
+      </a>
+      {% endif %}
+      <div class="post-body">
+        <time datetime="{{ post.date }}">{{ post.date | nice_date }}</time>
+        <h3><a href="{{ post.url }}" rel="noopener">{{ post.title }}</a></h3>
+        {% if not cover and post.excerpt %}<p class="post-excerpt">{{ post.excerpt }}</p>
+        {% elif post.subtitle %}<p>{{ post.subtitle }}</p>{% endif %}
+      </div>
+    </li>
+    {% endfor %}
+  </ol>
+  {% else %}
+  <p class="empty">
+    Posts could not be loaded at build time.
+    <a href="{{ site.blog_url }}" rel="noopener">Read the blog on Substack.</a>
+  </p>
+  {% endif %}
+
+  <p class="subscribe">
+    New posts are announced by email. <a href="{{ site.blog_url }}/subscribe" rel="noopener">Subscribe on Substack</a>
+    or follow the <a href="{{ site.blog_feed }}">RSS feed</a>.
+  </p>
+</section>
+{% endblock %}

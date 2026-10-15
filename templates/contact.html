@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}Contact — {{ site.name }}{% endblock %}
+{% block canonical %}/contact/{% endblock %}
+{% block content %}
+<h1 class="sr-only">Contact</h1>
+<div class="contact-grid">
+  <div class="contact-details">
+    {% for section in contact.sections %}
+    <section class="contact-block">
+      <h2>{{ section.title }}</h2>
+      {% if section.lines %}<p>{% for line in section.lines %}{{ line }}{% if not loop.last %}<br>{% endif %}{% endfor %}</p>{% endif %}
+      {% for c in section.contacts %}<p>{{ c.name }}{% if c.role %}, {{ c.role }}{% endif %}: <a href="mailto:{{ c.email }}">{{ c.email }}</a></p>{% endfor %}
+    </section>
+    {% endfor %}
+  </div>
+  <section class="contact-investigators">
+    <h2>{{ contact.investigators.title }}</h2>
+    {% for c in contact.investigators.contacts %}
+    <figure>
+      {% if c.image %}<img src="{{ asset(c.image) }}" alt="{{ c.name }}" loading="lazy">{% endif %}
+      <figcaption>{{ c.name }}<br><a href="mailto:{{ c.email }}">{{ c.email }}</a></figcaption>
+    </figure>
+    {% endfor %}
+  </section>
+</div>
+{% endblock %}

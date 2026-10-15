@@ -1,0 +1,41 @@
+name: Personalized Immunotherapy Research Lab
+short_name: PIRL
+url: https://pirl.unc.edu
+description: >-
+  The Personalized Immunotherapy Research Lab (PIRL) is a multi-investigator
+  research group at the University of North Carolina's School of Medicine
+  working on cancer immunotherapies that use a patient's immune system to
+  attack tumor-specific targets.
+
+blog_url: https://pirlblog.substack.com
+blog_feed: https://pirlblog.substack.com/feed
+github_org: pirl-unc
+github_url: https://github.com/pirl-unc/
+twitter_url: https://twitter.com/pirl_unc
+lineberger_url: https://unclineberger.org
+source_url: https://github.com/pirl-unc/pirl-site
+
+# How many blog posts to show on the home page
+recent_posts: 6
+
+nav:
+  - { label: Home,    href: /,            page: index }
+  - { label: People,  href: /people/,     page: people }
+  - { label: Papers,  href: /papers/,     page: papers }
+  - { label: Code,    href: /code/,       page: code }
+  - { label: Blog,    href: https://pirlblog.substack.com, external: true }
+  - { label: Contact, href: /contact/,    page: contact }
+
+# Current images are bundled locally. Original URLs remain as import fallbacks.
+# Use `python scripts/fetch_images.py` when adding a remote-only portrait.
+# The build uses the local copy when it exists and the remote URL otherwise.
+images:
+  logo_with_text:
+    local: assets/pirl-logo-with-text.png
+    remote: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/08aa34b4-79a8-4e2e-bdae-d8477fe0419a/pirl+logo+with+text.png?format=1500w
+  logo_mark:
+    local: assets/pirl-logo.jpg
+    remote: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/79cd223d-7568-4e03-bc2d-c6412c704237/pirl-logo.jpg?format=1500w
+  social_card:
+    local: assets/pirl-social.jpg
+    remote: https://static1.squarespace.com/static/619b19b00e6201426c4a9a4c/t/61ddda088b16933f77cac30b/1641929231270/PIRL+Final-03.jpg?format=1500w

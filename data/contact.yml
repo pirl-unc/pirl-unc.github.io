@@ -1,0 +1,29 @@
+sections:
+- title: Lab Deliveries
+  lines:
+  - 5230L Marsico Hall
+  - 125 Mason Farm Rd.
+  - Chapel Hill, NC 27514
+- title: Address for Paperwork
+  lines:
+  - 'PIRL (or: Vincent Lab | Rubinsteyn Lab)'
+  - University of North Carolina
+  - "Lineberger (LCCC) | CB # 7599"
+  - Chapel Hill, NC 27599
+- title: Lab Questions
+  contacts:
+  - name: Jason Garness
+    role: Lab Manager
+    email: jason_garness@med.unc.edu
+investigators:
+  title: Principal Investigators
+  contacts:
+  - name: Dr. Ben Vincent
+    email: benjamin_vincent@med.unc.edu
+    image: assets/contact/contact-1.jpg
+  - name: Alex Rubinsteyn
+    email: alex.rubinsteyn@unc.edu
+    image: assets/contact/contact-2.png
+  - name: Dr. Jared Weiss
+    email: jared_weiss@med.unc.edu
+    image: assets/contact/contact-3.jpg

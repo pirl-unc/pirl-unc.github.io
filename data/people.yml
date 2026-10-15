@@ -1,0 +1,227 @@
+# People page. Each group renders as a section in order.
+#
+# Fields per person:
+#   name     - display name
+#   role     - job title (omit for PIs)
+#   photo    - filename under static/assets/people/ (downloaded by scripts/fetch_images.py)
+#   photo_url- original Squarespace URL, used until the local file exists
+#   links    - ordered list of {label: url}
+#
+# To add someone: copy a block, drop their photo in static/assets/people/,
+# and set `photo` to the filename. `photo_url` is optional.
+
+groups:
+  - title: Principal Investigators
+    layout: investigators
+    people:
+      - name: Dr. Benjamin Vincent, MD
+        photo: ben.jpg
+        photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/1637788292770-NFXP1JFWC2S260XIV8KA/ben.jpg
+        links:
+          - Bio: https://www.med.unc.edu/microimm/directory/benjamin-vincent-phd/
+          - Scholar: https://scholar.google.com/citations?hl=en&oi=ao&user=kVQs_eQAAAAJ
+          - ORCID: https://orcid.org/0000-0002-1762-2282
+          - Twitter: https://twitter.com/BenjaminGVincen
+
+      - name: Dr. Alex Rubinsteyn, PhD
+        photo: alex-rubinsteyn.jpg
+        photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/7bfeb40c-cc22-4c19-a0fe-61f0588ffac3/alex+rubinsteyn+vertical.jpg
+        links:
+          - Bio: https://www.med.unc.edu/genetics/directory/alex-rubinsteyn/
+          - Scholar: https://scholar.google.com/citations?hl=en&oi=ao&user=7Use2dsAAAAJ
+          - GitHub: https://github.com/iskandr/
+          - ORCID: https://orcid.org/0000-0003-2839-2870
+          - Twitter: https://twitter.com/iskander
+
+      - name: Dr. Jared Weiss, MD
+        photo: jared-weiss.jpg
+        photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/1637788451654-7XWURL0P577LM9K259U7/jared-weiss.jpg
+        links:
+          - Bio: https://www.med.unc.edu/medicine/oncology/directory/jared-weiss-md/
+          - Scholar: https://scholar.google.com/citations?hl=en&oi=ao&user=nv_u1cIAAAAJ
+
+  - title: Lab Members
+    people:
+      - name: Jeffrey Jensen, MD
+        role: Clinical Instructor
+        photo: jeffrey-jensen.jpg
+        photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/93b4572a-8a80-4681-9d87-058c5eb87096/Jensen+Jeffrey_0251+%282%29+-+Copy.JPG
+        links:
+          - Bio: https://www.med.unc.edu/medicine/people/jeff-jensen-md-phd/
+
+      - name: Dante Bortone, PhD
+        role: Senior Bioinformatics Scientist
+        photo: dante-bortone.jpg
+        photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/1641858786751-GWX6HB32JBQAXGF0IDDH/Dante-Bortone.jpeg
+        links:
+          - Scholar: https://scholar.google.com/citations?user=rKWZvkYAAAAJ
+          - ORCID: https://orcid.org/0000-0002-3215-5440
+          - GitHub: https://github.com/DanteBortone
+
+      - name: Jessica Alley, PhD
+        role: Research Associate
+        photo: jessica-alley.png
+        photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/1641858911521-NTYVCWVX3P7S919057OF/jess-alley.png
+
+      - name: Jason Garness, MA
+        role: Lab Manager
+        photo: jason-garness.jpg
+        photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/1641858836648-90QDXOJ92KYS5V26V6U1/Jason-Garness.jpg
+
+      - name: Andy (Jin Seok) Lee
+        role: Graduate Research Assistant
+        photo: andy-lee.png
+        photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/6403e3f7-9b70-492a-8a4b-0cd31bc20e5f/Jin_Seok_Andy_Lee.png
+        links:
+          - Scholar: https://scholar.google.com/citations?hl=en&user=TwNAt9oAAAAJ
+          - ORCID: https://orcid.org/0000-0003-4120-8708
+          - GitHub: https://github.com/andyjslee
+          - Homepage: https://andyjslee.com
+
+      - name: Maria Sambade, PhD
+        role: Research Associate
+        photo: maria-sambade.jpg
+        photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/1641878741492-6BI5QH8MFOPUQQ4SZVXR/Maria--e1579624445682.jpg
+
+      - name: Steven Vensko, PhD
+        role: Bioinformatics Scientist
+        photo: steven-vensko.jpg
+        photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/91435e3f-8ba0-47b5-8bf5-fb5d1591207e/steven+vensko.jpg
+        links:
+          - GitHub: https://github.com/spvensko
+          - GitLab: https://gitlab.com/spvensko
+          - Scholar: https://scholar.google.com/citations?hl=en&user=iMYzStcAAAAJ
+          - ORCID: https://orcid.org/0000-0001-9399-5999
+
+      - name: Mark Woodcock, MD
+        role: Clinical Instructor
+        photo: mark-woodcock.jpg
+        photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/1641878780837-UFMGP6YCG5WGKEJOONU2/Mark-Woodcock.jpg
+
+      - name: Abner A. Murray, MD, PhD
+        role: Hematology/Oncology Fellow
+        photo: abner-murray.jpg
+        photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/65dee29b-d784-4c05-8571-c7d6b6dd40bb/Headshot+Abner+Casual.jpeg
+        links:
+          - Bio: https://www.med.unc.edu/medicine/people/abner-murray-md-phd/
+          - LinkTree: https://linktr.ee/Dominicandoc2
+          - ORCID: https://orcid.org/0000-0002-5853-2283
+          - Twitter: https://x.com/dominicandoc2
+
+      - name: Dhuvarakesh Karthikeyan
+        role: Graduate Research Assistant
+        photo: dhuvarakesh-karthikeyan.jpg
+        photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/e7d87a87-0bc5-4a40-814a-0eeac65ef30f/balloon_dog.JPG
+        links:
+          - Scholar: https://scholar.google.com/citations?hl=en&user=Alnulv8AAAAJ
+          - ORCID: https://orcid.org/0000-0001-5819-7561
+          - GitHub: https://github.com/dhuvik
+
+      - name: Misha Fini
+        role: Graduate Research Assistant
+        photo: misha-fini.jpg
+        photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/1641878763541-J4MXOBC2XT0HVHSEEO6E/Misha_Fini-1.jpg
+        links:
+          - ORCID: https://orcid.org/0000-0002-3063-6064
+          - LinkedIn: https://www.linkedin.com/in/misha-fini/
+
+      - name: Mitra Shabrangharehdasht
+        role: Graduate Research Assistant
+        photo: mitra-shabrangharehdasht.jpg
+        photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/1642113001752-GBG8P8PUCUJXYARCNU82/mitra.jpg
+        links:
+          - Scholar: https://scholar.google.com/citations?hl=en&user=vxGstiEAAAAJ
+
+      - name: Sarah Bennett
+        role: Graduate Research Assistant
+        photo: sarah-bennett.jpg
+        photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/6554ac85-6809-4ce6-a56d-e1fb02d7d2f0/Sarah_Bennett.jpg
+        links:
+          - ORCID: https://orcid.org/0000-0002-4605-2776
+          - LinkedIn: https://www.linkedin.com/in/sarah-bennett-609522183
+
+      - name: Sara Peterson
+        role: Graduate Research Assistant
+        photo: sara-peterson.jpg
+        photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/97e73418-088a-46a4-9228-038c7da27962/IMG_2153.jpg
+        links:
+          - LinkedIn: https://www.linkedin.com/in/sarakpeterson/
+          - GitHub: https://github.com/skpeterson
+
+      - name: Zach Schrank
+        role: Graduate Research Assistant
+        photo: zach-schrank.jpg
+        photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/425399e0-8444-4ac3-a1f5-9892d2434637/Medical+School+Photo.jpg
+        links:
+          - LinkedIn: https://www.linkedin.com/in/zachary-schrank-6434a5106
+          - ORCID: https://orcid.org/0000-0001-7128-239X
+
+      - name: Shayla Conrad
+        role: Graduate Research Assistant
+        photo: shayla-conrad.png
+        photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/bd618002-a841-4e55-9fd1-ad97296783ed/Screenshot+2025-11-04+at+1.47.43+PM.png
+
+      - name: Sadie Milhous
+        role: Graduate Research Assistant
+        photo: sadie-milhous.png
+        photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/57770818-6e99-409b-a79e-e25e53aa7298/Screenshot+2025-11-04+at+1.47.55+PM.png
+
+  - title: Alumni
+    layout: alumni
+    people:
+      - name: Sarah Entwistle, MS
+        role: Bioinformatics Scientist
+        photo: sarah-entwistle.jpg
+        photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/1641878806990-N8CMBCOLRFLPMZPVIWUX/Sarah_Entwistle.jpg
+
+      - name: Wolf Beckabir, PhD
+        role: Graduate Research Assistant
+        photo: wolf-beckabir.jpg
+        photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/1641878839804-S9Q1LF8OQ4XM84KISO3P/Wolfgang.jpg
+        links:
+          - ORCID: https://orcid.org/0000-0001-7458-7033
+
+      - name: Fran Coulter
+        role: Research Specialist
+        photo: fran-coulter.png
+        photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/1642112984476-3PL50NW0OV8455XIY5E3/fran.png
+
+      - name: Eric Routh, PhD
+        role: Postdoctoral Fellow
+        photo: eric-routh.jpg
+        photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/1641858813305-HJB5JE098RFH133MJMZM/Eric_routh.jpg
+        links:
+          - Scholar: https://scholar.google.com/citations?hl=en&user=2sZpEngAAAAJ
+          - ORCID: https://orcid.org/0000-0002-7371-1802
+
+      - name: Kelly Olsen, PhD
+        role: Graduate Research Assistant
+        photo: kelly-olsen.jpg
+        photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/1641878330237-7YKE2X6RY30GL12C0WPC/Kelly_Olsen.jpg
+        links:
+          - Scholar: https://scholar.google.com/citations?hl=en&user=MF4x7cEAAAAJ
+          - ORCID: https://orcid.org/0000-0001-7215-7654
+
+      - name: Julia Webb
+        role: Graduate Research Assistant
+        photo: julia-webb.jpg
+        photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/aaf3615a-c673-4002-bd75-1bdc82251c6f/julia+webb.jpg
+        links:
+          - GitHub: https://github.com/webbjulia
+
+      - name: Othmane Jadi
+        role: Medical Student
+        photo: othmane-jadi.jpg
+        photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/1642113025213-GOA2I1Q2QGA8DYK8QU6X/othmane.jpg
+
+      - name: Allison Woods
+        role: Graduate Research Assistant
+        photo: allison-woods.png
+        photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/1641855094774-T0L7I4RMPOVDPBUQRN1J/allison-woods.png
+
+      - name: Dan Van Twisk
+        role: Graduate Research Assistant
+        photo: dan-van-twisk.jpg
+        photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/1641858763209-8N3550RW9I8C3F4SMW33/DanielVanTwisk.jpg
+        links:
+          - GitHub: https://github.com/dvantwisk

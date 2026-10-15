@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block title %}Code — {{ site.name }}{% endblock %}
+{% block canonical %}/code/{% endblock %}
+
+{% block content %}
+<h1 class="page-title">{{ tools.title }}</h1>
+<p class="lede">{{ tools.intro | safe }}</p>
+
+<section class="featured-tools" aria-label="Featured tools">
+  {% for tool in tools.featured %}
+  <article class="tool">
+    <h2><a href="{{ tool.url }}" rel="noopener">{{ tool.name }}</a></h2>
+    <div class="tool-body{% if not tool.image %} tool-text-only{% endif %}">
+      {% if tool.image %}<a href="{{ tool.url }}"><img src="{{ asset(tool.image) }}" alt="{{ tool.name }}" loading="lazy"></a>{% endif %}
+      <p>{{ tool.description }}</p>
+    </div>
+  </article>
+  {% endfor %}
+</section>
+
+{% if repos %}
+<section class="repos" aria-labelledby="repos-heading">
+  <h2 id="repos-heading">All public repositories</h2>
+  <p class="note">Pulled from <a href="{{ site.github_url }}" rel="noopener">github.com/{{ site.github_org }}</a> when the site is built.</p>
+  <div class="table-scroll">
+    <table>
+      <thead>
+        <tr><th>Repository</th><th>Description</th><th>Language</th><th>Last push</th></tr>
+      </thead>
+      <tbody>
+        {% for repo in repos %}
+        <tr>
+          <td><a href="{{ repo.url }}" rel="noopener">{{ repo.name }}</a></td>
+          <td>{{ repo.description }}</td>
+          <td>{{ repo.language }}</td>
+          <td><time datetime="{{ repo.pushed_at }}">{{ repo.pushed_at | nice_date }}</time></td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+{% else %}
+<p class="note">More tools are on <a href="{{ site.github_url }}" rel="noopener">GitHub</a>.</p>
+{% endif %}
+{% endblock %}
