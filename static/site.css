@@ -55,7 +55,7 @@ main { padding: var(--gutter) 0 6.6vmax; min-height: 33vh; }
 .more, .subscribe, .note { font-size: 1rem; }
 .post-list { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 40px 30px; }
 .post { min-width: 0; border-top: 1px solid #ddd; padding-top: 20px; }
-.post-cover { display: block; aspect-ratio: 3 / 2; overflow: hidden; background: #f7f5f2; margin-bottom: 18px; }
+.post-cover { display: block; aspect-ratio: 3 / 2; overflow: hidden; background: #fff; margin-bottom: 18px; }
 .post-cover img { width: 100%; height: 100%; object-fit: contain; }
 .post time { display: block; margin-bottom: 6px; font-family: Poppins, sans-serif; font-size: .75rem; color: #555; }
 .post h3 { margin: 0; font-size: var(--h4-size); }
