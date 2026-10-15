@@ -161,14 +161,14 @@ groups:
         photo: shayla-conrad.png
         photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/bd618002-a841-4e55-9fd1-ad97296783ed/Screenshot+2025-11-04+at+1.47.43+PM.png
 
+  - title: Alumni
+    layout: alumni
+    people:
       - name: Sadie Milhous
         role: Graduate Research Assistant
         photo: sadie-milhous.png
         photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/57770818-6e99-409b-a79e-e25e53aa7298/Screenshot+2025-11-04+at+1.47.55+PM.png
 
-  - title: Alumni
-    layout: alumni
-    people:
       - name: Sarah Entwistle, MS
         role: Bioinformatics Scientist
         photo: sarah-entwistle.jpg
