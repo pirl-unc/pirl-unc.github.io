@@ -58,11 +58,17 @@ appropriate group's `people:` list in `data/people.yml`, matching its indentatio
   role: Research Scientist
   photo: jane-doe.jpg
   links:
+    - Website: https://example.org/
     - Scholar: https://scholar.google.com/
     - GitHub: https://github.com/example
 ```
 
 Replace the example links with the person's own profiles, or omit `links`.
+To add a personal research website later, add `- Website: https://example.org/`
+under that person’s `links:` list. Use the `Website` label consistently; it appears
+alongside Scholar, ORCID, and other profile links. Only add verified personal
+research sites, and omit the entry when no site is known.
+
 `role` is optional. Use a portrait with room around the face: photos are cropped
 to 3:4. Keep filenames simple, such as `jane-doe.jpg`.
 

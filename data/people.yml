@@ -5,7 +5,7 @@
 #   role     - job title (omit for PIs)
 #   photo    - filename under static/assets/people/ (downloaded by scripts/fetch_images.py)
 #   photo_url- original Squarespace URL, used until the local file exists
-#   links    - ordered list of {label: url}
+#   links    - ordered list of {label: url}; use Website for a personal research site
 #
 # To add someone: copy a block, drop their photo in static/assets/people/,
 # and set `photo` to the filename. `photo_url` is optional.
@@ -27,6 +27,7 @@ groups:
         photo: alex-rubinsteyn.jpg
         photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/7bfeb40c-cc22-4c19-a0fe-61f0588ffac3/alex+rubinsteyn+vertical.jpg
         links:
+          - Website: https://rubinsteyn.com/
           - Scholar: https://scholar.google.com/citations?hl=en&oi=ao&user=7Use2dsAAAAJ
           - GitHub: https://github.com/iskandr/
           - ORCID: https://orcid.org/0000-0003-2839-2870
@@ -46,6 +47,7 @@ groups:
         photo: jeffrey-jensen.jpg
         photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/93b4572a-8a80-4681-9d87-058c5eb87096/Jensen+Jeffrey_0251+%282%29+-+Copy.JPG
         links:
+          - Website: https://tarheels.live/jensenoncology/
           - Bio: https://www.med.unc.edu/medicine/people/jeff-jensen-md-phd/
           - LinkedIn: https://www.linkedin.com/in/jeffrey-jensen-046345373/
 
@@ -78,7 +80,7 @@ groups:
           - Scholar: https://scholar.google.com/citations?hl=en&user=TwNAt9oAAAAJ
           - ORCID: https://orcid.org/0000-0003-4120-8708
           - GitHub: https://github.com/andyjslee
-          - Homepage: https://andyjslee.com
+          - Website: https://andyjslee.com/
 
       - name: Maria Sambade, PhD
         role: Research Associate
@@ -116,6 +118,7 @@ groups:
         photo: dhuvarakesh-karthikeyan.jpg
         photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/e7d87a87-0bc5-4a40-814a-0eeac65ef30f/balloon_dog.JPG
         links:
+          - Website: https://dhuvik.github.io/me/
           - Scholar: https://scholar.google.com/citations?hl=en&user=Alnulv8AAAAJ
           - ORCID: https://orcid.org/0000-0001-5819-7561
           - GitHub: https://github.com/dhuvik
