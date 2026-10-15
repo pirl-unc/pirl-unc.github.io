@@ -22,6 +22,7 @@ groups:
           - Scholar: https://scholar.google.com/citations?hl=en&oi=ao&user=kVQs_eQAAAAJ
           - ORCID: https://orcid.org/0000-0002-1762-2282
           - Twitter: https://twitter.com/BenjaminGVincen
+          - LinkedIn: https://www.linkedin.com/in/benjamin-vincent-2513a6a5/
 
       - name: Dr. Alex Rubinsteyn, PhD
         photo: alex-rubinsteyn.jpg
@@ -32,6 +33,7 @@ groups:
           - GitHub: https://github.com/iskandr/
           - ORCID: https://orcid.org/0000-0003-2839-2870
           - Twitter: https://twitter.com/iskander
+          - LinkedIn: https://www.linkedin.com/in/alex-rubinsteyn/
 
       - name: Dr. Jared Weiss, MD
         photo: jared-weiss.jpg
@@ -39,6 +41,7 @@ groups:
         links:
           - Bio: https://www.med.unc.edu/medicine/oncology/directory/jared-weiss-md/
           - Scholar: https://scholar.google.com/citations?hl=en&oi=ao&user=nv_u1cIAAAAJ
+          - LinkedIn: https://www.linkedin.com/in/jared-weiss-3498773b/
 
   - title: Lab Members
     people:
@@ -48,6 +51,7 @@ groups:
         photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/93b4572a-8a80-4681-9d87-058c5eb87096/Jensen+Jeffrey_0251+%282%29+-+Copy.JPG
         links:
           - Bio: https://www.med.unc.edu/medicine/people/jeff-jensen-md-phd/
+          - LinkedIn: https://www.linkedin.com/in/jeffrey-jensen-046345373/
 
       - name: Dante Bortone, PhD
         role: Senior Bioinformatics Scientist
@@ -57,11 +61,14 @@ groups:
           - Scholar: https://scholar.google.com/citations?user=rKWZvkYAAAAJ
           - ORCID: https://orcid.org/0000-0002-3215-5440
           - GitHub: https://github.com/DanteBortone
+          - LinkedIn: https://www.linkedin.com/in/dante-bortone-1961275a/
 
       - name: Jessica Alley, PhD
         role: Research Associate
         photo: jessica-alley.png
         photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/1641858911521-NTYVCWVX3P7S919057OF/jess-alley.png
+        links:
+          - LinkedIn: https://www.linkedin.com/in/jessica-alley-33a8a146/
 
       - name: Jason Garness, MA
         role: Lab Manager
@@ -77,6 +84,7 @@ groups:
           - ORCID: https://orcid.org/0000-0003-4120-8708
           - GitHub: https://github.com/andyjslee
           - Homepage: https://andyjslee.com
+          - LinkedIn: https://www.linkedin.com/in/jinseoklee/
 
       - name: Maria Sambade, PhD
         role: Research Associate
@@ -92,6 +100,7 @@ groups:
           - GitLab: https://gitlab.com/spvensko
           - Scholar: https://scholar.google.com/citations?hl=en&user=iMYzStcAAAAJ
           - ORCID: https://orcid.org/0000-0001-9399-5999
+          - LinkedIn: https://www.linkedin.com/in/spvensko/
 
       - name: Mark Woodcock, MD
         role: Clinical Instructor
@@ -107,6 +116,7 @@ groups:
           - LinkTree: https://linktr.ee/Dominicandoc2
           - ORCID: https://orcid.org/0000-0002-5853-2283
           - Twitter: https://x.com/dominicandoc2
+          - LinkedIn: https://www.linkedin.com/in/abner-murray-8761406b/
 
       - name: Dhuvarakesh Karthikeyan
         role: Graduate Research Assistant
@@ -116,6 +126,7 @@ groups:
           - Scholar: https://scholar.google.com/citations?hl=en&user=Alnulv8AAAAJ
           - ORCID: https://orcid.org/0000-0001-5819-7561
           - GitHub: https://github.com/dhuvik
+          - LinkedIn: https://www.linkedin.com/in/dhuvik/
 
       - name: Misha Fini
         role: Postdoctoral Research Associate
@@ -180,6 +191,7 @@ groups:
         photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/1641878839804-S9Q1LF8OQ4XM84KISO3P/Wolfgang.jpg
         links:
           - ORCID: https://orcid.org/0000-0001-7458-7033
+          - LinkedIn: https://www.linkedin.com/in/wolfgang-beckabir-2a1b21109/
 
       - name: Fran Coulter
         role: Research Specialist
@@ -193,6 +205,7 @@ groups:
         links:
           - Scholar: https://scholar.google.com/citations?hl=en&user=2sZpEngAAAAJ
           - ORCID: https://orcid.org/0000-0002-7371-1802
+          - LinkedIn: https://www.linkedin.com/in/eric-routh-b76b079a/
 
       - name: Kelly Olsen, PhD
         role: Graduate Research Assistant
@@ -218,6 +231,8 @@ groups:
         role: Graduate Research Assistant
         photo: allison-woods.png
         photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/1641855094774-T0L7I4RMPOVDPBUQRN1J/allison-woods.png
+        links:
+          - LinkedIn: https://www.linkedin.com/in/allisontaylorwoods/
 
       - name: Dan Van Twisk
         role: Graduate Research Assistant
@@ -225,3 +240,4 @@ groups:
         photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/1641858763209-8N3550RW9I8C3F4SMW33/DanielVanTwisk.jpg
         links:
           - GitHub: https://github.com/dvantwisk
+          - LinkedIn: https://www.linkedin.com/in/daniel-van-twisk-46a5a7126/
