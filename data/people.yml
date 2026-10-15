@@ -30,13 +30,13 @@ groups:
           - Website: https://rubinsteyn.com/
           - Scholar: https://scholar.google.com/citations?hl=en&oi=ao&user=7Use2dsAAAAJ
           - GitHub: https://github.com/iskandr/
-          - ORCID: https://orcid.org/0000-0003-2839-2870
           - Twitter: https://twitter.com/iskander
 
       - name: Dr. Jared Weiss, MD
         photo: jared-weiss.jpg
         photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/1637788451654-7XWURL0P577LM9K259U7/jared-weiss.jpg
         links:
+          - Bio: https://unclineberger.org/directory/jared-weiss/
           - Scholar: https://scholar.google.com/citations?hl=en&oi=ao&user=nv_u1cIAAAAJ
           - LinkedIn: https://www.linkedin.com/in/jared-weiss-3498773b/
 
