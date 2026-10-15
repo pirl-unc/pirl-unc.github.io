@@ -18,7 +18,6 @@ groups:
         photo: ben.jpg
         photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/1637788292770-NFXP1JFWC2S260XIV8KA/ben.jpg
         links:
-          - Bio: https://unclineberger.org/directory/benjamin-vincent/
           - Scholar: https://scholar.google.com/citations?hl=en&oi=ao&user=kVQs_eQAAAAJ
           - ORCID: https://orcid.org/0000-0002-1762-2282
           - Twitter: https://twitter.com/BenjaminGVincen
@@ -28,7 +27,6 @@ groups:
         photo: alex-rubinsteyn.jpg
         photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/7bfeb40c-cc22-4c19-a0fe-61f0588ffac3/alex+rubinsteyn+vertical.jpg
         links:
-          - Bio: https://www.med.unc.edu/genetics/directory/alex-rubinsteyn/
           - Scholar: https://scholar.google.com/citations?hl=en&oi=ao&user=7Use2dsAAAAJ
           - GitHub: https://github.com/iskandr/
           - ORCID: https://orcid.org/0000-0003-2839-2870
@@ -39,7 +37,6 @@ groups:
         photo: jared-weiss.jpg
         photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/1637788451654-7XWURL0P577LM9K259U7/jared-weiss.jpg
         links:
-          - Bio: https://www.med.unc.edu/medicine/oncology/directory/jared-weiss-md/
           - Scholar: https://scholar.google.com/citations?hl=en&oi=ao&user=nv_u1cIAAAAJ
           - LinkedIn: https://www.linkedin.com/in/jared-weiss-3498773b/
 
