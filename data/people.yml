@@ -31,7 +31,6 @@ groups:
           - GitHub: https://github.com/iskandr/
           - ORCID: https://orcid.org/0000-0003-2839-2870
           - Twitter: https://twitter.com/iskander
-          - LinkedIn: https://www.linkedin.com/in/alex-rubinsteyn/
 
       - name: Dr. Jared Weiss, MD
         photo: jared-weiss.jpg
@@ -58,7 +57,6 @@ groups:
           - Scholar: https://scholar.google.com/citations?user=rKWZvkYAAAAJ
           - ORCID: https://orcid.org/0000-0002-3215-5440
           - GitHub: https://github.com/DanteBortone
-          - LinkedIn: https://www.linkedin.com/in/dante-bortone-1961275a/
 
       - name: Jessica Alley, PhD
         role: Research Associate
@@ -81,7 +79,6 @@ groups:
           - ORCID: https://orcid.org/0000-0003-4120-8708
           - GitHub: https://github.com/andyjslee
           - Homepage: https://andyjslee.com
-          - LinkedIn: https://www.linkedin.com/in/jinseoklee/
 
       - name: Maria Sambade, PhD
         role: Research Associate
@@ -97,7 +94,6 @@ groups:
           - GitLab: https://gitlab.com/spvensko
           - Scholar: https://scholar.google.com/citations?hl=en&user=iMYzStcAAAAJ
           - ORCID: https://orcid.org/0000-0001-9399-5999
-          - LinkedIn: https://www.linkedin.com/in/spvensko/
 
       - name: Mark Woodcock, MD
         role: Clinical Instructor
@@ -123,7 +119,6 @@ groups:
           - Scholar: https://scholar.google.com/citations?hl=en&user=Alnulv8AAAAJ
           - ORCID: https://orcid.org/0000-0001-5819-7561
           - GitHub: https://github.com/dhuvik
-          - LinkedIn: https://www.linkedin.com/in/dhuvik/
 
       - name: Misha Fini
         role: Postdoctoral Research Associate
