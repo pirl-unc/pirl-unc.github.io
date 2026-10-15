@@ -1,5 +1,14 @@
 [
   {
+    "name": "weirdo",
+    "description": "Metrics of immunological foreignness for candidate T-cell epitopes",
+    "url": "https://github.com/pirl-unc/weirdo",
+    "language": "Jupyter Notebook",
+    "stars": 0,
+    "pushed_at": "2026-10-15",
+    "topics": []
+  },
+  {
     "name": "pirlygenes",
     "description": "Gene sets used for cancer immunotherapy expression analysis",
     "url": "https://github.com/pirl-unc/pirlygenes",
@@ -151,15 +160,6 @@
     "language": "Shell",
     "stars": 0,
     "pushed_at": "2026-09-30",
-    "topics": []
-  },
-  {
-    "name": "weirdo",
-    "description": "Metrics of immunological foreignness for candidate T-cell epitopes",
-    "url": "https://github.com/pirl-unc/weirdo",
-    "language": "Jupyter Notebook",
-    "stars": 0,
-    "pushed_at": "2026-09-29",
     "topics": []
   },
   {
