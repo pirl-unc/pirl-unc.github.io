@@ -1,5 +1,23 @@
 [
   {
+    "name": "mhcgnomes",
+    "description": "Parsing MHC nomenclature in the wild",
+    "url": "https://github.com/pirl-unc/mhcgnomes",
+    "language": "Python",
+    "stars": 21,
+    "pushed_at": "2026-10-19",
+    "topics": []
+  },
+  {
+    "name": "pirlygenes",
+    "description": "Gene sets used for cancer immunotherapy expression analysis",
+    "url": "https://github.com/pirl-unc/pirlygenes",
+    "language": "Python",
+    "stars": 1,
+    "pushed_at": "2026-10-19",
+    "topics": []
+  },
+  {
     "name": "hitlist",
     "description": "Curated mass spectrometry evidence for MHC ligand data from IEDB and CEDAR",
     "url": "https://github.com/pirl-unc/hitlist",
@@ -54,30 +72,12 @@
     "topics": []
   },
   {
-    "name": "pirlygenes",
-    "description": "Gene sets used for cancer immunotherapy expression analysis",
-    "url": "https://github.com/pirl-unc/pirlygenes",
-    "language": "Python",
-    "stars": 1,
-    "pushed_at": "2026-10-16",
-    "topics": []
-  },
-  {
     "name": "presto",
     "description": "All of T-cell:pMHC prediction in one model",
     "url": "https://github.com/pirl-unc/presto",
     "language": "Python",
     "stars": 1,
     "pushed_at": "2026-10-16",
-    "topics": []
-  },
-  {
-    "name": "mhcgnomes",
-    "description": "Parsing MHC nomenclature in the wild",
-    "url": "https://github.com/pirl-unc/mhcgnomes",
-    "language": "Python",
-    "stars": 21,
-    "pushed_at": "2026-10-13",
     "topics": []
   },
   {
