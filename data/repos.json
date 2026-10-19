@@ -27,6 +27,24 @@
     "topics": []
   },
   {
+    "name": "DoesExactoWorkYet",
+    "description": "Simple end-to-end test of Exacto",
+    "url": "https://github.com/pirl-unc/DoesExactoWorkYet",
+    "language": "Python",
+    "stars": 0,
+    "pushed_at": "2026-10-19",
+    "topics": []
+  },
+  {
+    "name": "pirl-unc.github.io",
+    "description": "pirl.unc.edu",
+    "url": "https://github.com/pirl-unc/pirl-unc.github.io",
+    "language": "Python",
+    "stars": 0,
+    "pushed_at": "2026-10-19",
+    "topics": []
+  },
+  {
     "name": "weirdo",
     "description": "Metrics of immunological foreignness for candidate T-cell epitopes",
     "url": "https://github.com/pirl-unc/weirdo",
@@ -50,15 +68,6 @@
     "url": "https://github.com/pirl-unc/presto",
     "language": "Python",
     "stars": 1,
-    "pushed_at": "2026-10-16",
-    "topics": []
-  },
-  {
-    "name": "pirl-unc.github.io",
-    "description": "pirl.unc.edu",
-    "url": "https://github.com/pirl-unc/pirl-unc.github.io",
-    "language": "Python",
-    "stars": 0,
     "pushed_at": "2026-10-16",
     "topics": []
   },
@@ -95,15 +104,6 @@
       "living-review",
       "wip"
     ]
-  },
-  {
-    "name": "DoesExactoWorkYet",
-    "description": "Simple end-to-end test of Exacto",
-    "url": "https://github.com/pirl-unc/DoesExactoWorkYet",
-    "language": "Python",
-    "stars": 0,
-    "pushed_at": "2026-10-12",
-    "topics": []
   },
   {
     "name": "vmwhere",
