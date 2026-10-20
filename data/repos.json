@@ -9,6 +9,33 @@
     "topics": []
   },
   {
+    "name": "presto",
+    "description": "All of T-cell:pMHC prediction in one model",
+    "url": "https://github.com/pirl-unc/presto",
+    "language": "Python",
+    "stars": 1,
+    "pushed_at": "2026-10-20",
+    "topics": []
+  },
+  {
+    "name": "hitlist",
+    "description": "Curated mass spectrometry evidence for MHC ligand data from IEDB and CEDAR",
+    "url": "https://github.com/pirl-unc/hitlist",
+    "language": "Python",
+    "stars": 3,
+    "pushed_at": "2026-10-20",
+    "topics": []
+  },
+  {
+    "name": "trufflepig",
+    "description": "Step-by-step RNA tumor analysis driven by pirlygenes gene sets — subsumes pirlygenes.analyze as many composable sub-commands with serializable intermediate state.",
+    "url": "https://github.com/pirl-unc/trufflepig",
+    "language": "Python",
+    "stars": 0,
+    "pushed_at": "2026-10-20",
+    "topics": []
+  },
+  {
     "name": "oncoref",
     "description": "Curated cancer reference data: ontology, TMB, incidence/mortality, and expression. Bottom-of-stack for the openvax/PIRL libraries.",
     "url": "https://github.com/pirl-unc/oncoref",
@@ -36,24 +63,6 @@
     "topics": []
   },
   {
-    "name": "hitlist",
-    "description": "Curated mass spectrometry evidence for MHC ligand data from IEDB and CEDAR",
-    "url": "https://github.com/pirl-unc/hitlist",
-    "language": "Python",
-    "stars": 3,
-    "pushed_at": "2026-10-19",
-    "topics": []
-  },
-  {
-    "name": "trufflepig",
-    "description": "Step-by-step RNA tumor analysis driven by pirlygenes gene sets — subsumes pirlygenes.analyze as many composable sub-commands with serializable intermediate state.",
-    "url": "https://github.com/pirl-unc/trufflepig",
-    "language": "Python",
-    "stars": 0,
-    "pushed_at": "2026-10-19",
-    "topics": []
-  },
-  {
     "name": "DoesExactoWorkYet",
     "description": "Simple end-to-end test of Exacto",
     "url": "https://github.com/pirl-unc/DoesExactoWorkYet",
@@ -68,15 +77,6 @@
     "url": "https://github.com/pirl-unc/weirdo",
     "language": "Jupyter Notebook",
     "stars": 0,
-    "pushed_at": "2026-10-16",
-    "topics": []
-  },
-  {
-    "name": "presto",
-    "description": "All of T-cell:pMHC prediction in one model",
-    "url": "https://github.com/pirl-unc/presto",
-    "language": "Python",
-    "stars": 1,
     "pushed_at": "2026-10-16",
     "topics": []
   },
