@@ -18,6 +18,15 @@
     "topics": []
   },
   {
+    "name": "pirl-unc.github.io",
+    "description": "pirl.unc.edu",
+    "url": "https://github.com/pirl-unc/pirl-unc.github.io",
+    "language": "Python",
+    "stars": 0,
+    "pushed_at": "2026-10-20",
+    "topics": []
+  },
+  {
     "name": "mhcgnomes",
     "description": "Parsing MHC nomenclature in the wild",
     "url": "https://github.com/pirl-unc/mhcgnomes",
@@ -48,15 +57,6 @@
     "name": "DoesExactoWorkYet",
     "description": "Simple end-to-end test of Exacto",
     "url": "https://github.com/pirl-unc/DoesExactoWorkYet",
-    "language": "Python",
-    "stars": 0,
-    "pushed_at": "2026-10-19",
-    "topics": []
-  },
-  {
-    "name": "pirl-unc.github.io",
-    "description": "pirl.unc.edu",
-    "url": "https://github.com/pirl-unc/pirl-unc.github.io",
     "language": "Python",
     "stars": 0,
     "pushed_at": "2026-10-19",
