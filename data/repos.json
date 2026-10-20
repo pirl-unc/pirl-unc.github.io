@@ -1,19 +1,28 @@
 [
   {
-    "name": "mhcgnomes",
-    "description": "Parsing MHC nomenclature in the wild",
-    "url": "https://github.com/pirl-unc/mhcgnomes",
-    "language": "Python",
-    "stars": 21,
-    "pushed_at": "2026-10-19",
-    "topics": []
-  },
-  {
     "name": "pirlygenes",
     "description": "Gene sets used for cancer immunotherapy expression analysis",
     "url": "https://github.com/pirl-unc/pirlygenes",
     "language": "Python",
     "stars": 1,
+    "pushed_at": "2026-10-20",
+    "topics": []
+  },
+  {
+    "name": "oncoref",
+    "description": "Curated cancer reference data: ontology, TMB, incidence/mortality, and expression. Bottom-of-stack for the openvax/PIRL libraries.",
+    "url": "https://github.com/pirl-unc/oncoref",
+    "language": "Python",
+    "stars": 3,
+    "pushed_at": "2026-10-20",
+    "topics": []
+  },
+  {
+    "name": "mhcgnomes",
+    "description": "Parsing MHC nomenclature in the wild",
+    "url": "https://github.com/pirl-unc/mhcgnomes",
+    "language": "Python",
+    "stars": 21,
     "pushed_at": "2026-10-19",
     "topics": []
   },
@@ -32,15 +41,6 @@
     "url": "https://github.com/pirl-unc/trufflepig",
     "language": "Python",
     "stars": 0,
-    "pushed_at": "2026-10-19",
-    "topics": []
-  },
-  {
-    "name": "oncoref",
-    "description": "Curated cancer reference data: ontology, TMB, incidence/mortality, and expression. Bottom-of-stack for the openvax/PIRL libraries.",
-    "url": "https://github.com/pirl-unc/oncoref",
-    "language": "Python",
-    "stars": 3,
     "pushed_at": "2026-10-19",
     "topics": []
   },
