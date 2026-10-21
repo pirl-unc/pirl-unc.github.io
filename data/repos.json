@@ -1,5 +1,32 @@
 [
   {
+    "name": "presto",
+    "description": "All of T-cell:pMHC prediction in one model",
+    "url": "https://github.com/pirl-unc/presto",
+    "language": "Python",
+    "stars": 1,
+    "pushed_at": "2026-10-21",
+    "topics": []
+  },
+  {
+    "name": "hitlist",
+    "description": "Curated mass spectrometry evidence for MHC ligand data from IEDB and CEDAR",
+    "url": "https://github.com/pirl-unc/hitlist",
+    "language": "Python",
+    "stars": 3,
+    "pushed_at": "2026-10-21",
+    "topics": []
+  },
+  {
+    "name": "oncoref",
+    "description": "Curated cancer reference data: ontology, TMB, incidence/mortality, and expression. Bottom-of-stack for the openvax/PIRL libraries.",
+    "url": "https://github.com/pirl-unc/oncoref",
+    "language": "Python",
+    "stars": 3,
+    "pushed_at": "2026-10-21",
+    "topics": []
+  },
+  {
     "name": "pirlygenes",
     "description": "Gene sets used for cancer immunotherapy expression analysis",
     "url": "https://github.com/pirl-unc/pirlygenes",
@@ -9,38 +36,11 @@
     "topics": []
   },
   {
-    "name": "presto",
-    "description": "All of T-cell:pMHC prediction in one model",
-    "url": "https://github.com/pirl-unc/presto",
-    "language": "Python",
-    "stars": 1,
-    "pushed_at": "2026-10-20",
-    "topics": []
-  },
-  {
-    "name": "hitlist",
-    "description": "Curated mass spectrometry evidence for MHC ligand data from IEDB and CEDAR",
-    "url": "https://github.com/pirl-unc/hitlist",
-    "language": "Python",
-    "stars": 3,
-    "pushed_at": "2026-10-20",
-    "topics": []
-  },
-  {
     "name": "trufflepig",
     "description": "Step-by-step RNA tumor analysis driven by pirlygenes gene sets — subsumes pirlygenes.analyze as many composable sub-commands with serializable intermediate state.",
     "url": "https://github.com/pirl-unc/trufflepig",
     "language": "Python",
     "stars": 0,
-    "pushed_at": "2026-10-20",
-    "topics": []
-  },
-  {
-    "name": "oncoref",
-    "description": "Curated cancer reference data: ontology, TMB, incidence/mortality, and expression. Bottom-of-stack for the openvax/PIRL libraries.",
-    "url": "https://github.com/pirl-unc/oncoref",
-    "language": "Python",
-    "stars": 3,
     "pushed_at": "2026-10-20",
     "topics": []
   },
