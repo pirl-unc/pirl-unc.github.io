@@ -1,11 +1,29 @@
 [
   {
-    "name": "presto",
-    "description": "All of T-cell:pMHC prediction in one model",
-    "url": "https://github.com/pirl-unc/presto",
+    "name": "weirdo",
+    "description": "Metrics of immunological foreignness for candidate T-cell epitopes",
+    "url": "https://github.com/pirl-unc/weirdo",
+    "language": "Jupyter Notebook",
+    "stars": 0,
+    "pushed_at": "2026-10-22",
+    "topics": []
+  },
+  {
+    "name": "pirlygenes",
+    "description": "Gene sets used for cancer immunotherapy expression analysis",
+    "url": "https://github.com/pirl-unc/pirlygenes",
     "language": "Python",
     "stars": 1,
-    "pushed_at": "2026-10-21",
+    "pushed_at": "2026-10-22",
+    "topics": []
+  },
+  {
+    "name": "hf-tcr",
+    "description": "HuggingFace Scaffolding for EZ TCR Generation and Evaluation",
+    "url": "https://github.com/pirl-unc/hf-tcr",
+    "language": "Python",
+    "stars": 1,
+    "pushed_at": "2026-10-22",
     "topics": []
   },
   {
@@ -14,6 +32,15 @@
     "url": "https://github.com/pirl-unc/hitlist",
     "language": "Python",
     "stars": 3,
+    "pushed_at": "2026-10-22",
+    "topics": []
+  },
+  {
+    "name": "presto",
+    "description": "All of T-cell:pMHC prediction in one model",
+    "url": "https://github.com/pirl-unc/presto",
+    "language": "Python",
+    "stars": 1,
     "pushed_at": "2026-10-21",
     "topics": []
   },
@@ -33,15 +60,6 @@
     "language": "Python",
     "stars": 0,
     "pushed_at": "2026-10-21",
-    "topics": []
-  },
-  {
-    "name": "pirlygenes",
-    "description": "Gene sets used for cancer immunotherapy expression analysis",
-    "url": "https://github.com/pirl-unc/pirlygenes",
-    "language": "Python",
-    "stars": 1,
-    "pushed_at": "2026-10-20",
     "topics": []
   },
   {
@@ -69,15 +87,6 @@
     "language": "Python",
     "stars": 0,
     "pushed_at": "2026-10-19",
-    "topics": []
-  },
-  {
-    "name": "weirdo",
-    "description": "Metrics of immunological foreignness for candidate T-cell epitopes",
-    "url": "https://github.com/pirl-unc/weirdo",
-    "language": "Jupyter Notebook",
-    "stars": 0,
-    "pushed_at": "2026-10-16",
     "topics": []
   },
   {
@@ -266,15 +275,6 @@
     "language": "Python",
     "stars": 0,
     "pushed_at": "2026-03-28",
-    "topics": []
-  },
-  {
-    "name": "hf-tcr",
-    "description": "HuggingFace Scaffolding for EZ TCR Generation and Evaluation",
-    "url": "https://github.com/pirl-unc/hf-tcr",
-    "language": "Python",
-    "stars": 1,
-    "pushed_at": "2026-01-17",
     "topics": []
   },
   {
