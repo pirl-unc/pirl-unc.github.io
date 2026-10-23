@@ -18,6 +18,15 @@
     "topics": []
   },
   {
+    "name": "oncoref",
+    "description": "Curated cancer reference data: ontology, TMB, incidence/mortality, and expression. Bottom-of-stack for the openvax/PIRL libraries.",
+    "url": "https://github.com/pirl-unc/oncoref",
+    "language": "Python",
+    "stars": 3,
+    "pushed_at": "2026-10-23",
+    "topics": []
+  },
+  {
     "name": "pirl-unc.github.io",
     "description": "pirl.unc.edu",
     "url": "https://github.com/pirl-unc/pirl-unc.github.io",
@@ -50,15 +59,6 @@
     "url": "https://github.com/pirl-unc/hf-tcr",
     "language": "Python",
     "stars": 1,
-    "pushed_at": "2026-10-22",
-    "topics": []
-  },
-  {
-    "name": "oncoref",
-    "description": "Curated cancer reference data: ontology, TMB, incidence/mortality, and expression. Bottom-of-stack for the openvax/PIRL libraries.",
-    "url": "https://github.com/pirl-unc/oncoref",
-    "language": "Python",
-    "stars": 3,
     "pushed_at": "2026-10-22",
     "topics": []
   },
