@@ -1,11 +1,20 @@
 [
   {
+    "name": "pirlygenes",
+    "description": "Gene sets used for cancer immunotherapy expression analysis",
+    "url": "https://github.com/pirl-unc/pirlygenes",
+    "language": "Python",
+    "stars": 1,
+    "pushed_at": "2026-10-25",
+    "topics": []
+  },
+  {
     "name": "presto",
     "description": "All of T-cell:pMHC prediction in one model",
     "url": "https://github.com/pirl-unc/presto",
     "language": "Python",
     "stars": 1,
-    "pushed_at": "2026-10-24",
+    "pushed_at": "2026-10-25",
     "topics": []
   },
   {
@@ -14,7 +23,7 @@
     "url": "https://github.com/pirl-unc/hitlist",
     "language": "Python",
     "stars": 3,
-    "pushed_at": "2026-10-24",
+    "pushed_at": "2026-10-25",
     "topics": []
   },
   {
@@ -23,7 +32,7 @@
     "url": "https://github.com/pirl-unc/trufflepig",
     "language": "Python",
     "stars": 0,
-    "pushed_at": "2026-10-24",
+    "pushed_at": "2026-10-25",
     "topics": []
   },
   {
@@ -32,7 +41,7 @@
     "url": "https://github.com/pirl-unc/oncoref",
     "language": "Python",
     "stars": 3,
-    "pushed_at": "2026-10-24",
+    "pushed_at": "2026-10-25",
     "topics": []
   },
   {
@@ -50,15 +59,6 @@
     "url": "https://github.com/pirl-unc/weirdo",
     "language": "Jupyter Notebook",
     "stars": 0,
-    "pushed_at": "2026-10-22",
-    "topics": []
-  },
-  {
-    "name": "pirlygenes",
-    "description": "Gene sets used for cancer immunotherapy expression analysis",
-    "url": "https://github.com/pirl-unc/pirlygenes",
-    "language": "Python",
-    "stars": 1,
     "pushed_at": "2026-10-22",
     "topics": []
   },
