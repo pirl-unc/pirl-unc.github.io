@@ -36,6 +36,24 @@
     "topics": []
   },
   {
+    "name": "DoesExactoWorkYet",
+    "description": "Simple end-to-end test of Exacto",
+    "url": "https://github.com/pirl-unc/DoesExactoWorkYet",
+    "language": "Python",
+    "stars": 0,
+    "pushed_at": "2026-10-26",
+    "topics": []
+  },
+  {
+    "name": "pirl-unc.github.io",
+    "description": "pirl.unc.edu",
+    "url": "https://github.com/pirl-unc/pirl-unc.github.io",
+    "language": "Python",
+    "stars": 0,
+    "pushed_at": "2026-10-26",
+    "topics": []
+  },
+  {
     "name": "pirlygenes",
     "description": "Gene sets used for cancer immunotherapy expression analysis",
     "url": "https://github.com/pirl-unc/pirlygenes",
@@ -48,15 +66,6 @@
     "name": "trufflepig",
     "description": "Step-by-step RNA tumor analysis driven by pirlygenes gene sets — subsumes pirlygenes.analyze as many composable sub-commands with serializable intermediate state.",
     "url": "https://github.com/pirl-unc/trufflepig",
-    "language": "Python",
-    "stars": 0,
-    "pushed_at": "2026-10-25",
-    "topics": []
-  },
-  {
-    "name": "pirl-unc.github.io",
-    "description": "pirl.unc.edu",
-    "url": "https://github.com/pirl-unc/pirl-unc.github.io",
     "language": "Python",
     "stars": 0,
     "pushed_at": "2026-10-25",
@@ -77,15 +86,6 @@
     "url": "https://github.com/pirl-unc/mhcgnomes",
     "language": "Python",
     "stars": 21,
-    "pushed_at": "2026-10-19",
-    "topics": []
-  },
-  {
-    "name": "DoesExactoWorkYet",
-    "description": "Simple end-to-end test of Exacto",
-    "url": "https://github.com/pirl-unc/DoesExactoWorkYet",
-    "language": "Python",
-    "stars": 0,
     "pushed_at": "2026-10-19",
     "topics": []
   },
