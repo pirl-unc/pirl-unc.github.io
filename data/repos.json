@@ -1,11 +1,11 @@
 [
   {
-    "name": "pirlygenes",
-    "description": "Gene sets used for cancer immunotherapy expression analysis",
-    "url": "https://github.com/pirl-unc/pirlygenes",
-    "language": "Python",
-    "stars": 1,
-    "pushed_at": "2026-10-25",
+    "name": "weirdo",
+    "description": "Metrics of immunological foreignness for candidate T-cell epitopes",
+    "url": "https://github.com/pirl-unc/weirdo",
+    "language": "Jupyter Notebook",
+    "stars": 0,
+    "pushed_at": "2026-10-26",
     "topics": []
   },
   {
@@ -14,7 +14,7 @@
     "url": "https://github.com/pirl-unc/presto",
     "language": "Python",
     "stars": 1,
-    "pushed_at": "2026-10-25",
+    "pushed_at": "2026-10-26",
     "topics": []
   },
   {
@@ -23,6 +23,24 @@
     "url": "https://github.com/pirl-unc/hitlist",
     "language": "Python",
     "stars": 3,
+    "pushed_at": "2026-10-26",
+    "topics": []
+  },
+  {
+    "name": "oncoref",
+    "description": "Curated cancer reference data: ontology, TMB, incidence/mortality, and expression. Bottom-of-stack for the openvax/PIRL libraries.",
+    "url": "https://github.com/pirl-unc/oncoref",
+    "language": "Python",
+    "stars": 3,
+    "pushed_at": "2026-10-26",
+    "topics": []
+  },
+  {
+    "name": "pirlygenes",
+    "description": "Gene sets used for cancer immunotherapy expression analysis",
+    "url": "https://github.com/pirl-unc/pirlygenes",
+    "language": "Python",
+    "stars": 1,
     "pushed_at": "2026-10-25",
     "topics": []
   },
@@ -36,30 +54,12 @@
     "topics": []
   },
   {
-    "name": "oncoref",
-    "description": "Curated cancer reference data: ontology, TMB, incidence/mortality, and expression. Bottom-of-stack for the openvax/PIRL libraries.",
-    "url": "https://github.com/pirl-unc/oncoref",
-    "language": "Python",
-    "stars": 3,
-    "pushed_at": "2026-10-25",
-    "topics": []
-  },
-  {
     "name": "pirl-unc.github.io",
     "description": "pirl.unc.edu",
     "url": "https://github.com/pirl-unc/pirl-unc.github.io",
     "language": "Python",
     "stars": 0,
     "pushed_at": "2026-10-25",
-    "topics": []
-  },
-  {
-    "name": "weirdo",
-    "description": "Metrics of immunological foreignness for candidate T-cell epitopes",
-    "url": "https://github.com/pirl-unc/weirdo",
-    "language": "Jupyter Notebook",
-    "stars": 0,
-    "pushed_at": "2026-10-22",
     "topics": []
   },
   {
