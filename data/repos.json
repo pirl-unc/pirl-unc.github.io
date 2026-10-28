@@ -9,6 +9,15 @@
     "topics": []
   },
   {
+    "name": "hitlist",
+    "description": "Curated mass spectrometry evidence for MHC ligand data from IEDB and CEDAR",
+    "url": "https://github.com/pirl-unc/hitlist",
+    "language": "Python",
+    "stars": 3,
+    "pushed_at": "2026-10-28",
+    "topics": []
+  },
+  {
     "name": "oncoref",
     "description": "Curated cancer reference data: ontology, TMB, incidence/mortality, and expression. Bottom-of-stack for the openvax/PIRL libraries.",
     "url": "https://github.com/pirl-unc/oncoref",
@@ -32,15 +41,6 @@
     "url": "https://github.com/pirl-unc/weirdo",
     "language": "Jupyter Notebook",
     "stars": 0,
-    "pushed_at": "2026-10-26",
-    "topics": []
-  },
-  {
-    "name": "hitlist",
-    "description": "Curated mass spectrometry evidence for MHC ligand data from IEDB and CEDAR",
-    "url": "https://github.com/pirl-unc/hitlist",
-    "language": "Python",
-    "stars": 3,
     "pushed_at": "2026-10-26",
     "topics": []
   },
