@@ -36,6 +36,7 @@ PAGES = {
 
 # Old Squarespace URLs that should keep working.
 REDIRECTS = {
+    "home/index.html": "/",
     "research/index.html": "/papers/",
 }
 
