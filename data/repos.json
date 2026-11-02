@@ -1,11 +1,11 @@
 [
   {
-    "name": "oncoref",
-    "description": "Curated cancer reference data: ontology, TMB, incidence/mortality, and expression. Bottom-of-stack for the openvax/PIRL libraries.",
-    "url": "https://github.com/pirl-unc/oncoref",
+    "name": "DoesExactoWorkYet",
+    "description": "Simple end-to-end test of Exacto",
+    "url": "https://github.com/pirl-unc/DoesExactoWorkYet",
     "language": "Python",
-    "stars": 3,
-    "pushed_at": "2026-11-01",
+    "stars": 0,
+    "pushed_at": "2026-11-02",
     "topics": []
   },
   {
@@ -14,6 +14,15 @@
     "url": "https://github.com/pirl-unc/pirl-unc.github.io",
     "language": "Python",
     "stars": 0,
+    "pushed_at": "2026-11-02",
+    "topics": []
+  },
+  {
+    "name": "oncoref",
+    "description": "Curated cancer reference data: ontology, TMB, incidence/mortality, and expression. Bottom-of-stack for the openvax/PIRL libraries.",
+    "url": "https://github.com/pirl-unc/oncoref",
+    "language": "Python",
+    "stars": 3,
     "pushed_at": "2026-11-01",
     "topics": []
   },
@@ -60,15 +69,6 @@
     "language": "Python",
     "stars": 1,
     "pushed_at": "2026-10-30",
-    "topics": []
-  },
-  {
-    "name": "DoesExactoWorkYet",
-    "description": "Simple end-to-end test of Exacto",
-    "url": "https://github.com/pirl-unc/DoesExactoWorkYet",
-    "language": "Python",
-    "stars": 0,
-    "pushed_at": "2026-10-26",
     "topics": []
   },
   {
