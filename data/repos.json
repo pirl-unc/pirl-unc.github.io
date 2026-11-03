@@ -1,5 +1,23 @@
 [
   {
+    "name": "mhcgnomes",
+    "description": "Parsing MHC nomenclature in the wild",
+    "url": "https://github.com/pirl-unc/mhcgnomes",
+    "language": "Python",
+    "stars": 21,
+    "pushed_at": "2026-11-02",
+    "topics": []
+  },
+  {
+    "name": "mhcseqs",
+    "description": "MHC sequences",
+    "url": "https://github.com/pirl-unc/mhcseqs",
+    "language": "Python",
+    "stars": 2,
+    "pushed_at": "2026-11-02",
+    "topics": []
+  },
+  {
     "name": "DoesExactoWorkYet",
     "description": "Simple end-to-end test of Exacto",
     "url": "https://github.com/pirl-unc/DoesExactoWorkYet",
@@ -87,24 +105,6 @@
     "language": "Python",
     "stars": 1,
     "pushed_at": "2026-10-22",
-    "topics": []
-  },
-  {
-    "name": "mhcgnomes",
-    "description": "Parsing MHC nomenclature in the wild",
-    "url": "https://github.com/pirl-unc/mhcgnomes",
-    "language": "Python",
-    "stars": 21,
-    "pushed_at": "2026-10-19",
-    "topics": []
-  },
-  {
-    "name": "mhcseqs",
-    "description": "MHC sequences",
-    "url": "https://github.com/pirl-unc/mhcseqs",
-    "language": "Python",
-    "stars": 2,
-    "pushed_at": "2026-10-13",
     "topics": []
   },
   {
