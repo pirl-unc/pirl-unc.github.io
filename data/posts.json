@@ -1,21 +1,25 @@
 [
   {
     "title": "OpenAI Foundation gave us $40M to improve cancer vaccines",
-    "subtitle": "Introducing the Initiative for Generative Immunotherapy at UNC.",
+    "subtitle": "We're starting the Initiative for Generative Immunotherapy at UNC to release unusually rich data from tumors and the T cells that recognize them",
     "url": "https://pirlblog.substack.com/p/openai-foundation-gave-us-40m-to",
     "date": "2026-09-15",
-    "author": "Alex Rubinsteyn and Benjamin Vincent",
-    "image": "",
-    "excerpt": "What will make personalized cancer vaccines more effective? With support from the OpenAI Foundation, PIRL is launching the Initiative for Generative Immunotherapy at UNC. The initiative will release data connecting tumor mutations, presented antigens, and T-cell responses, alongside a clinical trial comparing vaccine formulations to help improve target selection and immune responses."
+    "author": "Alex Rubinsteyn",
+    "image": "https://substackcdn.com/image/fetch/$s_!rE9Q!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8b44083d-390f-45ac-af2a-916e47031033_1280x1280.png",
+    "excerpt": "We love personalized cancer vaccines. They are an elegantly general, wonderfully sci-fi approach to treating cancer by directing a patient’s immune system to pay attention to the oddities displayed on cancer cells. Personalized cancer vaccines also embody a radical departure from traditional medicine: rather than seeking individual drugs that work in a patient population, we instead make novel therapeutics for…",
+    "image_local": "assets/posts/ac86d62b17ce7b63e679.jpg",
+    "image_cached_url": "https://substackcdn.com/image/fetch/$s_!rE9Q!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8b44083d-390f-45ac-af2a-916e47031033_1280x1280.png"
   },
   {
     "title": "Announcing RAFT v1.5.1 and LENS v1.9.0",
-    "subtitle": "Updates to installation, cloud execution, quality control, and tumor antigen reports.",
+    "subtitle": "We’re excited to announce the latest RAFT and LENS releases.",
     "url": "https://pirlblog.substack.com/p/announcing-raft-v151-and-lens-v190",
     "date": "2026-08-19",
     "author": "Steven P. Vensko II",
-    "image": "",
-    "excerpt": "The latest RAFT and LENS releases simplify installation, workflow configuration, and results review. They bring more reliable cloud execution, automatic resource scaling, and expanded quality control, plus tiered tumor antigen reports that help researchers distinguish the full set of predictions from candidates with stronger supporting evidence."
+    "image": "https://substack-post-media.s3.amazonaws.com/public/images/5101b728-629b-4655-ac0f-a7a4b1f85ba2_1200x630.gif",
+    "excerpt": "We’re excited to announce RAFT v1.5.1 (our Nextflow-based bioinformatics project manager) and LENS v1.9.0 (our tumor antigen prediction workflow). Together, these releases make LENS substantially easier to install and run while providing a more rigorously reviewed, higher-confidence set of tumor antigen candidates. For new users, these releases substantially reduce the work required to install RAFT, configure LENS, and review results.…",
+    "image_local": "assets/posts/3266ca1e51077ab327e2.gif",
+    "image_cached_url": "https://substack-post-media.s3.amazonaws.com/public/images/5101b728-629b-4655-ac0f-a7a4b1f85ba2_1200x630.gif"
   },
   {
     "title": "Some advice to companies and clinics starting personalized neoantigen vaccine programs",
@@ -23,34 +27,196 @@
     "url": "https://pirlblog.substack.com/p/some-advice-to-companies-and-clinics",
     "date": "2026-02-02",
     "author": "Benjamin Vincent",
-    "image": "https://substack-post-media.s3.amazonaws.com/public/images/58942fee-9c0c-4b8e-bcf4-6fa30b22dbb4_1536x1024.png",
-    "image_local": "assets/posts/8e5542d97549608e8d3d.png"
+    "image": "https://substackcdn.com/image/fetch/$s_!HizX!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F58942fee-9c0c-4b8e-bcf4-6fa30b22dbb4_1536x1024.png",
+    "excerpt": "“Personalized Neoantigen Vaccine for Cancer, Solarpunk style” -ChatGPT 5.2 Antigen Selection1. Start with a good open-source antigen prediction pipeline (rather than developing a new pipeline in-house) Rationale: Predicting tumor antigens from genomics data seems deceptively easy, e.g., just call some variants from whole exome sequencing, look for expression of these in RNA-seq data, predict HLA binding with netMHCpan or MHCFlurry,…",
+    "image_local": "assets/posts/d279120b0d6947e96948.jpg",
+    "image_cached_url": "https://substackcdn.com/image/fetch/$s_!HizX!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F58942fee-9c0c-4b8e-bcf4-6fa30b22dbb4_1536x1024.png"
   },
   {
     "title": "Quantifying Tumor Antigen Heterogeneity with TAHP",
-    "subtitle": "Using single-cell data to examine variation in tumor antigen expression.",
+    "subtitle": "Tumor antigens play a crucial role in guiding therapeutic development.",
     "url": "https://pirlblog.substack.com/p/quantifying-tumor-antigen-heterogeneity",
     "date": "2025-10-17",
     "author": "Steven P. Vensko II",
-    "image": "https://substack-post-media.s3.amazonaws.com/public/images/f284cc70-2b04-4554-ba6a-ff3cd5166ee7_2040x798.png",
-    "image_local": "assets/posts/a5e7c26ec7a29ba8c87a.png"
+    "image": "https://substackcdn.com/image/fetch/$s_!5Ste!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff284cc70-2b04-4554-ba6a-ff3cd5166ee7_2040x798.png",
+    "excerpt": "Tumor antigens play a crucial role in guiding therapeutic development. Some are tumor-specific (i.e. neoantigens), such as somatic single nucleotide variants (SNVs), structural variants (SVs), and cancer-testis antigens (CTAs) while others are tumor-associated. Unfortunately, several factors, including tumor heterogeneity, complicate the effective targeting of these tumor antigens. Here, we introduce TAHP (Tumor Antigen Heterogeneity Profiler), a tool to turn single-cell…",
+    "image_local": "assets/posts/95e6e3fdfec5a537cba9.png",
+    "image_cached_url": "https://substackcdn.com/image/fetch/$s_!5Ste!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff284cc70-2b04-4554-ba6a-ff3cd5166ee7_2040x798.png"
   },
   {
     "title": "Expanding the Unified Grammar for RNA Variants",
-    "subtitle": "Extending a shared representation of variants to RNA.",
+    "subtitle": "A unified toolkit for identifying and integrating DNA and RNA variants. Part 2 of the Neoantigen Discovery with Long-read Sequencing series.",
     "url": "https://pirlblog.substack.com/p/expanding-the-unified-grammar-for",
     "date": "2025-10-09",
     "author": "Jin Seok (Andy) Lee",
-    "image": "https://substack-post-media.s3.amazonaws.com/public/images/fabd1f75-89bf-4e49-8f97-7eb1d10255a5_2074x2079.png",
-    "image_local": "assets/posts/264448674316341d4a77.png"
+    "image": "https://substackcdn.com/image/fetch/$s_!K5ip!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffabd1f75-89bf-4e49-8f97-7eb1d10255a5_2074x2079.png",
+    "excerpt": "TL;DR My last post described a universal grammar for integrating different types and descriptions of DNA variants (“Occam’s Variant Grammar”). In this post, I expand Occam’s Variant Grammar to also represent RNA variants, enabling DNA-RNA integration and amino-acid level traceability essential for telling which parts of a protein are tumor-specific (and can safely be targeted). This abstraction is embodied in…",
+    "image_local": "assets/posts/fb8bcd32a338e55b6793.jpg",
+    "image_cached_url": "https://substackcdn.com/image/fetch/$s_!K5ip!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffabd1f75-89bf-4e49-8f97-7eb1d10255a5_2074x2079.png"
   },
   {
     "title": "Inversion: Temporal Pincer in Cancer Genome",
-    "subtitle": "Explaining the orientation of inversion breakpoints.",
+    "subtitle": "Head-to-head (5' to 5') and tail-to-tail (3' to 3') inversion breakpoints explained.",
     "url": "https://pirlblog.substack.com/p/inversion",
     "date": "2025-06-27",
     "author": "Jin Seok (Andy) Lee",
-    "image": "https://substack-post-media.s3.amazonaws.com/public/images/f843ff1b-7068-48c6-a2f7-ba555f472be7_2103x2013.png",
-    "image_local": "assets/posts/703427265f6c22253ebe.png"
+    "image": "https://substackcdn.com/image/fetch/$s_!SQ3y!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff843ff1b-7068-48c6-a2f7-ba555f472be7_2103x2013.png",
+    "excerpt": "1. Opening I’m a big fan of the movie Tenet, especially the mind-bending concept of temporal pincers. Without giving too much away, let’s just say the plot goes forwards and backwards - kind of like a cancer genome when a somatic inversion rewrites the script. In the world of bioinformatics, I occasionally come across a temporal pincer in a cancer…",
+    "image_local": "assets/posts/c75a1071764c00f8b8e1.png",
+    "image_cached_url": "https://substackcdn.com/image/fetch/$s_!SQ3y!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff843ff1b-7068-48c6-a2f7-ba555f472be7_2103x2013.png"
+  },
+  {
+    "title": "Announcing LENS v1.7",
+    "subtitle": "PIRL has been working hard to continuously improve our publicly available tumor antigen prediction workflow, Landscape of Effective Neoantigen Software (or LENS).",
+    "url": "https://pirlblog.substack.com/p/announcing-lens-v17",
+    "date": "2025-06-24",
+    "author": "Steven P. Vensko II",
+    "image": "https://substackcdn.com/image/fetch/$s_!pDx4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F42f7904f-2524-42b0-9418-df1d7fb945d8_1536x1024.png",
+    "excerpt": "Modified from ChatGPT PIRL has been working hard to continuously improve our publicly available tumor antigen prediction workflow, Landscape of Effective Neoantigen Software (or LENS). We’ve just released LENS version 1.7, so we wanted to highlight both the more substantial upgrades and the reasoning behind the update. We conclude this blog post with a sneak peek at what else we’re…",
+    "image_local": "assets/posts/5a905f2dcef1cb10b9de.jpg",
+    "image_cached_url": "https://substackcdn.com/image/fetch/$s_!pDx4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F42f7904f-2524-42b0-9418-df1d7fb945d8_1536x1024.png"
+  },
+  {
+    "title": "A Unifying Grammar for DNA Variants",
+    "subtitle": "A unified framework and toolkit for standardizing DNA variants at scale. Part 1 of the neoantigen discovery with long-read sequencing series.",
+    "url": "https://pirlblog.substack.com/p/variant-standardization",
+    "date": "2025-06-23",
+    "author": "Jin Seok (Andy) Lee",
+    "image": "https://substackcdn.com/image/fetch/$s_!a1I3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd686ba08-a32c-4ee9-80dc-d44ee93a5816_1973x2075.png",
+    "excerpt": "TL;DR Current genomic variant representations are inconsistent across different variant callers and limit neoantigen discovery. New unified variant grammar addresses the fundamental issue. New tool VSTOL lets you standardize DNA variants from 14 different variant callers. 1. Short-Sighted in a Long Genome We know that CD8+ killer T cells have the remarkable ability to selectively kill cancer cells in many…",
+    "image_local": "assets/posts/9ca39f665b77c261ce5a.png",
+    "image_cached_url": "https://substackcdn.com/image/fetch/$s_!a1I3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd686ba08-a32c-4ee9-80dc-d44ee93a5816_1973x2075.png"
+  },
+  {
+    "title": "Potency of peptide + polyIC-LC +/- montanide vs CpG and mRNA/LNP for vaccination in C57Bl/6 mice.",
+    "subtitle": "Experiments here were planned, done, and reported by Jess Alley and Maria Sambade, with assistance from Blake Inabinett",
+    "url": "https://pirlblog.substack.com/p/potency-of-peptide-polyic-lc-montanide",
+    "date": "2025-06-18",
+    "author": "Benjamin Vincent",
+    "image": "https://substackcdn.com/image/fetch/$s_!856i!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F11d60ec0-696b-4b69-b2f1-ce6781cac658_1525x564.jpeg",
+    "excerpt": "In a prior experiment, we tested multiple vaccine formulations for capacity to elicit T cell responses in C57Bl/6 mice using a MHC class I-restricted murine cytomegalovirus epitope (M57) and an ELISPOT readout for interferon gamma production. We found that CpG (a TLR9 agonist) was the most potent peptide vaccine adjuvant tested, and that mRNA LNP vaccination was as potent as…",
+    "image_local": "assets/posts/4dbafbdebe883a0fafe8.jpg",
+    "image_cached_url": "https://substackcdn.com/image/fetch/$s_!856i!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F11d60ec0-696b-4b69-b2f1-ce6781cac658_1525x564.jpeg"
+  },
+  {
+    "title": "Adding to our mRNA lipid nanoparticle characterization techniques",
+    "subtitle": "I recently ran a gel retardation assay using the mRNA lipid nanoparticles formulated in our lab, and I share the results below.",
+    "url": "https://pirlblog.substack.com/p/adding-to-our-mrna-lipid-nanoparticle",
+    "date": "2025-06-03",
+    "author": "Jessica Alley",
+    "image": "https://substackcdn.com/image/fetch/$s_!MDmt!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2d6e39a4-3924-4a6a-a0d0-d69aa5b572c6.tif",
+    "excerpt": "I saw the gel retardation assay in a couple papers recently, where the authors used it to assess the structural integrity of mRNA lipid nanoparticle complexes, so I wanted to test it out as a method to further characterize our mRNA lipid nanoparticles (LNPs). Additionally, because it has been suggested that Tween 20 may be a safer alternative to Triton…",
+    "image_local": "assets/posts/83b6456fa7b3d0dd0573.png",
+    "image_cached_url": "https://substackcdn.com/image/fetch/$s_!MDmt!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2d6e39a4-3924-4a6a-a0d0-d69aa5b572c6.tif"
+  },
+  {
+    "title": "An experiment comparing the potency of vaccine formulations in C57BL/6 mice",
+    "subtitle": "Introducing the Optimizing Immunization Strategies for Therapeutic Efficacy and Response (OISTER) project",
+    "url": "https://pirlblog.substack.com/p/an-experiment-comparing-the-potency",
+    "date": "2025-05-16",
+    "author": "Benjamin Vincent",
+    "image": "https://substackcdn.com/image/fetch/$s_!HlnV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa1f24f48-cbd0-4dcd-96b8-03d47a31c86b_350x348.jpeg",
+    "excerpt": "One challenge in optimizing cancer vaccines is our incomplete understanding of comparative vaccine potency. To address this, our lab is on a somewhat quixotic journey to benchmark cancer vaccine formulations and dosing schedules using functional readouts of T cell and B cell responses. Amongst a sea of competing formulations in clinical trials and preclinical development (many variations of peptide +…",
+    "image_local": "assets/posts/191e0f79df283a0ec82a.jpg",
+    "image_cached_url": "https://substackcdn.com/image/fetch/$s_!HlnV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa1f24f48-cbd0-4dcd-96b8-03d47a31c86b_350x348.jpeg"
+  },
+  {
+    "title": "Hunting for Immunotherapy Targets in NUT Carcinoma",
+    "subtitle": "Recurrent PRAME Expression Reveals a New Therapeutic Vulnerability",
+    "url": "https://pirlblog.substack.com/p/hunting-for-immunotherapy-targets",
+    "date": "2025-05-07",
+    "author": "Sara Peterson",
+    "image": "https://substackcdn.com/image/fetch/$s_!Jgmn!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc1856297-edb1-41f3-ba6b-7facf5db42de_577x374.png",
+    "excerpt": "NUT Carcinoma (NC) is a rare and incredibly aggressive cancer with limited, low-efficacy treatment options. You’ve probably never heard of it — unless, of course, you read our lab's earlier blog post about it. In case you're not a long-time subscriber (better late than never!), I'll give you a quick background before diving into some exciting new work we just…",
+    "image_local": "assets/posts/8e94e9c434c70c5f632e.jpg",
+    "image_cached_url": "https://substackcdn.com/image/fetch/$s_!Jgmn!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc1856297-edb1-41f3-ba6b-7facf5db42de_577x374.png"
+  },
+  {
+    "title": "Three Axes of Innovation in Personalized Cancer Vaccines",
+    "subtitle": "The personalized cancer vaccine field had its first true clinical success with the KEYNOTE-942 study, where patients with resected melanoma were treated with Merck’s PD-1 inhibitor pembrolizumab (Keytruda) with or without Moderna’s mRNA/LNP personalized vaccine product (mRNA-4157).",
+    "url": "https://pirlblog.substack.com/p/three-axes-of-innovation-in-personalized",
+    "date": "2025-05-03",
+    "author": "Benjamin Vincent",
+    "image": "https://substackcdn.com/image/fetch/$s_!QKhC!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1afb0dce-80e1-47ff-b9b3-43865872ce3e_1221x824.jpeg",
+    "excerpt": "The personalized cancer vaccine field had its first true clinical success with the KEYNOTE-942 study, where patients with resected melanoma were treated with Merck’s PD-1 inhibitor pembrolizumab (Keytruda) with or without Moderna’s mRNA/LNP personalized vaccine product (mRNA-4157). Recurrence free survival at 18 months was 79% in the mRNA-4157 + pembrolizumab group versus 62% in the pembrolizumab-only group (p = 0.053…",
+    "image_local": "assets/posts/1259741c0070b2a9f511.jpg",
+    "image_cached_url": "https://substackcdn.com/image/fetch/$s_!QKhC!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1afb0dce-80e1-47ff-b9b3-43865872ce3e_1221x824.jpeg"
+  },
+  {
+    "title": "Introducing RAFT and LENS",
+    "subtitle": "Bioinformatics is a cornerstone of modern immunotherapy research and development.",
+    "url": "https://pirlblog.substack.com/p/introducing-raft-and-lens",
+    "date": "2025-04-30",
+    "author": "Steven P. Vensko II",
+    "image": "https://substackcdn.com/image/youtube/w_728,c_limit/FEXs0lEhGbE",
+    "excerpt": "Bioinformatics is a cornerstone of modern immunotherapy research and development. Techniques such as bulk RNA sequencing and whole genome sequencing offer unprecedented insights into the molecular landscape of tissues. This information, coupled with complementary approaches, can be used to predict tumor-specific or tumor-associated antigens that may serve as promising therapeutic targets. A key challenge in bioinformatics is ensuring the reproducibility…",
+    "image_local": "assets/posts/f77aa1c430350cca8994.jpg",
+    "image_cached_url": "https://substackcdn.com/image/youtube/w_728,c_limit/FEXs0lEhGbE"
+  },
+  {
+    "title": "Can Substack fix our lab's scientific hoarding?",
+    "subtitle": "Kicking off an experiment in high throughput scientific communication",
+    "url": "https://pirlblog.substack.com/p/can-substack-fix-our-labs-scientific",
+    "date": "2025-04-16",
+    "author": "Alex Rubinsteyn",
+    "image": "https://substackcdn.com/image/fetch/$s_!rE9Q!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8b44083d-390f-45ac-af2a-916e47031033_1280x1280.png",
+    "excerpt": "The lab I co-run at UNC, the Personalized Immunotherapy Research Lab, has a problem which has been bothering me a lot recently. This isn't unique to our lab, in fact it's ubiquitous in biomedical research, but it's still wrong: we're hoarding results. Our pipeline of papers is slow and while we painstakingly weave multiple narratives in parallel, the gap between…",
+    "image_local": "assets/posts/ac86d62b17ce7b63e679.jpg",
+    "image_cached_url": "https://substackcdn.com/image/fetch/$s_!rE9Q!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8b44083d-390f-45ac-af2a-916e47031033_1280x1280.png"
+  },
+  {
+    "title": "Impressions from a NUT carcinoma reading list",
+    "subtitle": "NUT carcinoma is part of spectrum of fusion driven cancers whose aggressive is determined by which gene gets fused onto NUTM1; treatment options limited but some signal in Ewing sarcoma chemo regimens",
+    "url": "https://pirlblog.substack.com/p/impressions-from-a-nut-carcinoma",
+    "date": "2024-03-07",
+    "author": "Alex Rubinsteyn",
+    "image": "https://substackcdn.com/image/fetch/$s_!SklQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb85f03ad-4d32-4381-a5fb-b51b532f310e_1202x632.jpeg",
+    "excerpt": "NUT carcinoma is a rare and very aggressive cancer which arises when the normally suppressed nuclear protein NUTM1 gets fused on any of a handful of partner proteins (such as BRD4, BRD3, NSD3, &c). The resultant fusion protein causes dramatic remodeling of chromatin state, opening up large stretches of normally inaccessible DNA for transcription and driving previously normal tissue to…",
+    "image_local": "assets/posts/3ca09e89f36f0ad355c2.jpg",
+    "image_cached_url": "https://substackcdn.com/image/fetch/$s_!SklQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb85f03ad-4d32-4381-a5fb-b51b532f310e_1202x632.jpeg"
+  },
+  {
+    "title": "Tricking Nextflow's Caching System (to Drastically Reduce Storage Usage)",
+    "subtitle": "Policing storage usage is an unfortunate, but necessary aspect of bioinformatics.",
+    "url": "https://pirlblog.substack.com/p/tricking-nextflows-caching-system",
+    "date": "2022-12-22",
+    "author": "Steven P. Vensko II",
+    "image": "https://substackcdn.com/image/fetch/$s_!l7bR!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fed1b2531-036e-4afe-a744-45757458451d_1352x1124.png",
+    "excerpt": "Policing storage usage is an unfortunate, but necessary aspect of bioinformatics. This is due to both the relatively large files workflows generate and the sheer number of files associated with a potentially large set of samples. It is easy for this usage to get out of hand in cases where strict controls are not in place. I am, unfortunately, guilty…",
+    "image_local": "assets/posts/febd241987694b9b6336.png",
+    "image_cached_url": "https://substackcdn.com/image/fetch/$s_!l7bR!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fed1b2531-036e-4afe-a744-45757458451d_1352x1124.png"
+  },
+  {
+    "title": "Shaking the Rust Off Python Redox",
+    "subtitle": "An update to \"Shaking the Rust Off Python\": we follow Dr. Michael Lazear & Dr. Rob Patro's advice and achieve a 10x improvement in Rust+Python over a pure Python implementation of kmer counting.",
+    "url": "https://pirlblog.substack.com/p/shaking-the-rust-off-python-redox",
+    "date": "2022-11-22",
+    "author": "Jin Seok (Andy) Lee",
+    "image": "https://substackcdn.com/image/fetch/$s_!y0z-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F89b2a6f1-ff1e-4af6-8970-b64aa640f3e2_2500x1250.png",
+    "excerpt": "This post is an update to Shaking the Rust Off Python I would like to first thank Dr. Michael Lazear and Dr. Rob Patro for their wonderful feedback on my recent blog post. Dr. Lazear has generously shown that there is a better implementation that can deliver a blazingly fast compute time by using “map-reduce” with worker pool in the…",
+    "image_local": "assets/posts/c008df46c5919783907e.jpg",
+    "image_cached_url": "https://substackcdn.com/image/fetch/$s_!y0z-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F89b2a6f1-ff1e-4af6-8970-b64aa640f3e2_2500x1250.png"
+  },
+  {
+    "title": "Shaking the Rust Off Python",
+    "subtitle": "Performance comparison of nucleotide k-mer counting implementations in Python vs. Rust",
+    "url": "https://pirlblog.substack.com/p/shaking-the-rust-off-python",
+    "date": "2022-11-18",
+    "author": "Jin Seok (Andy) Lee",
+    "image": "https://substackcdn.com/image/fetch/$s_!1ubC!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd777a6bb-377b-4c74-96a2-976d858269d2_2500x1250.png",
+    "excerpt": "TL;DR Dynamic scripting languages such as Python and R are convenient for implementing bioinformatics algorithms. However, these languages incur a significant overhead on every operation, which makes processing read-level data in large quantities slow. One way to speed up a slow algorithm is to move the bottleneck out of Python into a more efficient compiled language such as Rust. In…",
+    "image_local": "assets/posts/5f58d42fa49967720252.jpg",
+    "image_cached_url": "https://substackcdn.com/image/fetch/$s_!1ubC!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd777a6bb-377b-4c74-96a2-976d858269d2_2500x1250.png"
+  },
+  {
+    "title": "Adventures in mRNA lipid nanoparticle formulation",
+    "subtitle": "Lipid nanoparticles (LNPs) encapsulating neoantigen-encoding mRNA hold promise for the development of more potent therapeutic cancer vaccines. This was our first attempt at their formulation.",
+    "url": "https://pirlblog.substack.com/p/adventures-in-mrna-lipid-nanoparticle",
+    "date": "2022-11-02",
+    "author": "Jessica Alley",
+    "image": "https://substackcdn.com/image/fetch/$s_!YaL7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4f68c553-a0f8-4f32-b551-c03ffc4fefe4_2500x1406.jpeg",
+    "excerpt": "An internet search of the term “nanoparticle” will yield diverse results and may lead down a rabbit hole of spherical diagrams with minimal discernible differences, so let’s begin there and climb out together. The specific nanoparticles our lab was interested in formulating contain mRNA along with four essential lipid components: an ionizable lipid, a helper lipid, cholesterol, and a polyethylene…",
+    "image_local": "assets/posts/411bb413f1ff7b288486.jpg",
+    "image_cached_url": "https://substackcdn.com/image/fetch/$s_!YaL7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4f68c553-a0f8-4f32-b551-c03ffc4fefe4_2500x1406.jpeg"
   }
 ]
