@@ -8,9 +8,11 @@ Use --cached-only to download covers for an existing post cache without RSS.
 import argparse
 import hashlib
 import json
+import os
 import sys
 import urllib.request
 import xml.etree.ElementTree as ET
+from datetime import date
 from email.utils import parsedate_to_datetime
 from html.parser import HTMLParser
 from pathlib import Path
@@ -22,6 +24,7 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "data" / "posts.json"
 STATIC = ROOT / "static"
 MAX_POSTS = 20
+STALE_AFTER_DAYS = 14
 MAX_BYTES = 12 * 1024 * 1024
 NS = {
     "content": "http://purl.org/rss/1.0/modules/content/",
@@ -189,6 +192,38 @@ def read_cache():
     return []
 
 
+def status_path():
+    return OUT.with_name("posts_status.json")
+
+
+def read_last_refresh():
+    try:
+        return date.fromisoformat(json.loads(status_path().read_text())["last_refreshed"])
+    except (OSError, ValueError, KeyError, TypeError):
+        return None
+
+
+def write_last_refresh(day):
+    atomic_write(status_path(), (json.dumps({"last_refreshed": day.isoformat()}) + "\n").encode())
+
+
+def report_staleness(today=None):
+    """Flag a feed that has failed to refresh for too long, so a stale blog is noticed."""
+    today = today or date.today()
+    last = read_last_refresh()
+    if last is None:
+        write_last_refresh(today)  # first failure: start the clock from the cached data
+        return False
+    age = (today - last).days
+    if age < STALE_AFTER_DAYS:
+        return False
+    print(f"::error::Blog feed has not refreshed in {age} days; the site is showing cached posts")
+    if os.environ.get("GITHUB_OUTPUT"):
+        with open(os.environ["GITHUB_OUTPUT"], "a") as handle:
+            handle.write("feed_stale=true\n")
+    return True
+
+
 def main(cached_only=False):
     previous = read_cache()
     if cached_only:
@@ -202,6 +237,8 @@ def main(cached_only=False):
         except Exception as exc:
             print(f"::warning::Could not refresh RSS: {exc}")
             print("Keeping cached posts" if previous else "No valid post cache; import failed")
+            if previous:
+                report_staleness()
             return 0 if previous else 1
     if not posts:
         return 1
@@ -211,6 +248,8 @@ def main(cached_only=False):
             post["excerpt"] = previous_by_url.get(post["url"], {}).get("excerpt", "")
     cache_images(posts, previous)
     atomic_write(OUT, (json.dumps(posts, indent=2, ensure_ascii=False) + "\n").encode())
+    if not cached_only:
+        write_last_refresh(date.today())
     print(f"Saved {len(posts)} posts, {sum(bool(p.get('image_local')) for p in posts)} local covers")
     return 0
 

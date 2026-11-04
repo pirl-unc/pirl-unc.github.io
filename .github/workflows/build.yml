@@ -20,6 +20,8 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    outputs:
+      feed_stale: ${{ steps.feed.outputs.feed_stale }}
     steps:
       - uses: actions/checkout@v4
 
@@ -34,6 +36,7 @@ jobs:
         run: python -m unittest discover -s tests -v
 
       - name: Fetch latest blog posts from Substack
+        id: feed
         run: python scripts/fetch_posts.py
 
       - name: Fetch repository list from GitHub
@@ -45,7 +48,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/posts.json data/repos.json static/assets/posts/
+          git add data/posts.json data/posts_status.json data/repos.json static/assets/posts/
           if git diff --cached --quiet; then
             echo "No content changes"
           else
@@ -75,3 +78,14 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+
+  # Deploys independently; this job only turns a long-stale blog feed into a
+  # failed run so GitHub notifies the repo owners.
+  feed-alert:
+    needs: build
+    if: needs.build.outputs.feed_stale == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "::error::Substack feed has not refreshed for 14+ days (likely HTTP 403 to CI). Run scripts/fetch_posts.py locally and commit data/posts.json."
+          exit 1
