@@ -44,7 +44,8 @@ papers:
   venue: Cancer Discovery
   year: 2025
   url: https://doi.org/10.1158/2159-8290.cd-24-0934
-  images: []
+  images:
+  - assets/papers/papers-10.png
   paragraphs:
   - This phase 1 study evaluates personalized peptide vaccines targeting neoantigens selected
     by the OpenVax computational pipeline in patients with solid and hematologic malignancies
@@ -60,7 +61,7 @@ papers:
   year: 2025
   url: https://doi.org/10.1038/s43018-025-00966-7
   images:
-  - assets/papers/papers-8.png
+  - assets/papers/papers-11.png
   paragraphs:
   - This phase 1 trial evaluates the combination of atezolizumab and personalized neoantigen
     vaccination in urothelial cancer, examining the feasibility, safety, and immune responses
