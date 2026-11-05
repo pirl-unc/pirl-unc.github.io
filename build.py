@@ -72,7 +72,6 @@ def main():
         raise ValueError("OUTPUT_DIR must be _site or dist inside the project")
     site = load_yaml("site.yml")
     site["url"] = os.environ.get("SITE_URL", site["url"]).rstrip("/")
-    site["source_url"] = os.environ.get("SOURCE_URL", site["source_url"])
     # A project Pages site lives below /repo/; a custom domain lives at /.
     base_path = urlsplit(site["url"]).path.rstrip("/")
 

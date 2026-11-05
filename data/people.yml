@@ -14,7 +14,7 @@ groups:
   - title: Principal Investigators
     layout: investigators
     people:
-      - name: Dr. Benjamin Vincent, MD
+      - name: Dr. Benjamin Vincent
         photo: ben.jpg
         photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/1637788292770-NFXP1JFWC2S260XIV8KA/ben.jpg
         links:
@@ -23,7 +23,7 @@ groups:
           - Twitter: https://twitter.com/BenjaminGVincen
           - LinkedIn: https://www.linkedin.com/in/benjamin-vincent-2513a6a5/
 
-      - name: Dr. Alex Rubinsteyn, PhD
+      - name: Alex Rubinsteyn, PhD
         photo: alex-rubinsteyn.jpg
         photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/7bfeb40c-cc22-4c19-a0fe-61f0588ffac3/alex+rubinsteyn+vertical.jpg
         links:
@@ -32,7 +32,7 @@ groups:
           - GitHub: https://github.com/iskandr/
           - Twitter: https://twitter.com/iskander
 
-      - name: Dr. Jared Weiss, MD
+      - name: Dr. Jared Weiss
         photo: jared-weiss.jpg
         photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/1637788451654-7XWURL0P577LM9K259U7/jared-weiss.jpg
         links:
@@ -42,7 +42,7 @@ groups:
 
   - title: Lab Members
     people:
-      - name: Jeffrey Jensen, MD
+      - name: Dr. Jeffrey Jensen
         role: Clinical Instructor
         photo: jeffrey-jensen.jpg
         photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/93b4572a-8a80-4681-9d87-058c5eb87096/Jensen+Jeffrey_0251+%282%29+-+Copy.JPG
@@ -97,12 +97,12 @@ groups:
           - Scholar: https://scholar.google.com/citations?hl=en&user=iMYzStcAAAAJ
           - ORCID: https://orcid.org/0000-0001-9399-5999
 
-      - name: Mark Woodcock, MD
+      - name: Dr. Mark Woodcock
         role: Clinical Instructor
         photo: mark-woodcock.jpg
         photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/1641878780837-UFMGP6YCG5WGKEJOONU2/Mark-Woodcock.jpg
 
-      - name: Abner A. Murray, MD, PhD
+      - name: Dr. Abner A. Murray
         role: Hematology/Oncology Fellow
         photo: abner-murray.jpg
         photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/65dee29b-d784-4c05-8571-c7d6b6dd40bb/Headshot+Abner+Casual.jpeg
@@ -122,7 +122,7 @@ groups:
           - ORCID: https://orcid.org/0000-0001-5819-7561
           - GitHub: https://github.com/dhuvik
 
-      - name: Misha Fini
+      - name: Misha Fini, PhD
         role: Postdoctoral Research Associate
         photo: misha-fini.jpg
         photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/1641878763541-J4MXOBC2XT0HVHSEEO6E/Misha_Fini-1.jpg
