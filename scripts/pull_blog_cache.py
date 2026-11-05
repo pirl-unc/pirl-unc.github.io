@@ -49,7 +49,7 @@ def main():
                     raise ValueError(f"Unexpected path in cache archive: {member.name}")
             extracted = tmp / "x"
             extracted.mkdir()
-            tar.extractall(extracted, members=members)
+            tar.extractall(extracted, members=members, filter="data")
 
         posts = json.loads((extracted / "data" / "posts.json").read_text(encoding="utf-8"))
         if not (isinstance(posts, list) and posts and all(p.get("title") and p.get("url") for p in posts)):
