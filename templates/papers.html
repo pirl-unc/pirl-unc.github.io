@@ -14,6 +14,7 @@
       {% if paper.url %}<a href="{{ paper.url }}" rel="noopener">{{ paper.title }}</a>
       {% else %}{{ paper.title }}{% endif %}
     </h2>
+    {% if paper.venue or paper.year %}<p class="venue">{{ paper.venue }}{% if paper.venue and paper.year %}, {% endif %}{{ paper.year }}</p>{% endif %}
     <p class="authors">{{ paper.authors }}</p>
     {% for paragraph in paper.paragraphs %}<p class="summary">{{ paragraph }}</p>{% endfor %}
     </div>

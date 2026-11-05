@@ -73,7 +73,7 @@ papers:
   year: 2023
   url: https://doi.org/10.1093/bioinformatics/btad322
   images:
-  - assets/papers/papers-9.jpg
+  - assets/papers/papers-9.png
   paragraphs:
   - LENS is an open-source Nextflow workflow for predicting tumor antigens from mutations,
     gene fusions, splice variants, cancer/testis antigens, overexpressed genes, and viral

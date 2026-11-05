@@ -13,7 +13,6 @@ github_org: pirl-unc
 github_url: https://github.com/pirl-unc/
 openvax_org: openvax
 lineberger_url: https://unclineberger.org
-source_url: https://github.com/pirl-unc/pirl-site
 
 # How many blog posts to show on the home page
 recent_posts: 6

@@ -1,42 +1,29 @@
 title: Open Source Computational Tools
-intro: PIRL uses and creates a variety of computational tools for our work in genomics
-  and computational immunology. Many of these tools are carried over from previous work
-  by the <a href="https://github.com/Benjamin-Vincent-Lab">Vincent Lab at UNC</a>, and
-  <a href="https://github.com/openvax">OpenVax</a>. Newer tools which are developed by
-  PIRL will be listed below.
+intro: Open-source software we build and maintain for cancer genomics and computational immunology.
 featured:
 - name: TCR-TRANSLATE
   url: https://github.com/dhuvik/tcr_translate
   image: assets/code/code-1.png
-  description: A sequence-to-sequence language model for antigen-specific TCR design that
-    addresses data sparsity through techniques from low-resource machine translation.
+  description: "Generates antigen-specific T-cell receptor sequences, adapting methods from low-resource machine translation."
 - name: LENS
   url: https://uselens.io
   image: assets/code/code-2.png
-  description: Tumor antigen prediction pipeline used to curate tumor-specific predicted
-    MHC ligands from a variety of mutational and expression sources.
+  description: "Tumor antigen prediction pipeline that curates tumor-specific MHC ligands from mutational and expression data."
 - name: ACE
   url: https://github.com/pirl-unc/ace
   image: assets/code/code-3.png
-  description: Multiplex ELISpot assay design and deconvolution tool for determining epitope-specific
-    T-cell responses from a large number of candidate peptides.
+  description: "Designs pooled ELISpot assays and deconvolves their readouts to find immunogenic peptides."
 - name: MHCgnomes
   url: https://github.com/pirl-unc/mhcgnomes
   image: assets/code/code-4.png
-  description: A tricky part of constructing large immunological datasets is dealing with
-    the chaotic variability in naming of MHC molecules across species and within different
-    research communities. MHCgnomes is a parser for MHC nomenclature which uses several
-    reference data sources and a robust parsing strategy to standardize MHC nomenclature
-    from a variety of different naming schemes you might encounter in the wild.
+  description: Parses and standardizes MHC allele names across species and the many naming
+    schemes found in the wild.
 - name: RAFT
   url: https://github.com/pirl-unc/raft
-  description: 'Reproducible Analyses Framework and Tools: infrastructure for configuring
-    and running reproducible Nextflow analyses.'
+  description: "Reproducible Analyses Framework and Tools: configures and runs reproducible Nextflow analyses."
 - name: Exacto
   url: https://github.com/pirl-unc/exacto
-  description: A long-read toolkit for mutant proteoform prediction that integrates DNA
-    and RNA variants, assembles transcripts, and translates them into annotated proteoforms
-    and mutant peptides.
+  description: "Long-read toolkit that turns DNA and RNA variants into annotated mutant proteoforms and peptides."
 # Short lists under "More PIRL tools" and "OpenVax". `repo` must exist in
 # github.com/<org> (it is skipped otherwise); `org` defaults to the PIRL org.
 more_tools:
@@ -64,9 +51,7 @@ more_tools:
   - { repo: runplz, desc: "A tiny Modal-shaped job harness." }
 openvax:
   url: https://openvax.org
-  intro: PIRL maintains the <a href="https://openvax.org">OpenVax</a> tools for cancer
-    immunogenomics and neoantigen vaccine design. They live in <a href="https://github.com/openvax">github.com/openvax</a>
-    and in the PIRL organization.
+  intro: PIRL maintains the <a href="https://openvax.org">OpenVax</a> tools for cancer immunogenomics and neoantigen vaccine design.
   groups:
   - title: MHC binding prediction
     items:

@@ -72,7 +72,6 @@ def main():
         raise ValueError("OUTPUT_DIR must be _site or dist inside the project")
     site = load_yaml("site.yml")
     site["url"] = os.environ.get("SITE_URL", site["url"]).rstrip("/")
-    site["source_url"] = os.environ.get("SOURCE_URL", site["source_url"])
     # A project Pages site lives below /repo/; a custom domain lives at /.
     base_path = urlsplit(site["url"]).path.rstrip("/")
 
@@ -88,6 +87,8 @@ def main():
         return path
     people = load_yaml("people.yml")
     papers = load_yaml("papers.yml")
+    # Newest first; entries without a year go last, otherwise file order is kept.
+    papers["papers"] = sorted(papers.get("papers") or [], key=lambda p: p.get("year") or 0, reverse=True)
     tools = load_yaml("tools.yml")
     contact = load_yaml("contact.yml")
     appearance = load_yaml("appearance.yml")

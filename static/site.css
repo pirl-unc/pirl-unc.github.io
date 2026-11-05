@@ -1,7 +1,7 @@
 /* Theme measurements from pirl.unc.edu, October 2026. */
 :root {
   color-scheme: light;
-  --paper: #fff; --ink: #000; --link: hsl(9.52380952, 36%, 65.68627451%);
+  --paper: #fff; --ink: #000; --link: hsl(9.52380952, 36%, 50%); /* 4.6:1 on white */
   --body: "adobe-garamond-pro", Garamond, Baskerville, Georgia, serif;
   --heading: "Cormorant Garamond", Garamond, Georgia, serif;
   --gutter: 4vw; --wrap: 1200px;
@@ -92,6 +92,7 @@ main { padding: var(--gutter) 0 6.6vmax; min-height: 33vh; }
 .paper-images img { margin-inline: auto; width: 100%; }
 .paper-images-rounded img { max-width: 375px; border-radius: 10px; }
 .paper h2 { font-size: var(--h4-size); margin: 0 0 2rem; }
+.paper .venue { margin: -1.25rem 0 1rem; font-size: 1rem; color: #555; }
 .paper .authors { margin: 0 0 1rem; font-style: italic; }
 .paper .summary { margin: 1rem 0; }
 
