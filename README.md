@@ -260,7 +260,9 @@ gcloud scheduler jobs pause feed-fetch --location us-east1 --project $P   # stop
 
 Covers come from image enclosures, Media RSS, or article HTML in the feed. Posts
 without art show a short plain-text excerpt (up to 60 words), falling back to
-the subtitle. To change a cover, change the post's image on Substack.
+the subtitle. To change a cover, change the post's image on Substack, or
+pick a figure for the site only by adding the post URL and a file in
+`static/assets/posts/` under `post_covers` in `data/site.yml`.
 
 ### Changing the design later
 
