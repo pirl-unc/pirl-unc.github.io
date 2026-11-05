@@ -179,36 +179,104 @@ Add a new YAML file to the loading/context section of `build.py` if needed.
 
 ## Blog posts and automatic updates
 
-The deployment workflow runs on pushes to `main`, manual dispatch, and every six
-hours (`23 */6 * * *`, UTC; scheduled runs can be delayed).
+Blog posts are written on Substack (<https://pirlblog.substack.com>). The site
+shows the most recent ones on the home page, read from a cached copy of the
+Substack RSS feed in `data/posts.json` plus cover images in `static/assets/posts/`.
 
-1. Run offline tests.
-2. Fetch Substack RSS and public GitHub repositories.
-3. Commit changed caches and downloaded covers.
-4. Build HTML and publish through GitHub Pages.
+### Why the feed is not fetched by GitHub directly
 
-Covers are extracted from image enclosures, Media RSS, or article HTML in the
-feed and downloaded to `static/assets/posts/`. Posts without art show a short plain-text excerpt from the RSS article body (up to 60 words), falling back to the subtitle when unavailable. Cached excerpts survive feed failures. Posts remain text-only,
-with spacing and thin dividers. No substitute logo is used.
+Substack sits behind Cloudflare, which answers requests from GitHub-hosted
+runners with `HTTP 403` and `cf-mitigated: challenge` (a bot challenge that a
+script cannot pass). We tested this on Ubuntu, Ubuntu ARM and Windows runners.
+The identical `curl` request from a Google Cloud VM, or from a laptop, returns
+the feed. Python's `urllib` is also challenged even from Google Cloud, so the
+fetch uses `curl`. Do not try to disguise the request as a browser.
 
-If RSS fails, a valid existing post cache remains untouched; a first import with
-no usable cache fails. Cover failures retain an older downloaded cover when
-available. A successful deployment can therefore still contain older posts:
-check the refresh step's warnings if an article is missing. Repository-refresh
-failures likewise keep the existing repository cache.
+### How a new post reaches the site
 
-Substack currently returns HTTP 403 to GitHub's CI runners, so the scheduled
-refresh usually keeps the cache. **After publishing a post on Substack, run
-`./scripts/update_blog.sh`** from your own machine: it fetches the feed, commits
-the cache and pushes, and the site rebuilds. If the feed goes 14 days without a
-successful refresh, the `feed-alert` job fails the workflow run as a reminder.
+```
+Substack ──RSS──▶ Google Cloud VM (hourly, :07 UTC) ──▶ public bucket
+                                                          │
+GitHub Actions "check" job (hourly, :37 UTC) ◀── download ┘
+   └─ cache changed? ──yes──▶ build + deploy GitHub Pages
+```
 
-To refresh manually, open Actions → Build and deploy → Run workflow (`main`).
+1. **Cloud Scheduler** job `feed-fetch` starts the stopped VM `feed-fetcher`
+   every hour at minute 7 (UTC).
+2. The VM runs `scripts/gcp/feed_vm_startup.sh`: it clones this repo (`main`),
+   runs `scripts/fetch_posts.py`, uploads `blog-cache.tar.gz` (posts JSON,
+   refresh date and covers) to the bucket, and powers itself off.
+3. The **Build and deploy** workflow (`.github/workflows/build.yml`) runs a small
+   `check` job every hour at minute 37. It runs `scripts/pull_blog_cache.py`,
+   which downloads the archive, accepts only the expected files, and applies it
+   if it is at least as new as the committed cache. The full build and deploy run
+   only if posts or covers changed.
+4. Pushes to `main`, manual runs and the 6-hourly schedule (minute 23) always run
+   the full build, which also refreshes the GitHub repository list.
+
+A new post therefore appears within about 1–2 hours.
+
+### Where the Google Cloud pieces live
+
+| Item | Value |
+|---|---|
+| Project | `galvanized-opus-161501` (display name "PIRL site feed"; Alex's personal Google account) |
+| VM | `feed-fetcher`, `e2-micro`, zone `us-east1-b`, normally `TERMINATED` |
+| VM settings | instance metadata `bucket` and `ref` (branch to clone, `main`) |
+| Scheduler job | `feed-fetch`, region `us-east1`, `7 * * * *` UTC |
+| Bucket | `gs://pirl-site-feed-galvanized-opus-161501` (public read; only blog posts and covers) |
+| Cache URL | <https://storage.googleapis.com/pirl-site-feed-galvanized-opus-161501/blog-cache.tar.gz> |
+| Service accounts | `feed-vm@…` (writes the bucket), `feed-scheduler@…` (starts the VM) |
+| Cost | well under $1/month |
+
+`scripts/gcp/setup.sh` creates all of these from scratch. To move to another
+project, run `PROJECT=<new-project> ./scripts/gcp/setup.sh`, set the new cache
+URL in `scripts/pull_blog_cache.py` (or the `BLOG_CACHE_URL` environment
+variable), then delete the old VM, scheduler job, bucket and service accounts.
+
+Useful commands:
+
+```sh
+P=galvanized-opus-161501
+gcloud scheduler jobs run feed-fetch --location us-east1 --project $P     # fetch now
+gcloud compute instances get-serial-port-output feed-fetcher --zone us-east1-b --project $P | tail -50
+gcloud storage ls -l gs://pirl-site-feed-$P/                              # last upload time
+gcloud scheduler jobs pause feed-fetch --location us-east1 --project $P   # stop hourly fetches
+```
+
+### Fallbacks and alerts
+
+- **Manual refresh:** `./scripts/update_blog.sh` fetches the feed from your own
+  machine, commits the cache and pushes; the push triggers a deploy. Use it if
+  the Google Cloud fetcher is down or you want a post live immediately.
+- **Direct fetch:** the build still tries Substack directly after pulling the
+  cache. It currently gets `403` and keeps the cache; if Cloudflare ever stops
+  challenging GitHub, refreshes work without Google Cloud.
+- **Stale-feed alert:** `data/posts_status.json` records the last successful
+  refresh. If that is 14 or more days old, the `feed-alert` job fails the run
+  and GitHub emails the repo admins. It does not block deploys.
+- **Cache failures never break the site:** if the feed, bucket or covers fail,
+  the existing cache is kept.
+
+Covers come from image enclosures, Media RSS, or article HTML in the feed. Posts
+without art show a short plain-text excerpt (up to 60 words), falling back to
+the subtitle. To change a cover, change the post's image on Substack.
+
+### Changing the design later
+
+- **Different schedule:** edit the cron in `scripts/gcp/setup.sh` / the scheduler
+  job, and the `37 * * * *` cron and its check in `build.yml`.
+- **Drop Google Cloud:** delete the "Pull blog cache" step and the `check` job's
+  pull, pause or delete the scheduler job, and rely on `update_blog.sh`.
+- **Self-hosted runner instead:** register a non-GitHub machine as a runner and
+  set `runs-on` for the build job; the direct fetch would then succeed.
+
 For local maintenance:
 
 ```sh
 python scripts/fetch_posts.py
 python scripts/fetch_posts.py --cached-only  # download known covers without RSS
+python scripts/pull_blog_cache.py            # apply the Google Cloud cache locally
 python scripts/fetch_repos.py
 ```
 
