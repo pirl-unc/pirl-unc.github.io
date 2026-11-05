@@ -94,17 +94,26 @@ def main():
     posts = load_json("posts.json", [])
     repos = load_json("repos.json", [])
 
-    featured = {t["name"].lower() for t in tools.get("featured", [])}
-    by_name = {(r.get("org", site["github_org"]), r["name"]): r for r in repos}
-    pirl_org, vax_org = site["github_org"].lower(), site.get("openvax_org", "openvax").lower()
+    pirl_org = site["github_org"].lower()
+    known = {(r.get("org", pirl_org), r["name"]): r for r in repos}
 
-    def pick(org, names):
-        return [by_name[(org, n)] for n in names if (org, n) in by_name]
+    def resolve(groups):
+        """Attach repo URLs to curated groups, skipping repos that are not public."""
+        out = []
+        for group in groups or []:
+            items = []
+            for item in group.get("items", []):
+                repo = known.get((item.get("org", pirl_org).lower(), item["repo"]))
+                if repo:
+                    items.append({"name": repo["name"], "url": repo["url"],
+                                  "desc": item.get("desc") or repo["description"]})
+            if items:
+                out.append({"title": group["title"], "items": items})
+        return out
 
+    more_tools = resolve(tools.get("more_tools"))
     openvax = dict(tools.get("openvax") or {})
-    openvax["openvax_repos"] = pick(vax_org, openvax.get("repos", []))
-    openvax["pirl_repos"] = pick(pirl_org, openvax.get("pirl_repos", []))
-    repos = [r for r in pick(pirl_org, tools.get("public_repos", [])) if r["name"].lower() not in featured]
+    openvax["groups"] = resolve(openvax.get("groups"))
 
     def asset(local, remote=None):
         """Prefer a committed local file; fall back to the remote (Squarespace) URL."""
@@ -148,7 +157,7 @@ def main():
         "appearance": appearance,
         "posts": posts,
         "recent_posts": posts[: site.get("recent_posts", 6)],
-        "repos": repos,
+        "more_tools": more_tools,
         "openvax": openvax,
     }
 

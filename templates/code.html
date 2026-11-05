@@ -18,59 +18,38 @@
   {% endfor %}
 </section>
 
-{% if repos %}
+{% macro tool_groups(groups) %}
+<div class="tool-groups">
+  {% for group in groups %}
+  <section class="tool-group">
+    <h3>{{ group.title }}</h3>
+    <ul>
+      {% for item in group["items"] %}
+      <li><a href="{{ item.url }}" rel="noopener">{{ item.name }}</a>{% if item.desc %}<span> — {{ item.desc }}</span>{% endif %}</li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endfor %}
+</div>
+{% endmacro %}
+
+{% if more_tools %}
 <section class="repos" aria-labelledby="repos-heading">
   <h2 id="repos-heading">More PIRL tools</h2>
-  <p class="note">Descriptions are pulled from <a href="{{ site.github_url }}" rel="noopener">github.com/{{ site.github_org }}</a> when the site is built.</p>
-  <div class="table-scroll">
-    <table>
-      <thead>
-        <tr><th>Repository</th><th>Description</th><th>Language</th><th>Last push</th></tr>
-      </thead>
-      <tbody>
-        {% for repo in repos %}
-        <tr>
-          <td><a href="{{ repo.url }}" rel="noopener">{{ repo.name }}</a></td>
-          <td>{{ repo.description }}</td>
-          <td>{{ repo.language }}</td>
-          <td><time datetime="{{ repo.pushed_at }}">{{ repo.pushed_at | nice_date }}</time></td>
-        </tr>
-        {% endfor %}
-      </tbody>
-    </table>
-  </div>
+  {{ tool_groups(more_tools) }}
+  <p class="note">Everything else is on <a href="{{ site.github_url }}" rel="noopener">github.com/{{ site.github_org }}</a>.</p>
 </section>
 {% endif %}
 
-{% if openvax.url %}
+{% if openvax.groups %}
 <section class="repos" aria-labelledby="openvax-heading">
   <h2 id="openvax-heading"><a href="{{ openvax.url }}" rel="noopener">OpenVax</a></h2>
-  <p class="note">{{ openvax.intro | safe }}</p>
-  {% for title, group in [("In github.com/openvax", openvax.openvax_repos), ("Now in github.com/" ~ site.github_org, openvax.pirl_repos)] %}
-  {% if group %}
-  <h3>{{ title }}</h3>
-  <div class="table-scroll">
-    <table>
-      <thead>
-        <tr><th>Repository</th><th>Description</th><th>Language</th><th>Last push</th></tr>
-      </thead>
-      <tbody>
-        {% for repo in group %}
-        <tr>
-          <td><a href="{{ repo.url }}" rel="noopener">{{ repo.name }}</a></td>
-          <td>{{ repo.description }}</td>
-          <td>{{ repo.language }}</td>
-          <td><time datetime="{{ repo.pushed_at }}">{{ repo.pushed_at | nice_date }}</time></td>
-        </tr>
-        {% endfor %}
-      </tbody>
-    </table>
-  </div>
-  {% endif %}
-  {% endfor %}
+  <p class="lede">{{ openvax.intro | safe }}</p>
+  {{ tool_groups(openvax.groups) }}
 </section>
 {% endif %}
-{% if not repos and not openvax.url %}
+
+{% if not more_tools and not openvax.groups %}
 <p class="note">More tools are on <a href="{{ site.github_url }}" rel="noopener">GitHub</a>.</p>
 {% endif %}
 {% endblock %}
