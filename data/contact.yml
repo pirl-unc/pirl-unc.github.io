@@ -18,12 +18,12 @@ sections:
 investigators:
   title: Principal Investigators
   contacts:
-  - name: Dr. Benjamin Vincent
+  - name: Dr. Benjamin Vincent, MD
     email: benjamin_vincent@med.unc.edu
     image: assets/contact/contact-1.jpg
   - name: Alex Rubinsteyn, PhD
     email: alex.rubinsteyn@unc.edu
     image: assets/contact/contact-2.png
-  - name: Dr. Jared Weiss
+  - name: Dr. Jared Weiss, MD
     email: jared_weiss@med.unc.edu
     image: assets/contact/contact-3.jpg
