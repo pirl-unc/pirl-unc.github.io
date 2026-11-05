@@ -35,6 +35,12 @@ jobs:
       - name: Check feed parsing and site output
         run: python -m unittest discover -s tests -v
 
+      # Substack challenges GitHub's IPs, so an hourly Google Cloud VM fetches the
+      # feed and publishes the cache to a public bucket (see scripts/gcp/).
+      - name: Pull blog cache from Google Cloud
+        continue-on-error: true
+        run: python scripts/pull_blog_cache.py
+
       - name: Fetch latest blog posts from Substack
         id: feed
         run: python scripts/fetch_posts.py
