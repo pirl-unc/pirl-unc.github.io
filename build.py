@@ -131,9 +131,9 @@ def main():
 
     def post_image(post):
         # A hand-picked cover in site.yml wins over the one taken from the feed.
-        local = cover_overrides.get(post.get("url")) or post.get("image_local")
-        if local and (STATIC / local).is_file():
-            return site_path("/" + local)
+        for local in (cover_overrides.get(post.get("url")), post.get("image_local")):
+            if local and (STATIC / local).is_file():
+                return site_path("/" + local)
         # Serve only downloaded covers: blocked CDNs should not break the page.
         return ""
 
