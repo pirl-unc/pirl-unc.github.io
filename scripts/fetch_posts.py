@@ -9,6 +9,8 @@ import argparse
 import hashlib
 import json
 import os
+import shutil
+import subprocess
 import sys
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -39,13 +41,27 @@ def web_url(value, base=""):
 
 
 def fetch(url):
+    """Download a URL with curl, falling back to urllib if curl is unavailable.
+
+    curl identifies itself as curl. Substack's CDN rejects Python's urllib
+    client with HTTP 403 even from IPs where curl is accepted.
+    """
     if not web_url(url):
         raise ValueError("Expected an HTTP(S) URL")
-    req = urllib.request.Request(url, headers={
-        "User-Agent": "Mozilla/5.0 (compatible; pirl-site-builder/1.0; +https://pirl.unc.edu)",
-    })
-    with urllib.request.urlopen(req, timeout=20) as response:
-        data = response.read(MAX_BYTES + 1)
+    if shutil.which("curl"):
+        result = subprocess.run(
+            ["curl", "--silent", "--show-error", "--fail", "--location",
+             "--proto", "=http,https", "--proto-redir", "=http,https",
+             "--max-time", "30", "--max-filesize", str(MAX_BYTES), url],
+            capture_output=True,
+        )
+        if result.returncode:
+            raise OSError(result.stderr.decode(errors="replace").strip() or f"curl exit {result.returncode}")
+        data = result.stdout
+    else:
+        req = urllib.request.Request(url, headers={"User-Agent": "pirl-site-builder/1.0 (+https://pirl.unc.edu)"})
+        with urllib.request.urlopen(req, timeout=20) as response:
+            data = response.read(MAX_BYTES + 1)
     if len(data) > MAX_BYTES:
         raise ValueError("Response exceeds 12 MB")
     return data

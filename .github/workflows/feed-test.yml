@@ -1,0 +1,22 @@
+name: Feed test (temporary)
+on:
+  push:
+    branches: [papers-figures-and-feed-alert]
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: curl probe
+        run: |
+          for i in 1 2 3; do curl -s -o /dev/null -w "curl-$i: %{http_code}\n" https://pirlblog.substack.com/feed; done
+          curl --version | head -1
+      - name: fetch_posts.py (read-only, no commit)
+        run: |
+          cp data/posts.json /tmp/posts.before
+          python scripts/fetch_posts.py
+          echo "exit=$?"
