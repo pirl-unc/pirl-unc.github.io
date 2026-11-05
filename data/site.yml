@@ -17,6 +17,11 @@ lineberger_url: https://unclineberger.org
 # How many blog posts to show on the home page
 recent_posts: 6
 
+# Optional hand-picked covers for blog cards, keyed by post URL. Use when the
+# Substack cover reads poorly at card size. Files live in static/assets/posts/.
+post_covers:
+  https://pirlblog.substack.com/p/quantifying-tumor-antigen-heterogeneity: assets/posts/tahp-network.png
+
 nav:
   - { label: Home,    href: /,            page: index }
   - { label: People,  href: /people/,     page: people }

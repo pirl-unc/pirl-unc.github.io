@@ -19,10 +19,12 @@ featured:
   description: Parses and standardizes MHC allele names across species and the many naming
     schemes found in the wild.
 - name: RAFT
-  url: https://github.com/pirl-unc/raft
+  url: https://useraft.io
+  image: assets/code/code-6.png
   description: "Reproducible Analyses Framework and Tools: configures and runs reproducible Nextflow analyses."
 - name: Exacto
   url: https://github.com/pirl-unc/exacto
+  image: assets/code/code-5.png
   description: "Long-read toolkit that turns DNA and RNA variants into annotated mutant proteoforms and peptides."
 # Short lists under "More PIRL tools" and "OpenVax". `repo` must exist in
 # github.com/<org> (it is skipped otherwise); `org` defaults to the PIRL org.
@@ -34,14 +36,12 @@ more_tools:
   - { repo: hitlist, desc: "Curated mass-spectrometry evidence for MHC ligands from IEDB and CEDAR." }
   - { repo: weirdo, desc: "Metrics of immunological foreignness for candidate T-cell epitopes." }
   - { repo: golfy, desc: "Heuristic solver for pooled peptide experiment design." }
-- title: Reference data and expression
+- title: Data, expression and variants
   items:
   - { repo: oncoref, desc: "Curated cancer reference data: ontology, TMB, incidence and mortality, expression." }
   - { repo: mhcseqs, desc: "MHC sequences." }
   - { repo: pirlygenes, desc: "Gene sets for cancer immunotherapy expression analysis." }
   - { repo: trufflepig, desc: "Step-by-step RNA tumor analysis driven by the pirlygenes gene sets." }
-- title: Variants
-  items:
   - { repo: vstol, desc: "Variant Standardization, Tabulation, and Operations Library." }
 - title: Workflow and infrastructure
   items:
@@ -56,10 +56,8 @@ openvax:
   - title: MHC binding prediction
     items:
     - { repo: mhcflurry, org: openvax, desc: "Peptide-MHC class I binding affinity prediction." }
-    - { repo: mhc2flurry, org: openvax, desc: "MHC class II binding prediction (in development)." }
     - { repo: mhctools, org: openvax, desc: "Python interface to command-line and web MHC binding predictors." }
-    - { repo: mhcnames, org: openvax, desc: "MHC allele naming in Python." }
-    - { repo: mhcgnomes, desc: "Parsing MHC nomenclature in the wild (successor to mhcnames)." }
+    - { repo: mhcgnomes, desc: "Parsing MHC nomenclature in the wild." }
   - title: Variants and RNA
     items:
     - { repo: varcode, org: openvax, desc: "Manipulate genomic variants and predict their effects." }
@@ -75,8 +73,6 @@ openvax:
     - { repo: tsarina, desc: "Tumor-specific antigen discovery from curated shared-antigen data." }
   - title: Data and utilities
     items:
-    - { repo: pepdata, org: openvax, desc: "Python interface to amino acid properties and IEDB." }
-    - { repo: pepnet, org: openvax, desc: "Neural networks for amino acid sequences." }
     - { repo: datacache, org: openvax, desc: "Helpers for transparently downloading datasets." }
     - { repo: hitlist, desc: "Curated mass-spectrometry MHC ligand evidence." }
     - { repo: oncoref, desc: "Curated cancer reference data used across the OpenVax and PIRL libraries." }
