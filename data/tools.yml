@@ -46,8 +46,6 @@ more_tools:
   - { repo: tsarina, desc: "Tumor-specific antigen discovery: personalized immunotherapy targets from curated shared-antigen data." }
   - { repo: hitlist, desc: "Curated mass-spectrometry evidence for MHC ligands from IEDB and CEDAR." }
   - { repo: weirdo, desc: "Metrics of immunological foreignness for candidate T-cell epitopes." }
-  - { repo: stig, desc: "Synthetic T-cell Informatics Generator." }
-  - { repo: hf-tcr, desc: "HuggingFace scaffolding for TCR generation and evaluation." }
   - { repo: golfy, desc: "Heuristic solver for pooled peptide experiment design." }
 - title: Reference data and expression
   items:
@@ -55,9 +53,8 @@ more_tools:
   - { repo: mhcseqs, desc: "MHC sequences." }
   - { repo: pirlygenes, desc: "Gene sets for cancer immunotherapy expression analysis." }
   - { repo: trufflepig, desc: "Step-by-step RNA tumor analysis driven by the pirlygenes gene sets." }
-- title: Variants and long reads
+- title: Variants
   items:
-  - { repo: variform, desc: "Variant isoform detection for large mutations in long-read RNA sequencing." }
   - { repo: vstol, desc: "Variant Standardization, Tabulation, and Operations Library." }
 - title: Workflow and infrastructure
   items:
