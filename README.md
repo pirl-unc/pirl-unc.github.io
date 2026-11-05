@@ -78,7 +78,7 @@ layout follows the group rather than its position in the file.
 
 ### Add a publication
 
-Add to the top of `papers:` in `data/papers.yml`. This example shows the schema;
+Add an entry anywhere under `papers:` in `data/papers.yml`; the page sorts by `year`, newest first. This example shows the schema;
 replace all example content and supply the image file before merging:
 
 ```yaml
@@ -97,8 +97,8 @@ replace all example content and supply the image file before merging:
 Entries without figures use a separated, full-width text layout.
 
 Put the figure at `static/assets/papers/example-paper.png`. For no figure use
-`images: []`. The template displays title, authors, figures, and paragraphs;
-`venue` and `year` are metadata and are not currently displayed. Verify the
+`images: []`. The page displays title, venue and year, authors, figures, and
+paragraphs. Figures look best at least 800 px wide. Verify the
 publication link before merging. Use `paragraphs` as the single description
 source; do not add a duplicate `summary` field.
 

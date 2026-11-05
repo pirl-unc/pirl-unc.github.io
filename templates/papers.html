@@ -6,7 +6,7 @@
 <h1 class="page-title">{{ papers.title }}</h1>
 
 <ol class="paper-list">
-  {% for paper in papers.papers | sort(attribute='year', reverse=true) %}
+  {% for paper in papers.papers %}
   <li class="paper{% if not paper.images %} paper-text-only{% endif %}">
     {% if paper.images %}<div class="paper-images{% if paper.image_style %} paper-images-{{ paper.image_style }}{% endif %}">{% for image in paper.images %}<img src="{{ asset(image) }}" alt="Figure from {{ paper.title }}" loading="lazy">{% endfor %}</div>{% endif %}
     <div class="paper-text">
