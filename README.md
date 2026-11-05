@@ -197,6 +197,12 @@ available. A successful deployment can therefore still contain older posts:
 check the refresh step's warnings if an article is missing. Repository-refresh
 failures likewise keep the existing repository cache.
 
+Substack currently returns HTTP 403 to GitHub's CI runners, so the scheduled
+refresh usually keeps the cache. **After publishing a post on Substack, run
+`./scripts/update_blog.sh`** from your own machine: it fetches the feed, commits
+the cache and pushes, and the site rebuilds. If the feed goes 14 days without a
+successful refresh, the `feed-alert` job fails the workflow run as a reminder.
+
 To refresh manually, open Actions → Build and deploy → Run workflow (`main`).
 For local maintenance:
 
