@@ -14,7 +14,7 @@ groups:
   - title: Principal Investigators
     layout: investigators
     people:
-      - name: Dr. Benjamin Vincent
+      - name: Dr. Benjamin Vincent, MD
         photo: ben.jpg
         photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/1637788292770-NFXP1JFWC2S260XIV8KA/ben.jpg
         links:
@@ -32,7 +32,7 @@ groups:
           - GitHub: https://github.com/iskandr/
           - Twitter: https://twitter.com/iskander
 
-      - name: Dr. Jared Weiss
+      - name: Dr. Jared Weiss, MD
         photo: jared-weiss.jpg
         photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/1637788451654-7XWURL0P577LM9K259U7/jared-weiss.jpg
         links:
@@ -42,7 +42,7 @@ groups:
 
   - title: Lab Members
     people:
-      - name: Dr. Jeffrey Jensen
+      - name: Dr. Jeffrey Jensen, MD, PhD
         role: Clinical Instructor
         photo: jeffrey-jensen.jpg
         photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/93b4572a-8a80-4681-9d87-058c5eb87096/Jensen+Jeffrey_0251+%282%29+-+Copy.JPG
@@ -97,12 +97,12 @@ groups:
           - Scholar: https://scholar.google.com/citations?hl=en&user=iMYzStcAAAAJ
           - ORCID: https://orcid.org/0000-0001-9399-5999
 
-      - name: Dr. Mark Woodcock
+      - name: Dr. Mark Woodcock, MD
         role: Clinical Instructor
         photo: mark-woodcock.jpg
         photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/1641878780837-UFMGP6YCG5WGKEJOONU2/Mark-Woodcock.jpg
 
-      - name: Dr. Abner A. Murray
+      - name: Dr. Abner A. Murray, MD, PhD
         role: Hematology/Oncology Fellow
         photo: abner-murray.jpg
         photo_url: https://images.squarespace-cdn.com/content/v1/619b19b00e6201426c4a9a4c/65dee29b-d784-4c05-8571-c7d6b6dd40bb/Headshot+Abner+Casual.jpeg
@@ -169,6 +169,11 @@ groups:
   - title: Alumni
     layout: alumni
     people:
+      - name: Kristen Gilley
+        role: Graduate Research Assistant
+        links:
+          - Bio: https://www.med.unc.edu/pharm/directory/kristen-gilley/
+
       - name: Sadie Milhous
         role: Graduate Research Assistant
         photo: sadie-milhous.png
