@@ -38,10 +38,10 @@
     "url": "https://pirlblog.substack.com/p/quantifying-tumor-antigen-heterogeneity",
     "date": "2025-10-17",
     "author": "Steven P. Vensko II",
-    "image": "https://substackcdn.com/image/fetch/$s_!5Ste!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff284cc70-2b04-4554-ba6a-ff3cd5166ee7_2040x798.png",
+    "image": "https://substackcdn.com/image/fetch/$s_!InVH!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa91040d7-6076-48b0-8515-efac4b618d70_875x748.png",
     "excerpt": "Tumor antigens play a crucial role in guiding therapeutic development. Some are tumor-specific (i.e. neoantigens), such as somatic single nucleotide variants (SNVs), structural variants (SVs), and cancer-testis antigens (CTAs) while others are tumor-associated. Unfortunately, several factors, including tumor heterogeneity, complicate the effective targeting of these tumor antigens. Here, we introduce TAHP (Tumor Antigen Heterogeneity Profiler), a tool to turn single-cell…",
-    "image_local": "assets/posts/95e6e3fdfec5a537cba9.png",
-    "image_cached_url": "https://substackcdn.com/image/fetch/$s_!5Ste!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff284cc70-2b04-4554-ba6a-ff3cd5166ee7_2040x798.png"
+    "image_local": "assets/posts/7d5f888aec210117ba92.jpg",
+    "image_cached_url": "https://substackcdn.com/image/fetch/$s_!InVH!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa91040d7-6076-48b0-8515-efac4b618d70_875x748.png"
   },
   {
     "title": "Expanding the Unified Grammar for RNA Variants",
