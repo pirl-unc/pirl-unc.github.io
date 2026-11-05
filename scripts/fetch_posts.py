@@ -8,9 +8,13 @@ Use --cached-only to download covers for an existing post cache without RSS.
 import argparse
 import hashlib
 import json
+import os
+import shutil
+import subprocess
 import sys
 import urllib.request
 import xml.etree.ElementTree as ET
+from datetime import date
 from email.utils import parsedate_to_datetime
 from html.parser import HTMLParser
 from pathlib import Path
@@ -22,6 +26,7 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "data" / "posts.json"
 STATIC = ROOT / "static"
 MAX_POSTS = 20
+STALE_AFTER_DAYS = 14
 MAX_BYTES = 12 * 1024 * 1024
 NS = {
     "content": "http://purl.org/rss/1.0/modules/content/",
@@ -36,13 +41,27 @@ def web_url(value, base=""):
 
 
 def fetch(url):
+    """Download a URL with curl, falling back to urllib if curl is unavailable.
+
+    curl identifies itself as curl. Substack's CDN rejects Python's urllib
+    client with HTTP 403 even from IPs where curl is accepted.
+    """
     if not web_url(url):
         raise ValueError("Expected an HTTP(S) URL")
-    req = urllib.request.Request(url, headers={
-        "User-Agent": "Mozilla/5.0 (compatible; pirl-site-builder/1.0; +https://pirl.unc.edu)",
-    })
-    with urllib.request.urlopen(req, timeout=20) as response:
-        data = response.read(MAX_BYTES + 1)
+    if shutil.which("curl"):
+        result = subprocess.run(
+            ["curl", "--silent", "--show-error", "--fail", "--location",
+             "--proto", "=http,https", "--proto-redir", "=http,https",
+             "--max-time", "30", "--max-filesize", str(MAX_BYTES), url],
+            capture_output=True,
+        )
+        if result.returncode:
+            raise OSError(result.stderr.decode(errors="replace").strip() or f"curl exit {result.returncode}")
+        data = result.stdout
+    else:
+        req = urllib.request.Request(url, headers={"User-Agent": "pirl-site-builder/1.0 (+https://pirl.unc.edu)"})
+        with urllib.request.urlopen(req, timeout=20) as response:
+            data = response.read(MAX_BYTES + 1)
     if len(data) > MAX_BYTES:
         raise ValueError("Response exceeds 12 MB")
     return data
@@ -189,6 +208,38 @@ def read_cache():
     return []
 
 
+def status_path():
+    return OUT.with_name("posts_status.json")
+
+
+def read_last_refresh():
+    try:
+        return date.fromisoformat(json.loads(status_path().read_text())["last_refreshed"])
+    except (OSError, ValueError, KeyError, TypeError):
+        return None
+
+
+def write_last_refresh(day):
+    atomic_write(status_path(), (json.dumps({"last_refreshed": day.isoformat()}) + "\n").encode())
+
+
+def report_staleness(today=None):
+    """Flag a feed that has failed to refresh for too long, so a stale blog is noticed."""
+    today = today or date.today()
+    last = read_last_refresh()
+    if last is None:
+        write_last_refresh(today)  # first failure: start the clock from the cached data
+        return False
+    age = (today - last).days
+    if age < STALE_AFTER_DAYS:
+        return False
+    print(f"::error::Blog feed has not refreshed in {age} days; the site is showing cached posts")
+    if os.environ.get("GITHUB_OUTPUT"):
+        with open(os.environ["GITHUB_OUTPUT"], "a") as handle:
+            handle.write("feed_stale=true\n")
+    return True
+
+
 def main(cached_only=False):
     previous = read_cache()
     if cached_only:
@@ -202,6 +253,8 @@ def main(cached_only=False):
         except Exception as exc:
             print(f"::warning::Could not refresh RSS: {exc}")
             print("Keeping cached posts" if previous else "No valid post cache; import failed")
+            if previous:
+                report_staleness()
             return 0 if previous else 1
     if not posts:
         return 1
@@ -211,6 +264,8 @@ def main(cached_only=False):
             post["excerpt"] = previous_by_url.get(post["url"], {}).get("excerpt", "")
     cache_images(posts, previous)
     atomic_write(OUT, (json.dumps(posts, indent=2, ensure_ascii=False) + "\n").encode())
+    if not cached_only:
+        write_last_refresh(date.today())
     print(f"Saved {len(posts)} posts, {sum(bool(p.get('image_local')) for p in posts)} local covers")
     return 0
 

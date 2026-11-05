@@ -94,8 +94,17 @@ def main():
     posts = load_json("posts.json", [])
     repos = load_json("repos.json", [])
 
-    hidden = set(tools.get("hide_repos") or [])
-    repos = [r for r in repos if r["name"] not in hidden]
+    featured = {t["name"].lower() for t in tools.get("featured", [])}
+    by_name = {(r.get("org", site["github_org"]), r["name"]): r for r in repos}
+    pirl_org, vax_org = site["github_org"].lower(), site.get("openvax_org", "openvax").lower()
+
+    def pick(org, names):
+        return [by_name[(org, n)] for n in names if (org, n) in by_name]
+
+    openvax = dict(tools.get("openvax") or {})
+    openvax["openvax_repos"] = pick(vax_org, openvax.get("repos", []))
+    openvax["pirl_repos"] = pick(pirl_org, openvax.get("pirl_repos", []))
+    repos = [r for r in pick(pirl_org, tools.get("public_repos", [])) if r["name"].lower() not in featured]
 
     def asset(local, remote=None):
         """Prefer a committed local file; fall back to the remote (Squarespace) URL."""
@@ -140,6 +149,7 @@ def main():
         "posts": posts,
         "recent_posts": posts[: site.get("recent_posts", 6)],
         "repos": repos,
+        "openvax": openvax,
     }
 
     if OUT.exists():

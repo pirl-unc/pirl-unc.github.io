@@ -4,8 +4,11 @@ on:
   push:
     branches: [main]
   schedule:
-    # Every 6 hours. GitHub may delay scheduled runs by a few minutes.
+    # Full build every 6 hours (refreshes the repo list too). GitHub may delay
+    # scheduled runs by a few minutes.
     - cron: "23 */6 * * *"
+    # Hourly: only rebuild when the Google Cloud fetcher published new blog content.
+    - cron: "37 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -18,8 +21,42 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build:
+  # Decide whether this run needs a full build. Pushes, manual runs and the
+  # 6-hourly schedule always build; the hourly schedule builds only if the blog
+  # cache published by the Google Cloud VM (scripts/gcp/) changed.
+  check:
     runs-on: ubuntu-latest
+    outputs:
+      run: ${{ steps.decide.outputs.run }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - id: decide
+        env:
+          EVENT: ${{ github.event_name }}
+          SCHEDULE: ${{ github.event.schedule }}
+        run: |
+          python scripts/pull_blog_cache.py || echo "Could not read the Google Cloud cache"
+          if [ "$EVENT" != "schedule" ] || [ "$SCHEDULE" = "23 */6 * * *" ]; then
+            run=true
+          elif ! git diff --quiet -- data/posts.json static/assets/posts \
+               || [ -n "$(git ls-files --others --exclude-standard static/assets/posts)" ]; then
+            echo "New blog content from Google Cloud"
+            run=true
+          else
+            echo "No new blog content; skipping build"
+            run=false
+          fi
+          echo "run=$run" >> "$GITHUB_OUTPUT"
+
+  build:
+    needs: check
+    if: needs.check.outputs.run == 'true'
+    runs-on: ubuntu-latest
+    outputs:
+      feed_stale: ${{ steps.feed.outputs.feed_stale }}
     steps:
       - uses: actions/checkout@v4
 
@@ -33,7 +70,14 @@ jobs:
       - name: Check feed parsing and site output
         run: python -m unittest discover -s tests -v
 
+      # Substack challenges GitHub's IPs, so an hourly Google Cloud VM fetches the
+      # feed and publishes the cache to a public bucket (see scripts/gcp/).
+      - name: Pull blog cache from Google Cloud
+        continue-on-error: true
+        run: python scripts/pull_blog_cache.py
+
       - name: Fetch latest blog posts from Substack
+        id: feed
         run: python scripts/fetch_posts.py
 
       - name: Fetch repository list from GitHub
@@ -45,7 +89,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/posts.json data/repos.json static/assets/posts/
+          git add data/posts.json data/posts_status.json data/repos.json static/assets/posts/
           if git diff --cached --quiet; then
             echo "No content changes"
           else
@@ -75,3 +119,14 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+
+  # Deploys independently; this job only turns a long-stale blog feed into a
+  # failed run so GitHub notifies the repo owners.
+  feed-alert:
+    needs: build
+    if: needs.build.outputs.feed_stale == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "::error::Substack feed has not refreshed for 14+ days (likely HTTP 403 to CI). Run scripts/fetch_posts.py locally and commit data/posts.json."
+          exit 1

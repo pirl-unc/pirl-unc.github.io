@@ -37,4 +37,65 @@ featured:
   description: A long-read toolkit for mutant proteoform prediction that integrates DNA
     and RNA variants, assembles transcripts, and translates them into annotated proteoforms
     and mutant peptides.
-hide_repos: []
+# Repositories in github.com/pirl-unc listed under "More PIRL tools" (everything else is hidden).
+# Featured tools above are not repeated.
+public_repos:
+- mhcseqs
+- oncoref
+- weirdo
+- presto
+- tsarina
+- hitlist
+- pirlygenes
+- trufflepig
+- hf-tcr
+- raft-ui
+- nexus
+- runplz
+- vstol
+- squid-tui
+- golfy
+- perseo
+- lens
+- variform
+- stig
+- tahp
+- immproper
+- yolotrim
+openvax:
+  url: https://openvax.org
+  intro: PIRL maintains the <a href="https://openvax.org">OpenVax</a> tools for cancer
+    immunogenomics and neoantigen vaccine design. They live in two places, listed below.
+  # Repositories in github.com/openvax (software only; data and template repos omitted).
+  repos:
+  - mhcflurry
+  - mhc2flurry
+  - mhcdouble
+  - mhctools
+  - mhcnames
+  - topiary
+  - vaxrank
+  - varcode
+  - isovar
+  - varlens
+  - pyensembl
+  - gtfparse
+  - pepdata
+  - pepnet
+  - datacache
+  - serializable
+  - sercol
+  - typechecks
+  - vafster
+  - synoptiko
+  - phipkit
+  - proteopt
+  - neoantigen-vaccine-pipeline
+  # OpenVax tools that now live in github.com/pirl-unc (also shown above or featured).
+  pirl_repos:
+  - mhcgnomes
+  - mhcseqs
+  - oncoref
+  - hitlist
+  - tsarina
+  - weirdo

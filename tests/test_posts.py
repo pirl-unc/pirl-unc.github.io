@@ -52,6 +52,17 @@ class FeedTests(unittest.TestCase):
                 self.assertEqual(feed.main(), 0)
                 self.assertEqual(path.read_bytes(), original)
 
+    def test_stale_feed_is_reported_after_two_weeks(self):
+        from datetime import date
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / 'posts.json'
+            with patch.object(feed, 'OUT', path):
+                self.assertFalse(feed.report_staleness(date(2026, 1, 1)))  # starts the clock
+                self.assertFalse(feed.report_staleness(date(2026, 1, 10)))
+                self.assertTrue(feed.report_staleness(date(2026, 1, 15)))
+                feed.write_last_refresh(date(2026, 1, 15))
+                self.assertFalse(feed.report_staleness(date(2026, 1, 20)))
+
     def test_failed_first_import_reports_failure(self):
         with tempfile.TemporaryDirectory() as directory:
             with patch.object(feed, 'OUT', Path(directory) / 'posts.json'), patch.object(feed, 'fetch', return_value=b'<html/>'):

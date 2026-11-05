@@ -32,30 +32,28 @@ def fetch_json(url: str, token: str | None):
 
 def main() -> int:
     site = yaml.safe_load((ROOT / "data" / "site.yml").read_text())
-    org = site["github_org"]
+    orgs = [site["github_org"], site.get("openvax_org")]
     token = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
 
     repos = []
-    page = 1
     try:
-        while True:
-            batch = fetch_json(
-                f"https://api.github.com/orgs/{org}/repos?type=public&per_page=100&page={page}",
-                token,
-            )
-            if not batch:
-                break
-            repos.extend(batch)
-            page += 1
-            if page > 10:
-                break
+        for org in filter(None, orgs):
+            for page in range(1, 11):
+                batch = fetch_json(
+                    f"https://api.github.com/orgs/{org}/repos?type=public&per_page=100&page={page}",
+                    token,
+                )
+                if not batch:
+                    break
+                repos.extend(batch)
     except Exception as exc:  # noqa: BLE001
-        print(f"::warning::Could not refresh repos for {org}: {exc}")
+        print(f"::warning::Could not refresh repos: {exc}")
         print("Keeping existing data/repos.json")
         return 0
 
     cleaned = [
         {
+            "org": r["owner"]["login"].lower(),
             "name": r["name"],
             "description": r.get("description") or "",
             "url": r["html_url"],

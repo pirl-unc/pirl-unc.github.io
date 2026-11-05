@@ -23,7 +23,8 @@ papers:
   venue: Nature Machine Intelligence
   year: 2025
   url: https://doi.org/10.1038/s42256-025-01096-6
-  images: []
+  images:
+  - assets/papers/papers-7.png
   paragraphs:
   - We introduce TCR-TRANSLATE, a sequence-to-sequence framework that adapts methods from
     low-resource machine translation to generate T-cell receptor sequences conditioned
@@ -58,7 +59,8 @@ papers:
   venue: Nature Cancer
   year: 2025
   url: https://doi.org/10.1038/s43018-025-00966-7
-  images: []
+  images:
+  - assets/papers/papers-8.png
   paragraphs:
   - This phase 1 trial evaluates the combination of atezolizumab and personalized neoantigen
     vaccination in urothelial cancer, examining the feasibility, safety, and immune responses
@@ -69,7 +71,8 @@ papers:
   venue: Bioinformatics
   year: 2023
   url: https://doi.org/10.1093/bioinformatics/btad322
-  images: []
+  images:
+  - assets/papers/papers-9.jpg
   paragraphs:
   - LENS is an open-source Nextflow workflow for predicting tumor antigens from mutations,
     gene fusions, splice variants, cancer/testis antigens, overexpressed genes, and viral
