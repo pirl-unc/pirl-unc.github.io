@@ -1,5 +1,25 @@
 [
   {
+    "org": "openvax",
+    "name": "mhctools",
+    "description": "Python interface to running command-line and web-based MHC binding predictors",
+    "url": "https://github.com/openvax/mhctools",
+    "language": "Python",
+    "stars": 110,
+    "pushed_at": "2026-11-06",
+    "topics": []
+  },
+  {
+    "org": "openvax",
+    "name": "mhcflurry",
+    "description": "Peptide-MHC I binding affinity prediction",
+    "url": "https://github.com/openvax/mhcflurry",
+    "language": "Python",
+    "stars": 281,
+    "pushed_at": "2026-11-06",
+    "topics": []
+  },
+  {
     "org": "pirl-unc",
     "name": "mhcgnomes",
     "description": "Parsing MHC nomenclature in the wild",
@@ -81,31 +101,11 @@
   },
   {
     "org": "openvax",
-    "name": "mhctools",
-    "description": "Python interface to running command-line and web-based MHC binding predictors",
-    "url": "https://github.com/openvax/mhctools",
-    "language": "Python",
-    "stars": 110,
-    "pushed_at": "2026-11-05",
-    "topics": []
-  },
-  {
-    "org": "openvax",
     "name": "topiary",
     "description": "Predict mutated T-cell epitopes from sequencing data",
     "url": "https://github.com/openvax/topiary",
     "language": "Python",
     "stars": 31,
-    "pushed_at": "2026-11-05",
-    "topics": []
-  },
-  {
-    "org": "openvax",
-    "name": "mhcflurry",
-    "description": "Peptide-MHC I binding affinity prediction",
-    "url": "https://github.com/openvax/mhcflurry",
-    "language": "Python",
-    "stars": 281,
     "pushed_at": "2026-11-05",
     "topics": []
   },
