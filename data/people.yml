@@ -169,10 +169,17 @@ groups:
   - title: Alumni
     layout: alumni
     people:
-      - name: Kristen Gilley
+      - name: Kristen Gilley, PhD
         role: Graduate Research Assistant
         links:
+          - ORCID: https://orcid.org/0000-0002-1988-9845
           - Bio: https://www.med.unc.edu/pharm/directory/kristen-gilley/
+
+      - name: Kaylee Gentry, MS
+        role: Lab Manager
+        photo: kaylee-gentry.jpg
+        links:
+          - ORCID: https://orcid.org/0000-0003-2403-9148
 
       - name: Sadie Milhous
         role: Graduate Research Assistant
