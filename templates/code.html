@@ -19,18 +19,19 @@
 </section>
 
 {% macro tool_groups(groups) %}
-<div class="tool-groups">
-  {% for group in groups %}
-  <section class="tool-group">
-    <h3>{{ group.title }}</h3>
-    <ul>
-      {% for item in group["items"] %}
-      <li><a href="{{ item.url }}" rel="noopener">{{ item.name }}</a>{% if item.desc %}<span> — {{ item.desc }}</span>{% endif %}</li>
-      {% endfor %}
-    </ul>
-  </section>
-  {% endfor %}
-</div>
+{% for group in groups %}
+<section class="tool-group">
+  <h3>{{ group.title }}</h3>
+  <dl class="tool-list">
+    {% for item in group["items"] %}
+    <div>
+      <dt><a href="{{ item.url }}" rel="noopener">{{ item.name }}</a></dt>
+      {% if item.desc %}<dd>{{ item.desc }}</dd>{% endif %}
+    </div>
+    {% endfor %}
+  </dl>
+</section>
+{% endfor %}
 {% endmacro %}
 
 {% if more_tools %}
@@ -43,7 +44,7 @@
 
 {% if openvax.groups %}
 <section class="repos" aria-labelledby="openvax-heading">
-  <h2 id="openvax-heading"><a href="{{ openvax.url }}" rel="noopener">OpenVax</a></h2>
+  <h2 id="openvax-heading">OpenVax</h2>
   <p class="lede">{{ openvax.intro | safe }}</p>
   {{ tool_groups(openvax.groups) }}
 </section>

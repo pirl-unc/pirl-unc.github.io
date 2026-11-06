@@ -21,58 +21,116 @@ featured:
 - name: RAFT
   url: https://useraft.io
   image: assets/code/code-6.png
-  description: "Reproducible Analyses Framework and Tools: configures and runs reproducible Nextflow analyses."
+  description: "Reproducible Analyses Framework and Tools, for setting up and running reproducible Nextflow analyses."
 - name: Exacto
   url: https://github.com/pirl-unc/exacto
   image: assets/code/code-5.png
   description: "Long-read toolkit that turns DNA and RNA variants into annotated mutant proteoforms and peptides."
-# Short lists under "More PIRL tools" and "OpenVax". `repo` must exist in
+# Lists under "More PIRL tools" and "OpenVax". `repo` must exist in
 # github.com/<org> (it is skipped otherwise); `org` defaults to the PIRL org.
+# `name` is the display name; it defaults to the repo name.
 more_tools:
-- title: Immunology and antigen discovery
+- title: Antigens and T-cell recognition
   items:
-  - { repo: presto, desc: "All of T-cell:pMHC prediction in one model." }
-  - { repo: tsarina, desc: "Tumor-specific antigen discovery: personalized immunotherapy targets from curated shared-antigen data." }
-  - { repo: hitlist, desc: "Curated mass-spectrometry evidence for MHC ligands from IEDB and CEDAR." }
-  - { repo: weirdo, desc: "Metrics of immunological foreignness for candidate T-cell epitopes." }
-  - { repo: golfy, desc: "Heuristic solver for pooled peptide experiment design." }
-- title: Data, expression and variants
+  - repo: presto
+    name: Presto
+    desc: Predicts peptide-MHC binding, antigen presentation and T-cell recognition with a single unified model.
+  - repo: tsarina
+    name: Tsarina
+    desc: Selects shared cancer immunotherapy targets, such as cancer-testis antigens, viral antigens and recurrent mutations, for one patient or a population HLA panel.
+  - repo: hitlist
+    name: Hitlist
+    desc: A curated store of MHC ligand, T-cell, mass spectrometry and expression evidence, traceable to its sources, for training immunology models.
+  - repo: weirdo
+    name: WEIRDO
+    desc: Scores how foreign a peptide looks to the immune system by predicting which kinds of organisms have proteins that contain it.
+  - repo: golfy
+    name: Golfy
+    desc: Designs pooled peptide experiments, such as combinatorial ELISpot epitope mapping, and deconvolves the results to identify the responding peptides.
+- title: Tumor RNA and variants
   items:
-  - { repo: oncoref, desc: "Curated cancer reference data: ontology, TMB, incidence and mortality, expression." }
-  - { repo: mhcseqs, desc: "MHC sequences." }
-  - { repo: pirlygenes, desc: "Gene sets for cancer immunotherapy expression analysis." }
-  - { repo: trufflepig, desc: "Step-by-step RNA tumor analysis driven by the pirlygenes gene sets." }
-  - { repo: vstol, desc: "Variant Standardization, Tabulation, and Operations Library." }
-- title: Workflow and infrastructure
+  - repo: pirlygenes
+    name: pirlygenes
+    desc: Curated cancer gene sets and reference expression data that serve as the data layer for tumor RNA-seq analysis.
+  - repo: trufflepig
+    name: trufflepig
+    desc: Analyzes tumor RNA-seq samples with the pirlygenes gene sets and produces plots and reports, from the command line or a web interface.
+  - repo: vstol
+    name: VSTOL
+    desc: Converts small and structural DNA variants from VCF files into a standard table format, then annotates, compares and merges variant lists.
+- title: Workflows and computing
   items:
-  - { repo: nexus, desc: "A command-line streamliner for Nextflow pipelines." }
-  - { repo: raft-ui, desc: "Web interface for generating RAFT manifests and configuration files." }
-  - { repo: squid-tui, desc: "Terminal dashboard for organizing and managing Slurm jobs." }
-  - { repo: runplz, desc: "A tiny Modal-shaped job harness." }
+  - repo: nexus
+    name: Nexus
+    desc: A command-line tool for running bioinformatics workflows written in Nextflow.
+  - repo: raft-ui
+    name: RAFT UI
+    desc: Browser-based tools for creating RAFT manifests and configuration files and for viewing RAFT and LENS results.
+  - repo: squid-tui
+    name: Squid-TUI
+    desc: A terminal dashboard for monitoring, organizing and cancelling Slurm jobs on a compute cluster.
+  - repo: runplz
+    name: runplz
+    desc: A lightweight, Modal-style harness that runs a decorated Python function as a job on several compute backends.
 openvax:
   url: https://openvax.org
-  intro: PIRL maintains the <a href="https://openvax.org">OpenVax</a> tools for cancer immunogenomics and neoantigen vaccine design.
+  intro: PIRL maintains the <a href="https://openvax.org">OpenVax</a> tools for cancer immunogenomics and neoantigen vaccine design, including MHCgnomes above.
   groups:
-  - title: MHC binding prediction
+  - title: MHC binding and alleles
     items:
-    - { repo: mhcflurry, org: openvax, desc: "Peptide-MHC class I binding affinity prediction." }
-    - { repo: mhctools, org: openvax, desc: "Python interface to command-line and web MHC binding predictors." }
-    - { repo: mhcgnomes, desc: "Parsing MHC nomenclature in the wild." }
-  - title: Variants and RNA
+    - repo: mhcflurry
+      org: openvax
+      name: MHCflurry
+      desc: Predicts which peptides MHC class I molecules are likely to display, scoring binding affinity, antigen processing and overall presentation.
+    - repo: mhctools
+      org: openvax
+      name: mhctools
+      desc: One Python interface for running MHC binding, presentation and immunogenicity predictors such as NetMHCpan and MHCflurry.
+    - repo: mhcseqs
+      name: mhcseqs
+      desc: Returns the curated protein sequence for an MHC allele name, split into signal peptide, peptide-binding groove and other structural domains.
+  - title: Variants, RNA and gene annotation
     items:
-    - { repo: varcode, org: openvax, desc: "Manipulate genomic variants and predict their effects." }
-    - { repo: isovar, org: openvax, desc: "Assemble RNA reads to determine the effect of a cancer mutation." }
-    - { repo: varlens, org: openvax, desc: "Command-line manipulation of variants and NGS reads." }
-    - { repo: pyensembl, org: openvax, desc: "Python interface to Ensembl reference genome annotations." }
-    - { repo: gtfparse, org: openvax, desc: "Parsing tools for GTF files." }
+    - repo: varcode
+      org: openvax
+      name: Varcode
+      desc: Predicts how genomic variants from VCF or MAF files change genes, transcripts and proteins, including the resulting mutant protein sequence.
+    - repo: isovar
+      org: openvax
+      name: Isovar
+      desc: Assembles tumor RNA-seq reads around each somatic mutation to find the mutant protein sequence the tumor actually expresses.
+    - repo: varlens
+      org: openvax
+      name: varlens
+      desc: Command-line tools that combine, annotate and filter variants and pull supporting read evidence from BAM files into tables.
+    - repo: pyensembl
+      org: openvax
+      name: PyEnsembl
+      desc: Looks up genes, transcripts, exons and their sequences in a pinned Ensembl release or your own annotation files, with queries run locally.
+    - repo: gtfparse
+      org: openvax
+      name: gtfparse
+      desc: Reads GTF gene annotation files, such as those from Ensembl and GENCODE, into pandas tables and writes them back out.
   - title: Vaccine design
     items:
-    - { repo: vaxrank, org: openvax, desc: "Ranked vaccine peptides for personalized cancer immunotherapy." }
-    - { repo: topiary, org: openvax, desc: "Predict mutated T-cell epitopes from sequencing data." }
-    - { repo: neoantigen-vaccine-pipeline, org: openvax, desc: "Pipeline for selecting patient-specific neoantigen vaccines." }
-    - { repo: tsarina, desc: "Tumor-specific antigen discovery from curated shared-antigen data." }
-  - title: Data and utilities
+    - repo: vaxrank
+      org: openvax
+      name: Vaxrank
+      desc: Selects and ranks mutated protein fragments for personalized therapeutic cancer vaccines from somatic variants, tumor RNA and the patient's HLA alleles.
+    - repo: topiary
+      org: openvax
+      name: Topiary
+      desc: Predicts which peptides from mutations or other antigen sources a patient's MHC molecules will present, then filters and ranks them.
+    - repo: neoantigen-vaccine-pipeline
+      org: openvax
+      name: Neoantigen vaccine pipeline
+      desc: The public version of the pipeline used to select patient-specific neoantigen vaccines in two phase I clinical trials.
+  - title: Reference data
     items:
-    - { repo: datacache, org: openvax, desc: "Helpers for transparently downloading datasets." }
-    - { repo: hitlist, desc: "Curated mass-spectrometry MHC ligand evidence." }
-    - { repo: oncoref, desc: "Curated cancer reference data used across the OpenVax and PIRL libraries." }
+    - repo: oncoref
+      name: oncoref
+      desc: Curated cancer reference data, including cancer-type ontology, tumor mutational burden, incidence, immunotherapy response and tissue expression, behind one Python API.
+    - repo: datacache
+      org: openvax
+      name: DataCache
+      desc: Downloads a dataset once, verifies it and reuses the local copy, serving as the download layer for PyEnsembl and other OpenVax tools.

@@ -36,7 +36,7 @@ to `main` also deploy, so use pull requests for ordinary changes.
 | --- | --- | --- |
 | Add a person, change a role, move someone to alumni | `data/people.yml` | `static/assets/people/` |
 | Add or update a publication | `data/papers.yml` | `static/assets/papers/` |
-| Feature software or hide a repository from the list | `data/tools.yml` | `static/assets/code/` |
+| Feature software or edit the tool lists on the Code page | `data/tools.yml` | `static/assets/code/` |
 | Update addresses, contact emails, investigator portraits | `data/contact.yml` | `static/assets/contact/` |
 | Change navigation, blog URL, number of recent posts, social links | `data/site.yml` | Logo paths are in this file |
 | Change the homepage introduction | `templates/index.html` | — |
@@ -113,10 +113,22 @@ Add under `featured:` in `data/tools.yml`:
   description: A short explanation of what the tool does and who it is for.
 ```
 
-Upload the image to `static/assets/code/`. The separate repository table refreshes
-from the `pirl-unc` GitHub organization. To exclude a repository from that table,
-add its exact name to `hide_repos`, for example `hide_repos: [example-tool]`.
-This does not remove a manually featured tool.
+Upload the image to `static/assets/code/`.
+
+Below the featured tools, the "More PIRL tools" and "OpenVax" sections are
+curated lists in the same file (`more_tools:` and `openvax: groups:`). Each entry
+names a repository, an optional display name and a one-sentence description:
+
+```yaml
+- repo: example-tool        # repository name on GitHub
+  org: openvax              # optional; defaults to pirl-unc
+  name: Example Tool        # optional display name; defaults to the repo name
+  desc: Explains in one plain sentence what the tool does and who it is for.
+```
+
+The link comes from the repository list that the build refreshes from GitHub,
+so an entry whose repository is private, renamed or deleted is skipped instead
+of showing a broken link. List each tool only once on the page.
 
 ### Contacts and YAML pitfalls
 
@@ -390,5 +402,5 @@ References:
 - [GitHub: HTTPS](https://docs.github.com/en/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https)
 
 Software images are optional: omit `image` for a text-only entry. Do not substitute
-the lab logo for missing artwork. Featured software is curated in `data/tools.yml`;
-the automatic public repository table is separate.
+the lab logo for missing artwork. Featured software and the
+tool lists below it are curated in `data/tools.yml`.
