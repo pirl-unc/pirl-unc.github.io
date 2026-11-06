@@ -107,12 +107,11 @@ main { padding: var(--gutter) 0 6.6vmax; min-height: 33vh; }
 .tool-body p { margin: 0; }
 .repos { margin-top: 4rem; }
 .repos h2 { font-size: var(--h3-size); }
-.tool-groups { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem 51px; margin: 1.5rem 0; }
-.tool-group h3 { font-size: var(--h4-size); margin: 0 0 .5rem; }
-.tool-group ul { list-style: none; margin: 0; padding: 0; }
-.tool-group li { margin: 0 0 .55rem; line-height: 1.5; }
-.tool-group li a { font-weight: 500; }
-.tool-group li span { color: #444; }
+.tool-group { margin: 2.5rem 0; }
+.tool-group h3 { font-size: var(--h4-size); margin: 0 0 1.25rem; padding-bottom: .5rem; border-bottom: 1px solid #ddd; }
+.tool-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem 51px; margin: 0; }
+.tool-list dt { font-size: 1.15rem; line-height: 1.4; }
+.tool-list dd { margin: .25rem 0 0; line-height: 1.55; color: #444; }
 .table-scroll { overflow-x: auto; }
 table { width: 100%; border-collapse: collapse; font-size: 1rem; }
 th, td { text-align: left; vertical-align: top; padding: 12px 16px 12px 0; border-bottom: 1px solid #ddd; }
@@ -168,7 +167,7 @@ td:last-child { white-space: nowrap; }
   .people-group-investigators .person img { width: 64%; max-width: 340px; }
   .people-group-alumni .person h3 { font-size: 1.2rem; }
   .paper, .tool-body { grid-template-columns: 1fr; gap: 34px; }
-  .tool-groups { grid-template-columns: 1fr; }
+  .tool-list { grid-template-columns: 1fr; }
   .paper { padding-bottom: 3rem; }
   .paper-images { max-width: 420px; margin-inline: auto; }
   .page-code main { width: calc(100% - 2 * var(--gutter)); }

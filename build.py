@@ -106,7 +106,7 @@ def main():
             for item in group.get("items", []):
                 repo = known.get((item.get("org", pirl_org).lower(), item["repo"]))
                 if repo:
-                    items.append({"name": repo["name"], "url": repo["url"],
+                    items.append({"name": item.get("name") or repo["name"], "url": repo["url"],
                                   "desc": item.get("desc") or repo["description"]})
             if items:
                 out.append({"title": group["title"], "items": items})
