@@ -31,6 +31,16 @@
   },
   {
     "org": "openvax",
+    "name": "topiary",
+    "description": "Predict mutated T-cell epitopes from sequencing data",
+    "url": "https://github.com/openvax/topiary",
+    "language": "Python",
+    "stars": 31,
+    "pushed_at": "2026-11-06",
+    "topics": []
+  },
+  {
+    "org": "openvax",
     "name": "mhcflurry",
     "description": "Peptide-MHC I binding affinity prediction",
     "url": "https://github.com/openvax/mhcflurry",
@@ -46,6 +56,16 @@
     "url": "https://github.com/openvax/vaxrank",
     "language": "Python",
     "stars": 68,
+    "pushed_at": "2026-11-06",
+    "topics": []
+  },
+  {
+    "org": "openvax",
+    "name": "openvax.github.io",
+    "description": "openvax.github.io",
+    "url": "https://github.com/openvax/openvax.github.io",
+    "language": "HTML",
+    "stars": 0,
     "pushed_at": "2026-11-06",
     "topics": []
   },
@@ -106,16 +126,6 @@
     "url": "https://github.com/openvax/datacache",
     "language": "Python",
     "stars": 6,
-    "pushed_at": "2026-11-05",
-    "topics": []
-  },
-  {
-    "org": "openvax",
-    "name": "topiary",
-    "description": "Predict mutated T-cell epitopes from sequencing data",
-    "url": "https://github.com/openvax/topiary",
-    "language": "Python",
-    "stars": 31,
     "pushed_at": "2026-11-05",
     "topics": []
   },
@@ -397,16 +407,6 @@
       "variant-calling",
       "variant-isoforms"
     ]
-  },
-  {
-    "org": "openvax",
-    "name": "openvax.github.io",
-    "description": "openvax.github.io",
-    "url": "https://github.com/openvax/openvax.github.io",
-    "language": "HTML",
-    "stars": 0,
-    "pushed_at": "2026-10-02",
-    "topics": []
   },
   {
     "org": "pirl-unc",
