@@ -61,6 +61,16 @@
   },
   {
     "org": "openvax",
+    "name": "isovar",
+    "description": "Assembly of RNA reads to determine the effect of a cancer mutation on protein sequence",
+    "url": "https://github.com/openvax/isovar",
+    "language": "Python",
+    "stars": 27,
+    "pushed_at": "2026-11-08",
+    "topics": []
+  },
+  {
+    "org": "openvax",
     "name": "vaxrank",
     "description": "Ranked vaccine peptides for personalized cancer immunotherapy",
     "url": "https://github.com/openvax/vaxrank",
@@ -96,16 +106,6 @@
     "url": "https://github.com/openvax/mhctools",
     "language": "Python",
     "stars": 110,
-    "pushed_at": "2026-11-07",
-    "topics": []
-  },
-  {
-    "org": "openvax",
-    "name": "isovar",
-    "description": "Assembly of RNA reads to determine the effect of a cancer mutation on protein sequence",
-    "url": "https://github.com/openvax/isovar",
-    "language": "Python",
-    "stars": 27,
     "pushed_at": "2026-11-07",
     "topics": []
   },
