@@ -1,21 +1,81 @@
 [
   {
     "org": "pirl-unc",
-    "name": "presto",
-    "description": "All of T-cell:pMHC prediction in one model",
-    "url": "https://github.com/pirl-unc/presto",
-    "language": "Python",
-    "stars": 1,
-    "pushed_at": "2026-11-07",
-    "topics": []
-  },
-  {
-    "org": "pirl-unc",
     "name": "oncoref",
     "description": "Curated cancer reference data: ontology, TMB, incidence/mortality, and expression. Bottom-of-stack for the openvax/PIRL libraries.",
     "url": "https://github.com/pirl-unc/oncoref",
     "language": "Python",
     "stars": 3,
+    "pushed_at": "2026-11-08",
+    "topics": []
+  },
+  {
+    "org": "openvax",
+    "name": "pyensembl",
+    "description": "Python interface to access reference genome features (such as genes, transcripts, and exons) from Ensembl ",
+    "url": "https://github.com/openvax/pyensembl",
+    "language": "Python",
+    "stars": 410,
+    "pushed_at": "2026-11-08",
+    "topics": []
+  },
+  {
+    "org": "openvax",
+    "name": "varcode",
+    "description": "Library for manipulating genomic variants and predicting their effects",
+    "url": "https://github.com/openvax/varcode",
+    "language": "Python",
+    "stars": 88,
+    "pushed_at": "2026-11-08",
+    "topics": []
+  },
+  {
+    "org": "openvax",
+    "name": "topiary",
+    "description": "Predict mutated T-cell epitopes from sequencing data",
+    "url": "https://github.com/openvax/topiary",
+    "language": "Python",
+    "stars": 31,
+    "pushed_at": "2026-11-08",
+    "topics": []
+  },
+  {
+    "org": "openvax",
+    "name": "vaxrank",
+    "description": "Ranked vaccine peptides for personalized cancer immunotherapy",
+    "url": "https://github.com/openvax/vaxrank",
+    "language": "Python",
+    "stars": 68,
+    "pushed_at": "2026-11-08",
+    "topics": []
+  },
+  {
+    "org": "openvax",
+    "name": "serializable",
+    "description": "Base class with serialization methods for user-defined Python objects",
+    "url": "https://github.com/openvax/serializable",
+    "language": "Python",
+    "stars": 0,
+    "pushed_at": "2026-11-08",
+    "topics": []
+  },
+  {
+    "org": "openvax",
+    "name": "sercol",
+    "description": "Serializable collection class with filtering and grouping methods",
+    "url": "https://github.com/openvax/sercol",
+    "language": "Python",
+    "stars": 0,
+    "pushed_at": "2026-11-08",
+    "topics": []
+  },
+  {
+    "org": "pirl-unc",
+    "name": "presto",
+    "description": "All of T-cell:pMHC prediction in one model",
+    "url": "https://github.com/pirl-unc/presto",
+    "language": "Python",
+    "stars": 1,
     "pushed_at": "2026-11-07",
     "topics": []
   },
@@ -31,26 +91,6 @@
   },
   {
     "org": "openvax",
-    "name": "pyensembl",
-    "description": "Python interface to access reference genome features (such as genes, transcripts, and exons) from Ensembl ",
-    "url": "https://github.com/openvax/pyensembl",
-    "language": "Python",
-    "stars": 410,
-    "pushed_at": "2026-11-07",
-    "topics": []
-  },
-  {
-    "org": "openvax",
-    "name": "varcode",
-    "description": "Library for manipulating genomic variants and predicting their effects",
-    "url": "https://github.com/openvax/varcode",
-    "language": "Python",
-    "stars": 88,
-    "pushed_at": "2026-11-07",
-    "topics": []
-  },
-  {
-    "org": "openvax",
     "name": "mhctools",
     "description": "Python interface to running command-line and web-based MHC binding predictors",
     "url": "https://github.com/openvax/mhctools",
@@ -61,51 +101,11 @@
   },
   {
     "org": "openvax",
-    "name": "topiary",
-    "description": "Predict mutated T-cell epitopes from sequencing data",
-    "url": "https://github.com/openvax/topiary",
-    "language": "Python",
-    "stars": 31,
-    "pushed_at": "2026-11-07",
-    "topics": []
-  },
-  {
-    "org": "openvax",
     "name": "isovar",
     "description": "Assembly of RNA reads to determine the effect of a cancer mutation on protein sequence",
     "url": "https://github.com/openvax/isovar",
     "language": "Python",
     "stars": 27,
-    "pushed_at": "2026-11-07",
-    "topics": []
-  },
-  {
-    "org": "openvax",
-    "name": "vaxrank",
-    "description": "Ranked vaccine peptides for personalized cancer immunotherapy",
-    "url": "https://github.com/openvax/vaxrank",
-    "language": "Python",
-    "stars": 68,
-    "pushed_at": "2026-11-07",
-    "topics": []
-  },
-  {
-    "org": "openvax",
-    "name": "serializable",
-    "description": "Base class with serialization methods for user-defined Python objects",
-    "url": "https://github.com/openvax/serializable",
-    "language": "Python",
-    "stars": 0,
-    "pushed_at": "2026-11-07",
-    "topics": []
-  },
-  {
-    "org": "openvax",
-    "name": "sercol",
-    "description": "Serializable collection class with filtering and grouping methods",
-    "url": "https://github.com/openvax/sercol",
-    "language": "Python",
-    "stars": 0,
     "pushed_at": "2026-11-07",
     "topics": []
   },
