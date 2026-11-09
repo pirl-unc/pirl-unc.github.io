@@ -6,7 +6,7 @@
     "url": "https://github.com/pirl-unc/presto",
     "language": "Python",
     "stars": 1,
-    "pushed_at": "2026-11-08",
+    "pushed_at": "2026-11-09",
     "topics": []
   },
   {
@@ -16,7 +16,27 @@
     "url": "https://github.com/pirl-unc/oncoref",
     "language": "Python",
     "stars": 3,
-    "pushed_at": "2026-11-08",
+    "pushed_at": "2026-11-09",
+    "topics": []
+  },
+  {
+    "org": "openvax",
+    "name": "varcode",
+    "description": "Library for manipulating genomic variants and predicting their effects",
+    "url": "https://github.com/openvax/varcode",
+    "language": "Python",
+    "stars": 88,
+    "pushed_at": "2026-11-09",
+    "topics": []
+  },
+  {
+    "org": "openvax",
+    "name": "topiary",
+    "description": "Predict mutated T-cell epitopes from sequencing data",
+    "url": "https://github.com/openvax/topiary",
+    "language": "Python",
+    "stars": 31,
+    "pushed_at": "2026-11-09",
     "topics": []
   },
   {
@@ -41,21 +61,11 @@
   },
   {
     "org": "openvax",
-    "name": "varcode",
-    "description": "Library for manipulating genomic variants and predicting their effects",
-    "url": "https://github.com/openvax/varcode",
+    "name": "mhctools",
+    "description": "Python interface to running command-line and web-based MHC binding predictors",
+    "url": "https://github.com/openvax/mhctools",
     "language": "Python",
-    "stars": 88,
-    "pushed_at": "2026-11-08",
-    "topics": []
-  },
-  {
-    "org": "openvax",
-    "name": "topiary",
-    "description": "Predict mutated T-cell epitopes from sequencing data",
-    "url": "https://github.com/openvax/topiary",
-    "language": "Python",
-    "stars": 31,
+    "stars": 110,
     "pushed_at": "2026-11-08",
     "topics": []
   },
@@ -101,16 +111,6 @@
   },
   {
     "org": "openvax",
-    "name": "mhctools",
-    "description": "Python interface to running command-line and web-based MHC binding predictors",
-    "url": "https://github.com/openvax/mhctools",
-    "language": "Python",
-    "stars": 110,
-    "pushed_at": "2026-11-07",
-    "topics": []
-  },
-  {
-    "org": "openvax",
     "name": "openvax.github.io",
     "description": "openvax.github.io",
     "url": "https://github.com/openvax/openvax.github.io",
@@ -135,7 +135,7 @@
     "description": "Peptide-MHC I binding affinity prediction",
     "url": "https://github.com/openvax/mhcflurry",
     "language": "Python",
-    "stars": 281,
+    "stars": 282,
     "pushed_at": "2026-11-06",
     "topics": []
   },
