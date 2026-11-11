@@ -20,6 +20,16 @@
     "topics": []
   },
   {
+    "org": "pirl-unc",
+    "name": "pirl-unc.github.io",
+    "description": "pirl.unc.edu",
+    "url": "https://github.com/pirl-unc/pirl-unc.github.io",
+    "language": "Python",
+    "stars": 0,
+    "pushed_at": "2026-11-11",
+    "topics": []
+  },
+  {
     "org": "openvax",
     "name": "varcode",
     "description": "Library for manipulating genomic variants and predicting their effects",
@@ -66,16 +76,6 @@
     "url": "https://github.com/pirl-unc/hitlist",
     "language": "Python",
     "stars": 3,
-    "pushed_at": "2026-11-10",
-    "topics": []
-  },
-  {
-    "org": "pirl-unc",
-    "name": "pirl-unc.github.io",
-    "description": "pirl.unc.edu",
-    "url": "https://github.com/pirl-unc/pirl-unc.github.io",
-    "language": "Python",
-    "stars": 0,
     "pushed_at": "2026-11-10",
     "topics": []
   },
