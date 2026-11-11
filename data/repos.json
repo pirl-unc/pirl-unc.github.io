@@ -1,6 +1,56 @@
 [
   {
     "org": "pirl-unc",
+    "name": "mhcgnomes",
+    "description": "Parsing MHC nomenclature in the wild",
+    "url": "https://github.com/pirl-unc/mhcgnomes",
+    "language": "Python",
+    "stars": 21,
+    "pushed_at": "2026-11-11",
+    "topics": []
+  },
+  {
+    "org": "pirl-unc",
+    "name": "oncoref",
+    "description": "Curated cancer reference data: ontology, TMB, incidence/mortality, and expression. Bottom-of-stack for the openvax/PIRL libraries.",
+    "url": "https://github.com/pirl-unc/oncoref",
+    "language": "Python",
+    "stars": 3,
+    "pushed_at": "2026-11-11",
+    "topics": []
+  },
+  {
+    "org": "openvax",
+    "name": "varcode",
+    "description": "Library for manipulating genomic variants and predicting their effects",
+    "url": "https://github.com/openvax/varcode",
+    "language": "Python",
+    "stars": 88,
+    "pushed_at": "2026-11-11",
+    "topics": []
+  },
+  {
+    "org": "openvax",
+    "name": "topiary",
+    "description": "Predict mutated T-cell epitopes from sequencing data",
+    "url": "https://github.com/openvax/topiary",
+    "language": "Python",
+    "stars": 31,
+    "pushed_at": "2026-11-11",
+    "topics": []
+  },
+  {
+    "org": "openvax",
+    "name": "isovar",
+    "description": "Assembly of RNA reads to determine the effect of a cancer mutation on protein sequence",
+    "url": "https://github.com/openvax/isovar",
+    "language": "Python",
+    "stars": 27,
+    "pushed_at": "2026-11-11",
+    "topics": []
+  },
+  {
+    "org": "pirl-unc",
     "name": "presto",
     "description": "All of T-cell:pMHC prediction in one model",
     "url": "https://github.com/pirl-unc/presto",
@@ -11,9 +61,9 @@
   },
   {
     "org": "pirl-unc",
-    "name": "oncoref",
-    "description": "Curated cancer reference data: ontology, TMB, incidence/mortality, and expression. Bottom-of-stack for the openvax/PIRL libraries.",
-    "url": "https://github.com/pirl-unc/oncoref",
+    "name": "hitlist",
+    "description": "Curated mass spectrometry evidence for MHC ligand data from IEDB and CEDAR",
+    "url": "https://github.com/pirl-unc/hitlist",
     "language": "Python",
     "stars": 3,
     "pushed_at": "2026-11-10",
@@ -26,26 +76,6 @@
     "url": "https://github.com/pirl-unc/pirl-unc.github.io",
     "language": "Python",
     "stars": 0,
-    "pushed_at": "2026-11-10",
-    "topics": []
-  },
-  {
-    "org": "openvax",
-    "name": "varcode",
-    "description": "Library for manipulating genomic variants and predicting their effects",
-    "url": "https://github.com/openvax/varcode",
-    "language": "Python",
-    "stars": 88,
-    "pushed_at": "2026-11-10",
-    "topics": []
-  },
-  {
-    "org": "openvax",
-    "name": "isovar",
-    "description": "Assembly of RNA reads to determine the effect of a cancer mutation on protein sequence",
-    "url": "https://github.com/openvax/isovar",
-    "language": "Python",
-    "stars": 27,
     "pushed_at": "2026-11-10",
     "topics": []
   },
@@ -66,16 +96,6 @@
     "url": "https://github.com/pirl-unc/DoesExactoWorkYet",
     "language": "Python",
     "stars": 0,
-    "pushed_at": "2026-11-09",
-    "topics": []
-  },
-  {
-    "org": "openvax",
-    "name": "topiary",
-    "description": "Predict mutated T-cell epitopes from sequencing data",
-    "url": "https://github.com/openvax/topiary",
-    "language": "Python",
-    "stars": 31,
     "pushed_at": "2026-11-09",
     "topics": []
   },
@@ -147,16 +167,6 @@
     "language": "Python",
     "stars": 282,
     "pushed_at": "2026-11-06",
-    "topics": []
-  },
-  {
-    "org": "pirl-unc",
-    "name": "mhcgnomes",
-    "description": "Parsing MHC nomenclature in the wild",
-    "url": "https://github.com/pirl-unc/mhcgnomes",
-    "language": "Python",
-    "stars": 21,
-    "pushed_at": "2026-11-05",
     "topics": []
   },
   {
@@ -236,16 +246,6 @@
     "url": "https://github.com/pirl-unc/tsarina",
     "language": "Python",
     "stars": 4,
-    "pushed_at": "2026-10-31",
-    "topics": []
-  },
-  {
-    "org": "pirl-unc",
-    "name": "hitlist",
-    "description": "Curated mass spectrometry evidence for MHC ligand data from IEDB and CEDAR",
-    "url": "https://github.com/pirl-unc/hitlist",
-    "language": "Python",
-    "stars": 3,
     "pushed_at": "2026-10-31",
     "topics": []
   },
