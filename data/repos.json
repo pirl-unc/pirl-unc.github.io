@@ -1,6 +1,36 @@
 [
   {
     "org": "pirl-unc",
+    "name": "oncoref",
+    "description": "Curated cancer reference data: ontology, TMB, incidence/mortality, and expression. Bottom-of-stack for the openvax/PIRL libraries.",
+    "url": "https://github.com/pirl-unc/oncoref",
+    "language": "Python",
+    "stars": 3,
+    "pushed_at": "2026-11-12",
+    "topics": []
+  },
+  {
+    "org": "openvax",
+    "name": "pyensembl",
+    "description": "Python interface to access reference genome features (such as genes, transcripts, and exons) from Ensembl ",
+    "url": "https://github.com/openvax/pyensembl",
+    "language": "Python",
+    "stars": 411,
+    "pushed_at": "2026-11-12",
+    "topics": []
+  },
+  {
+    "org": "openvax",
+    "name": "varcode",
+    "description": "Library for manipulating genomic variants and predicting their effects",
+    "url": "https://github.com/openvax/varcode",
+    "language": "Python",
+    "stars": 88,
+    "pushed_at": "2026-11-12",
+    "topics": []
+  },
+  {
+    "org": "pirl-unc",
     "name": "mhcgnomes",
     "description": "Parsing MHC nomenclature in the wild",
     "url": "https://github.com/pirl-unc/mhcgnomes",
@@ -11,31 +41,11 @@
   },
   {
     "org": "pirl-unc",
-    "name": "oncoref",
-    "description": "Curated cancer reference data: ontology, TMB, incidence/mortality, and expression. Bottom-of-stack for the openvax/PIRL libraries.",
-    "url": "https://github.com/pirl-unc/oncoref",
-    "language": "Python",
-    "stars": 3,
-    "pushed_at": "2026-11-11",
-    "topics": []
-  },
-  {
-    "org": "pirl-unc",
     "name": "pirl-unc.github.io",
     "description": "pirl.unc.edu",
     "url": "https://github.com/pirl-unc/pirl-unc.github.io",
     "language": "Python",
     "stars": 0,
-    "pushed_at": "2026-11-11",
-    "topics": []
-  },
-  {
-    "org": "openvax",
-    "name": "varcode",
-    "description": "Library for manipulating genomic variants and predicting their effects",
-    "url": "https://github.com/openvax/varcode",
-    "language": "Python",
-    "stars": 88,
     "pushed_at": "2026-11-11",
     "topics": []
   },
@@ -60,6 +70,16 @@
     "topics": []
   },
   {
+    "org": "openvax",
+    "name": "vaxrank",
+    "description": "Ranked vaccine peptides for personalized cancer immunotherapy",
+    "url": "https://github.com/openvax/vaxrank",
+    "language": "Python",
+    "stars": 68,
+    "pushed_at": "2026-11-11",
+    "topics": []
+  },
+  {
     "org": "pirl-unc",
     "name": "presto",
     "description": "All of T-cell:pMHC prediction in one model",
@@ -76,16 +96,6 @@
     "url": "https://github.com/pirl-unc/hitlist",
     "language": "Python",
     "stars": 3,
-    "pushed_at": "2026-11-10",
-    "topics": []
-  },
-  {
-    "org": "openvax",
-    "name": "vaxrank",
-    "description": "Ranked vaccine peptides for personalized cancer immunotherapy",
-    "url": "https://github.com/openvax/vaxrank",
-    "language": "Python",
-    "stars": 68,
     "pushed_at": "2026-11-10",
     "topics": []
   },
@@ -107,16 +117,6 @@
     "language": "Python",
     "stars": 1,
     "pushed_at": "2026-11-09",
-    "topics": []
-  },
-  {
-    "org": "openvax",
-    "name": "pyensembl",
-    "description": "Python interface to access reference genome features (such as genes, transcripts, and exons) from Ensembl ",
-    "url": "https://github.com/openvax/pyensembl",
-    "language": "Python",
-    "stars": 411,
-    "pushed_at": "2026-11-08",
     "topics": []
   },
   {
