@@ -1,5 +1,25 @@
 [
   {
+    "org": "pirl-unc",
+    "name": "oncoref",
+    "description": "Curated cancer reference data: ontology, TMB, incidence/mortality, and expression. Bottom-of-stack for the openvax/PIRL libraries.",
+    "url": "https://github.com/pirl-unc/oncoref",
+    "language": "Python",
+    "stars": 3,
+    "pushed_at": "2026-11-13",
+    "topics": []
+  },
+  {
+    "org": "pirl-unc",
+    "name": "pirl-unc.github.io",
+    "description": "pirl.unc.edu",
+    "url": "https://github.com/pirl-unc/pirl-unc.github.io",
+    "language": "Python",
+    "stars": 0,
+    "pushed_at": "2026-11-13",
+    "topics": []
+  },
+  {
     "org": "openvax",
     "name": "varcode",
     "description": "Library for manipulating genomic variants and predicting their effects",
@@ -46,26 +66,6 @@
     "url": "https://github.com/pirl-unc/mhcgnomes",
     "language": "Python",
     "stars": 21,
-    "pushed_at": "2026-11-12",
-    "topics": []
-  },
-  {
-    "org": "pirl-unc",
-    "name": "oncoref",
-    "description": "Curated cancer reference data: ontology, TMB, incidence/mortality, and expression. Bottom-of-stack for the openvax/PIRL libraries.",
-    "url": "https://github.com/pirl-unc/oncoref",
-    "language": "Python",
-    "stars": 3,
-    "pushed_at": "2026-11-12",
-    "topics": []
-  },
-  {
-    "org": "pirl-unc",
-    "name": "pirl-unc.github.io",
-    "description": "pirl.unc.edu",
-    "url": "https://github.com/pirl-unc/pirl-unc.github.io",
-    "language": "Python",
-    "stars": 0,
     "pushed_at": "2026-11-12",
     "topics": []
   },
