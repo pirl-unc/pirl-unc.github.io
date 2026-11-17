@@ -21,6 +21,16 @@
   },
   {
     "org": "openvax",
+    "name": "pepdata",
+    "description": "Python interface to amino acid properties and IEDB",
+    "url": "https://github.com/openvax/pepdata",
+    "language": "Python",
+    "stars": 58,
+    "pushed_at": "2026-11-17",
+    "topics": []
+  },
+  {
+    "org": "openvax",
     "name": "vaxrank",
     "description": "Ranked vaccine peptides for personalized cancer immunotherapy",
     "url": "https://github.com/openvax/vaxrank",
@@ -36,16 +46,6 @@
     "url": "https://github.com/pirl-unc/pirlygenes",
     "language": "Python",
     "stars": 1,
-    "pushed_at": "2026-11-16",
-    "topics": []
-  },
-  {
-    "org": "openvax",
-    "name": "pepdata",
-    "description": "Python interface to amino acid properties and IEDB",
-    "url": "https://github.com/openvax/pepdata",
-    "language": "Python",
-    "stars": 58,
     "pushed_at": "2026-11-16",
     "topics": []
   },
