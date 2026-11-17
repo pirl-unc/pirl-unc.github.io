@@ -1,5 +1,16 @@
 [
   {
+    "title": "Brachyury Epitopes in Chordoma",
+    "subtitle": "there are probably more than we think...",
+    "url": "https://pirlblog.substack.com/p/brachyury-epitopes-in-chordoma",
+    "date": "2026-11-13",
+    "author": "Benjamin Vincent",
+    "image": "https://substackcdn.com/image/fetch/$s_!Fwoy!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4501f74e-b374-4bf2-945b-af06726f5fc3_1440x840.png",
+    "excerpt": "I recently went on a brief excursion looking into potential HLA class I restricted epitopes within the Brachyury protein (also called TBXT), with analysis by Steven Vensko, and made curious by discussions with Chris Heery, Board member at the Chordoma Foundation. Basically, brachyury seems to be a high-yield source of epitopes for CD8+ T cell antigen-directed immunotherapy in chordoma. So…",
+    "image_local": "assets/posts/f2c93ebb50cca4b3a252.png",
+    "image_cached_url": "https://substackcdn.com/image/fetch/$s_!Fwoy!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4501f74e-b374-4bf2-945b-af06726f5fc3_1440x840.png"
+  },
+  {
     "title": "OpenAI Foundation gave us $40M to improve cancer vaccines",
     "subtitle": "We're starting the Initiative for Generative Immunotherapy at UNC to release unusually rich data from tumors and the T cells that recognize them",
     "url": "https://pirlblog.substack.com/p/openai-foundation-gave-us-40m-to",
@@ -207,16 +218,5 @@
     "excerpt": "TL;DR Dynamic scripting languages such as Python and R are convenient for implementing bioinformatics algorithms. However, these languages incur a significant overhead on every operation, which makes processing read-level data in large quantities slow. One way to speed up a slow algorithm is to move the bottleneck out of Python into a more efficient compiled language such as Rust. In…",
     "image_local": "assets/posts/5f58d42fa49967720252.jpg",
     "image_cached_url": "https://substackcdn.com/image/fetch/$s_!1ubC!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd777a6bb-377b-4c74-96a2-976d858269d2_2500x1250.png"
-  },
-  {
-    "title": "Adventures in mRNA lipid nanoparticle formulation",
-    "subtitle": "Lipid nanoparticles (LNPs) encapsulating neoantigen-encoding mRNA hold promise for the development of more potent therapeutic cancer vaccines. This was our first attempt at their formulation.",
-    "url": "https://pirlblog.substack.com/p/adventures-in-mrna-lipid-nanoparticle",
-    "date": "2022-11-02",
-    "author": "Jessica Alley",
-    "image": "https://substackcdn.com/image/fetch/$s_!YaL7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4f68c553-a0f8-4f32-b551-c03ffc4fefe4_2500x1406.jpeg",
-    "excerpt": "An internet search of the term “nanoparticle” will yield diverse results and may lead down a rabbit hole of spherical diagrams with minimal discernible differences, so let’s begin there and climb out together. The specific nanoparticles our lab was interested in formulating contain mRNA along with four essential lipid components: an ionizable lipid, a helper lipid, cholesterol, and a polyethylene…",
-    "image_local": "assets/posts/411bb413f1ff7b288486.jpg",
-    "image_cached_url": "https://substackcdn.com/image/fetch/$s_!YaL7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4f68c553-a0f8-4f32-b551-c03ffc4fefe4_2500x1406.jpeg"
   }
 ]
