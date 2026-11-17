@@ -120,6 +120,23 @@ jobs:
       - id: deployment
         uses: actions/deploy-pages@v4
 
+  # The Google Cloud fetcher can die without failing any build (the cached posts
+  # still deploy), so fail a run when its archive is unreadable or days old.
+  # Checked on full builds only, to avoid an hourly stream of failure emails.
+  cache-alert:
+    if: github.event_name != 'schedule' || github.event.schedule == '23 */6 * * *'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: |
+          python scripts/pull_blog_cache.py --max-age-days 2 || {
+            echo "::error::Google Cloud blog cache is unreadable or stale. Check the feed-fetcher VM (scripts/gcp/); run scripts/update_blog.sh meanwhile."
+            exit 1
+          }
+
   # Deploys independently; this job only turns a long-stale blog feed into a
   # failed run so GitHub notifies the repo owners.
   feed-alert:

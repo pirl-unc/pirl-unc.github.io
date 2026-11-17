@@ -6,6 +6,7 @@ Substack challenges GitHub-hosted runner IPs, so the feed is fetched elsewhere
 and published to a public bucket. Only the expected cache files are extracted.
 """
 
+import argparse
 import json
 import os
 import re
@@ -14,6 +15,7 @@ import sys
 import tarfile
 import tempfile
 import urllib.request
+from datetime import date
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -32,7 +34,7 @@ def refreshed(root):
         return ""
 
 
-def main():
+def main(max_age_days=None):
     with tempfile.TemporaryDirectory() as tmp:
         tmp = Path(tmp)
         archive = tmp / "cache.tgz"
@@ -54,6 +56,11 @@ def main():
         posts = json.loads((extracted / "data" / "posts.json").read_text(encoding="utf-8"))
         if not (isinstance(posts, list) and posts and all(p.get("title") and p.get("url") for p in posts)):
             raise ValueError("Cache archive has no valid posts")
+        if max_age_days is not None:
+            # The fetcher refreshes hourly, so an old date means it has stopped.
+            age = (date.today() - date.fromisoformat(refreshed(extracted))).days
+            if age > max_age_days:
+                raise ValueError(f"Google Cloud fetcher last refreshed {age} days ago")
         if refreshed(extracted) < refreshed(ROOT):
             print("Remote cache is older than the local one; keeping local")
             return 0
@@ -73,8 +80,10 @@ def main():
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--max-age-days", type=int, help="fail if the remote cache is older than this")
     try:
-        sys.exit(main())
+        sys.exit(main(parser.parse_args().max_age_days))
     except Exception as exc:  # noqa: BLE001
         print(f"::warning::Could not apply Google Cloud blog cache: {exc}")
         sys.exit(1)
