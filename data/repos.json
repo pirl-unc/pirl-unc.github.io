@@ -6,7 +6,7 @@
     "url": "https://github.com/pirl-unc/hitlist",
     "language": "Python",
     "stars": 3,
-    "pushed_at": "2026-11-17",
+    "pushed_at": "2026-11-18",
     "topics": []
   },
   {
@@ -16,7 +16,37 @@
     "url": "https://github.com/pirl-unc/oncoref",
     "language": "Python",
     "stars": 3,
-    "pushed_at": "2026-11-17",
+    "pushed_at": "2026-11-18",
+    "topics": []
+  },
+  {
+    "org": "openvax",
+    "name": "varcode",
+    "description": "Library for manipulating genomic variants and predicting their effects",
+    "url": "https://github.com/openvax/varcode",
+    "language": "Python",
+    "stars": 88,
+    "pushed_at": "2026-11-18",
+    "topics": []
+  },
+  {
+    "org": "openvax",
+    "name": "isovar",
+    "description": "Assembly of RNA reads to determine the effect of a cancer mutation on protein sequence",
+    "url": "https://github.com/openvax/isovar",
+    "language": "Python",
+    "stars": 27,
+    "pushed_at": "2026-11-18",
+    "topics": []
+  },
+  {
+    "org": "openvax",
+    "name": "vaxrank",
+    "description": "Ranked vaccine peptides for personalized cancer immunotherapy",
+    "url": "https://github.com/openvax/vaxrank",
+    "language": "Python",
+    "stars": 68,
+    "pushed_at": "2026-11-18",
     "topics": []
   },
   {
@@ -90,16 +120,6 @@
     "topics": []
   },
   {
-    "org": "openvax",
-    "name": "vaxrank",
-    "description": "Ranked vaccine peptides for personalized cancer immunotherapy",
-    "url": "https://github.com/openvax/vaxrank",
-    "language": "Python",
-    "stars": 68,
-    "pushed_at": "2026-11-17",
-    "topics": []
-  },
-  {
     "org": "pirl-unc",
     "name": "pirlygenes",
     "description": "Gene sets used for cancer immunotherapy expression analysis",
@@ -121,31 +141,11 @@
   },
   {
     "org": "openvax",
-    "name": "varcode",
-    "description": "Library for manipulating genomic variants and predicting their effects",
-    "url": "https://github.com/openvax/varcode",
-    "language": "Python",
-    "stars": 88,
-    "pushed_at": "2026-11-16",
-    "topics": []
-  },
-  {
-    "org": "openvax",
     "name": "gtfparse",
     "description": "Parsing tools for GTF (gene transfer format) files",
     "url": "https://github.com/openvax/gtfparse",
     "language": "Python",
     "stars": 130,
-    "pushed_at": "2026-11-16",
-    "topics": []
-  },
-  {
-    "org": "openvax",
-    "name": "isovar",
-    "description": "Assembly of RNA reads to determine the effect of a cancer mutation on protein sequence",
-    "url": "https://github.com/openvax/isovar",
-    "language": "Python",
-    "stars": 27,
     "pushed_at": "2026-11-16",
     "topics": []
   },
