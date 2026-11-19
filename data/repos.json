@@ -20,6 +20,16 @@
     "topics": []
   },
   {
+    "org": "pirl-unc",
+    "name": "pirl-unc.github.io",
+    "description": "pirl.unc.edu",
+    "url": "https://github.com/pirl-unc/pirl-unc.github.io",
+    "language": "Python",
+    "stars": 0,
+    "pushed_at": "2026-11-19",
+    "topics": []
+  },
+  {
     "org": "openvax",
     "name": "pepdata",
     "description": "Python interface to amino acid properties and IEDB",
@@ -35,7 +45,7 @@
     "description": "Python interface to access reference genome features (such as genes, transcripts, and exons) from Ensembl ",
     "url": "https://github.com/openvax/pyensembl",
     "language": "Python",
-    "stars": 411,
+    "stars": 410,
     "pushed_at": "2026-11-19",
     "topics": []
   },
@@ -65,7 +75,7 @@
     "description": "Python interface to running command-line and web-based MHC binding predictors",
     "url": "https://github.com/openvax/mhctools",
     "language": "Python",
-    "stars": 110,
+    "stars": 111,
     "pushed_at": "2026-11-19",
     "topics": []
   },
@@ -76,6 +86,16 @@
     "url": "https://github.com/openvax/topiary",
     "language": "Python",
     "stars": 31,
+    "pushed_at": "2026-11-19",
+    "topics": []
+  },
+  {
+    "org": "openvax",
+    "name": "mhcflurry",
+    "description": "Peptide-MHC I binding affinity prediction",
+    "url": "https://github.com/openvax/mhcflurry",
+    "language": "Python",
+    "stars": 282,
     "pushed_at": "2026-11-19",
     "topics": []
   },
@@ -96,6 +116,16 @@
     "url": "https://github.com/openvax/gtfparse",
     "language": "Python",
     "stars": 130,
+    "pushed_at": "2026-11-19",
+    "topics": []
+  },
+  {
+    "org": "openvax",
+    "name": "isovar",
+    "description": "Assembly of RNA reads to determine the effect of a cancer mutation on protein sequence",
+    "url": "https://github.com/openvax/isovar",
+    "language": "Python",
+    "stars": 27,
     "pushed_at": "2026-11-19",
     "topics": []
   },
@@ -147,36 +177,6 @@
     "language": "Python",
     "stars": 1,
     "pushed_at": "2026-11-18",
-    "topics": []
-  },
-  {
-    "org": "pirl-unc",
-    "name": "pirl-unc.github.io",
-    "description": "pirl.unc.edu",
-    "url": "https://github.com/pirl-unc/pirl-unc.github.io",
-    "language": "Python",
-    "stars": 0,
-    "pushed_at": "2026-11-18",
-    "topics": []
-  },
-  {
-    "org": "openvax",
-    "name": "isovar",
-    "description": "Assembly of RNA reads to determine the effect of a cancer mutation on protein sequence",
-    "url": "https://github.com/openvax/isovar",
-    "language": "Python",
-    "stars": 27,
-    "pushed_at": "2026-11-18",
-    "topics": []
-  },
-  {
-    "org": "openvax",
-    "name": "mhcflurry",
-    "description": "Peptide-MHC I binding affinity prediction",
-    "url": "https://github.com/openvax/mhcflurry",
-    "language": "Python",
-    "stars": 282,
-    "pushed_at": "2026-11-17",
     "topics": []
   },
   {
