@@ -6,7 +6,7 @@
     "url": "https://github.com/pirl-unc/hitlist",
     "language": "Python",
     "stars": 3,
-    "pushed_at": "2026-11-19",
+    "pushed_at": "2026-11-20",
     "topics": []
   },
   {
@@ -16,8 +16,73 @@
     "url": "https://github.com/pirl-unc/oncoref",
     "language": "Python",
     "stars": 3,
-    "pushed_at": "2026-11-19",
+    "pushed_at": "2026-11-20",
     "topics": []
+  },
+  {
+    "org": "openvax",
+    "name": "pyensembl",
+    "description": "Python interface to access reference genome features (such as genes, transcripts, and exons) from Ensembl ",
+    "url": "https://github.com/openvax/pyensembl",
+    "language": "Python",
+    "stars": 410,
+    "pushed_at": "2026-11-20",
+    "topics": []
+  },
+  {
+    "org": "openvax",
+    "name": "varcode",
+    "description": "Library for manipulating genomic variants and predicting their effects",
+    "url": "https://github.com/openvax/varcode",
+    "language": "Python",
+    "stars": 88,
+    "pushed_at": "2026-11-20",
+    "topics": []
+  },
+  {
+    "org": "openvax",
+    "name": "mhctools",
+    "description": "Python interface to running command-line and web-based MHC binding predictors",
+    "url": "https://github.com/openvax/mhctools",
+    "language": "Python",
+    "stars": 111,
+    "pushed_at": "2026-11-20",
+    "topics": []
+  },
+  {
+    "org": "openvax",
+    "name": "isovar",
+    "description": "Assembly of RNA reads to determine the effect of a cancer mutation on protein sequence",
+    "url": "https://github.com/openvax/isovar",
+    "language": "Python",
+    "stars": 27,
+    "pushed_at": "2026-11-20",
+    "topics": []
+  },
+  {
+    "org": "openvax",
+    "name": "vaxrank",
+    "description": "Ranked vaccine peptides for personalized cancer immunotherapy",
+    "url": "https://github.com/openvax/vaxrank",
+    "language": "Python",
+    "stars": 68,
+    "pushed_at": "2026-11-20",
+    "topics": []
+  },
+  {
+    "org": "pirl-unc",
+    "name": "vmwhere",
+    "description": "exploring microsatellites in the human genome",
+    "url": "https://github.com/pirl-unc/vmwhere",
+    "language": "Python",
+    "stars": 0,
+    "pushed_at": "2026-11-19",
+    "topics": [
+      "ewing-sarcoma",
+      "long-read-sequencing",
+      "microsatellites",
+      "tandem-repeats"
+    ]
   },
   {
     "org": "pirl-unc",
@@ -41,41 +106,11 @@
   },
   {
     "org": "openvax",
-    "name": "pyensembl",
-    "description": "Python interface to access reference genome features (such as genes, transcripts, and exons) from Ensembl ",
-    "url": "https://github.com/openvax/pyensembl",
-    "language": "Python",
-    "stars": 410,
-    "pushed_at": "2026-11-19",
-    "topics": []
-  },
-  {
-    "org": "openvax",
     "name": "datacache",
     "description": "Helpers for transparently downloading datasets",
     "url": "https://github.com/openvax/datacache",
     "language": "Python",
     "stars": 6,
-    "pushed_at": "2026-11-19",
-    "topics": []
-  },
-  {
-    "org": "openvax",
-    "name": "varcode",
-    "description": "Library for manipulating genomic variants and predicting their effects",
-    "url": "https://github.com/openvax/varcode",
-    "language": "Python",
-    "stars": 88,
-    "pushed_at": "2026-11-19",
-    "topics": []
-  },
-  {
-    "org": "openvax",
-    "name": "mhctools",
-    "description": "Python interface to running command-line and web-based MHC binding predictors",
-    "url": "https://github.com/openvax/mhctools",
-    "language": "Python",
-    "stars": 111,
     "pushed_at": "2026-11-19",
     "topics": []
   },
@@ -116,26 +151,6 @@
     "url": "https://github.com/openvax/gtfparse",
     "language": "Python",
     "stars": 130,
-    "pushed_at": "2026-11-19",
-    "topics": []
-  },
-  {
-    "org": "openvax",
-    "name": "isovar",
-    "description": "Assembly of RNA reads to determine the effect of a cancer mutation on protein sequence",
-    "url": "https://github.com/openvax/isovar",
-    "language": "Python",
-    "stars": 27,
-    "pushed_at": "2026-11-19",
-    "topics": []
-  },
-  {
-    "org": "openvax",
-    "name": "vaxrank",
-    "description": "Ranked vaccine peptides for personalized cancer immunotherapy",
-    "url": "https://github.com/openvax/vaxrank",
-    "language": "Python",
-    "stars": 68,
     "pushed_at": "2026-11-19",
     "topics": []
   },
@@ -262,7 +277,7 @@
     "description": "Bioinformatics pipeline for selecting patient-specific cancer neoantigen vaccines",
     "url": "https://github.com/openvax/neoantigen-vaccine-pipeline",
     "language": "Python",
-    "stars": 104,
+    "stars": 105,
     "pushed_at": "2026-11-02",
     "topics": []
   },
@@ -365,21 +380,6 @@
     "stars": 0,
     "pushed_at": "2026-10-14",
     "topics": []
-  },
-  {
-    "org": "pirl-unc",
-    "name": "vmwhere",
-    "description": "exploring microsatellites in the human genome",
-    "url": "https://github.com/pirl-unc/vmwhere",
-    "language": "Python",
-    "stars": 0,
-    "pushed_at": "2026-10-09",
-    "topics": [
-      "ewing-sarcoma",
-      "long-read-sequencing",
-      "microsatellites",
-      "tandem-repeats"
-    ]
   },
   {
     "org": "pirl-unc",
