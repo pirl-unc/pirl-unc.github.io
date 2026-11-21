@@ -6,7 +6,7 @@
     "url": "https://github.com/pirl-unc/tcrsift",
     "language": "Python",
     "stars": 0,
-    "pushed_at": "2026-11-20",
+    "pushed_at": "2026-11-21",
     "topics": []
   },
   {
@@ -16,7 +16,7 @@
     "url": "https://github.com/pirl-unc/tsarina",
     "language": "Python",
     "stars": 4,
-    "pushed_at": "2026-11-20",
+    "pushed_at": "2026-11-21",
     "topics": []
   },
   {
@@ -26,7 +26,7 @@
     "url": "https://github.com/pirl-unc/hitlist",
     "language": "Python",
     "stars": 3,
-    "pushed_at": "2026-11-20",
+    "pushed_at": "2026-11-21",
     "topics": []
   },
   {
@@ -36,7 +36,37 @@
     "url": "https://github.com/pirl-unc/oncoref",
     "language": "Python",
     "stars": 3,
-    "pushed_at": "2026-11-20",
+    "pushed_at": "2026-11-21",
+    "topics": []
+  },
+  {
+    "org": "openvax",
+    "name": "varcode",
+    "description": "Library for manipulating genomic variants and predicting their effects",
+    "url": "https://github.com/openvax/varcode",
+    "language": "Python",
+    "stars": 88,
+    "pushed_at": "2026-11-21",
+    "topics": []
+  },
+  {
+    "org": "openvax",
+    "name": "isovar",
+    "description": "Assembly of RNA reads to determine the effect of a cancer mutation on protein sequence",
+    "url": "https://github.com/openvax/isovar",
+    "language": "Python",
+    "stars": 27,
+    "pushed_at": "2026-11-21",
+    "topics": []
+  },
+  {
+    "org": "openvax",
+    "name": "vaxrank",
+    "description": "Ranked vaccine peptides for personalized cancer immunotherapy",
+    "url": "https://github.com/openvax/vaxrank",
+    "language": "Python",
+    "stars": 68,
+    "pushed_at": "2026-11-21",
     "topics": []
   },
   {
@@ -71,16 +101,6 @@
   },
   {
     "org": "openvax",
-    "name": "varcode",
-    "description": "Library for manipulating genomic variants and predicting their effects",
-    "url": "https://github.com/openvax/varcode",
-    "language": "Python",
-    "stars": 88,
-    "pushed_at": "2026-11-20",
-    "topics": []
-  },
-  {
-    "org": "openvax",
     "name": "mhctools",
     "description": "Python interface to running command-line and web-based MHC binding predictors",
     "url": "https://github.com/openvax/mhctools",
@@ -106,26 +126,6 @@
     "url": "https://github.com/openvax/mhcflurry",
     "language": "Python",
     "stars": 283,
-    "pushed_at": "2026-11-20",
-    "topics": []
-  },
-  {
-    "org": "openvax",
-    "name": "isovar",
-    "description": "Assembly of RNA reads to determine the effect of a cancer mutation on protein sequence",
-    "url": "https://github.com/openvax/isovar",
-    "language": "Python",
-    "stars": 27,
-    "pushed_at": "2026-11-20",
-    "topics": []
-  },
-  {
-    "org": "openvax",
-    "name": "vaxrank",
-    "description": "Ranked vaccine peptides for personalized cancer immunotherapy",
-    "url": "https://github.com/openvax/vaxrank",
-    "language": "Python",
-    "stars": 68,
     "pushed_at": "2026-11-20",
     "topics": []
   },
