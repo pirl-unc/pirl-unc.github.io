@@ -1,6 +1,26 @@
 [
   {
     "org": "pirl-unc",
+    "name": "Landscape-and-Selection-of-Vaccine-Epitopes-in-SARS-CoV-2",
+    "description": "Code and data for \"Landscape and Selection of Vaccine Epitopes in SARS-CoV-2\"",
+    "url": "https://github.com/pirl-unc/Landscape-and-Selection-of-Vaccine-Epitopes-in-SARS-CoV-2",
+    "language": "Jupyter Notebook",
+    "stars": 2,
+    "pushed_at": "2026-11-22",
+    "topics": []
+  },
+  {
+    "org": "pirl-unc",
+    "name": "weirdo",
+    "description": "Metrics of immunological foreignness for candidate T-cell epitopes",
+    "url": "https://github.com/pirl-unc/weirdo",
+    "language": "Python",
+    "stars": 0,
+    "pushed_at": "2026-11-22",
+    "topics": []
+  },
+  {
+    "org": "pirl-unc",
     "name": "tcrsift",
     "description": "",
     "url": "https://github.com/pirl-unc/tcrsift",
@@ -41,11 +61,38 @@
   },
   {
     "org": "pirl-unc",
+    "name": "io-resistance-genie",
+    "description": "[WIP / experiment] Living literature review of resistance to immune checkpoint inhibitors",
+    "url": "https://github.com/pirl-unc/io-resistance-genie",
+    "language": "Python",
+    "stars": 2,
+    "pushed_at": "2026-11-22",
+    "topics": [
+      "anti-pd1",
+      "experiment",
+      "immunotherapy",
+      "literature-review",
+      "living-review",
+      "wip"
+    ]
+  },
+  {
+    "org": "pirl-unc",
     "name": "oncoref",
     "description": "Curated cancer reference data: ontology, TMB, incidence/mortality, and expression. Bottom-of-stack for the openvax/PIRL libraries.",
     "url": "https://github.com/pirl-unc/oncoref",
     "language": "Python",
     "stars": 3,
+    "pushed_at": "2026-11-22",
+    "topics": []
+  },
+  {
+    "org": "pirl-unc",
+    "name": "pirl-unc.github.io",
+    "description": "pirl.unc.edu",
+    "url": "https://github.com/pirl-unc/pirl-unc.github.io",
+    "language": "Python",
+    "stars": 0,
     "pushed_at": "2026-11-22",
     "topics": []
   },
@@ -121,32 +168,22 @@
   },
   {
     "org": "openvax",
+    "name": "ensembl-data",
+    "description": "Mirror of GTF and FASTA data from the Ensembl FTP servers",
+    "url": "https://github.com/openvax/ensembl-data",
+    "language": "",
+    "stars": 0,
+    "pushed_at": "2026-11-22",
+    "topics": []
+  },
+  {
+    "org": "openvax",
     "name": "orfdata",
     "description": "Reference open reading frames and experimental translation evidence on PyEnsembl transcripts",
     "url": "https://github.com/openvax/orfdata",
     "language": "Python",
     "stars": 1,
     "pushed_at": "2026-11-22",
-    "topics": []
-  },
-  {
-    "org": "pirl-unc",
-    "name": "weirdo",
-    "description": "Metrics of immunological foreignness for candidate T-cell epitopes",
-    "url": "https://github.com/pirl-unc/weirdo",
-    "language": "Python",
-    "stars": 0,
-    "pushed_at": "2026-11-21",
-    "topics": []
-  },
-  {
-    "org": "pirl-unc",
-    "name": "pirl-unc.github.io",
-    "description": "pirl.unc.edu",
-    "url": "https://github.com/pirl-unc/pirl-unc.github.io",
-    "language": "Python",
-    "stars": 0,
-    "pushed_at": "2026-11-21",
     "topics": []
   },
   {
@@ -253,23 +290,6 @@
     "stars": 15,
     "pushed_at": "2026-11-16",
     "topics": []
-  },
-  {
-    "org": "pirl-unc",
-    "name": "io-resistance-genie",
-    "description": "[WIP / experiment] Living literature review of resistance to immune checkpoint inhibitors",
-    "url": "https://github.com/pirl-unc/io-resistance-genie",
-    "language": "Python",
-    "stars": 2,
-    "pushed_at": "2026-11-15",
-    "topics": [
-      "anti-pd1",
-      "experiment",
-      "immunotherapy",
-      "literature-review",
-      "living-review",
-      "wip"
-    ]
   },
   {
     "org": "pirl-unc",
@@ -837,16 +857,6 @@
   },
   {
     "org": "pirl-unc",
-    "name": "Landscape-and-Selection-of-Vaccine-Epitopes-in-SARS-CoV-2",
-    "description": "Code and data for \"Landscape and Selection of Vaccine Epitopes in SARS-CoV-2\"",
-    "url": "https://github.com/pirl-unc/Landscape-and-Selection-of-Vaccine-Epitopes-in-SARS-CoV-2",
-    "language": "Jupyter Notebook",
-    "stars": 2,
-    "pushed_at": "2024-02-13",
-    "topics": []
-  },
-  {
-    "org": "pirl-unc",
     "name": "mHA-dockerfile",
     "description": "",
     "url": "https://github.com/pirl-unc/mHA-dockerfile",
@@ -1021,16 +1031,6 @@
     "description": "",
     "url": "https://github.com/pirl-unc/rserver-impro",
     "language": "Dockerfile",
-    "stars": 0,
-    "pushed_at": "2024-02-12",
-    "topics": []
-  },
-  {
-    "org": "openvax",
-    "name": "ensembl-data",
-    "description": "Mirror of GTF and FASTA data from the Ensembl FTP servers",
-    "url": "https://github.com/openvax/ensembl-data",
-    "language": "",
     "stars": 0,
     "pushed_at": "2024-02-12",
     "topics": []
