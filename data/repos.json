@@ -1,6 +1,26 @@
 [
   {
     "org": "pirl-unc",
+    "name": "mhcgnomes",
+    "description": "Parsing MHC nomenclature in the wild",
+    "url": "https://github.com/pirl-unc/mhcgnomes",
+    "language": "Python",
+    "stars": 21,
+    "pushed_at": "2026-11-23",
+    "topics": []
+  },
+  {
+    "org": "pirl-unc",
+    "name": "mhcseqs",
+    "description": "MHC sequences",
+    "url": "https://github.com/pirl-unc/mhcseqs",
+    "language": "Python",
+    "stars": 2,
+    "pushed_at": "2026-11-23",
+    "topics": []
+  },
+  {
+    "org": "pirl-unc",
     "name": "weirdo",
     "description": "Metrics of immunological foreignness for candidate T-cell epitopes",
     "url": "https://github.com/pirl-unc/weirdo",
@@ -26,6 +46,16 @@
     "url": "https://github.com/pirl-unc/pirlygenes",
     "language": "Python",
     "stars": 1,
+    "pushed_at": "2026-11-23",
+    "topics": []
+  },
+  {
+    "org": "pirl-unc",
+    "name": "singlecell_images",
+    "description": "Docker files for images containing seurat + scCDC and seurat + decontx ( celda )",
+    "url": "https://github.com/pirl-unc/singlecell_images",
+    "language": "Shell",
+    "stars": 0,
     "pushed_at": "2026-11-23",
     "topics": []
   },
@@ -91,6 +121,36 @@
   },
   {
     "org": "openvax",
+    "name": "varcode",
+    "description": "Library for manipulating genomic variants and predicting their effects",
+    "url": "https://github.com/openvax/varcode",
+    "language": "Python",
+    "stars": 88,
+    "pushed_at": "2026-11-23",
+    "topics": []
+  },
+  {
+    "org": "openvax",
+    "name": "mhctools",
+    "description": "Python interface to running command-line and web-based MHC binding predictors",
+    "url": "https://github.com/openvax/mhctools",
+    "language": "Python",
+    "stars": 112,
+    "pushed_at": "2026-11-23",
+    "topics": []
+  },
+  {
+    "org": "openvax",
+    "name": "topiary",
+    "description": "Predict mutated T-cell epitopes from sequencing data",
+    "url": "https://github.com/openvax/topiary",
+    "language": "Python",
+    "stars": 31,
+    "pushed_at": "2026-11-23",
+    "topics": []
+  },
+  {
+    "org": "openvax",
     "name": "mhcflurry",
     "description": "Peptide-MHC I binding affinity prediction",
     "url": "https://github.com/openvax/mhcflurry",
@@ -106,6 +166,26 @@
     "url": "https://github.com/openvax/varlens",
     "language": "Python",
     "stars": 21,
+    "pushed_at": "2026-11-23",
+    "topics": []
+  },
+  {
+    "org": "openvax",
+    "name": "isovar",
+    "description": "Assembly of RNA reads to determine the effect of a cancer mutation on protein sequence",
+    "url": "https://github.com/openvax/isovar",
+    "language": "Python",
+    "stars": 27,
+    "pushed_at": "2026-11-23",
+    "topics": []
+  },
+  {
+    "org": "openvax",
+    "name": "vaxrank",
+    "description": "Ranked vaccine peptides for personalized cancer immunotherapy",
+    "url": "https://github.com/openvax/vaxrank",
+    "language": "Python",
+    "stars": 69,
     "pushed_at": "2026-11-23",
     "topics": []
   },
@@ -161,26 +241,6 @@
   },
   {
     "org": "pirl-unc",
-    "name": "mhcgnomes",
-    "description": "Parsing MHC nomenclature in the wild",
-    "url": "https://github.com/pirl-unc/mhcgnomes",
-    "language": "Python",
-    "stars": 21,
-    "pushed_at": "2026-11-22",
-    "topics": []
-  },
-  {
-    "org": "pirl-unc",
-    "name": "mhcseqs",
-    "description": "MHC sequences",
-    "url": "https://github.com/pirl-unc/mhcseqs",
-    "language": "Python",
-    "stars": 2,
-    "pushed_at": "2026-11-22",
-    "topics": []
-  },
-  {
-    "org": "pirl-unc",
     "name": "golfy",
     "description": "Heuristic solver for pooled peptide experiment design",
     "url": "https://github.com/pirl-unc/golfy",
@@ -215,46 +275,6 @@
       "living-review",
       "wip"
     ]
-  },
-  {
-    "org": "openvax",
-    "name": "varcode",
-    "description": "Library for manipulating genomic variants and predicting their effects",
-    "url": "https://github.com/openvax/varcode",
-    "language": "Python",
-    "stars": 88,
-    "pushed_at": "2026-11-22",
-    "topics": []
-  },
-  {
-    "org": "openvax",
-    "name": "topiary",
-    "description": "Predict mutated T-cell epitopes from sequencing data",
-    "url": "https://github.com/openvax/topiary",
-    "language": "Python",
-    "stars": 31,
-    "pushed_at": "2026-11-22",
-    "topics": []
-  },
-  {
-    "org": "openvax",
-    "name": "isovar",
-    "description": "Assembly of RNA reads to determine the effect of a cancer mutation on protein sequence",
-    "url": "https://github.com/openvax/isovar",
-    "language": "Python",
-    "stars": 27,
-    "pushed_at": "2026-11-22",
-    "topics": []
-  },
-  {
-    "org": "openvax",
-    "name": "vaxrank",
-    "description": "Ranked vaccine peptides for personalized cancer immunotherapy",
-    "url": "https://github.com/openvax/vaxrank",
-    "language": "Python",
-    "stars": 69,
-    "pushed_at": "2026-11-22",
-    "topics": []
   },
   {
     "org": "openvax",
@@ -294,16 +314,6 @@
     "language": "Python",
     "stars": 0,
     "pushed_at": "2026-11-21",
-    "topics": []
-  },
-  {
-    "org": "openvax",
-    "name": "mhctools",
-    "description": "Python interface to running command-line and web-based MHC binding predictors",
-    "url": "https://github.com/openvax/mhctools",
-    "language": "Python",
-    "stars": 112,
-    "pushed_at": "2026-11-20",
     "topics": []
   },
   {
@@ -447,16 +457,6 @@
       "variant-calling",
       "variant-isoforms"
     ]
-  },
-  {
-    "org": "pirl-unc",
-    "name": "singlecell_images",
-    "description": "Docker files for images containing seurat + scCDC and seurat + decontx ( celda )",
-    "url": "https://github.com/pirl-unc/singlecell_images",
-    "language": "Shell",
-    "stars": 0,
-    "pushed_at": "2026-09-30",
-    "topics": []
   },
   {
     "org": "pirl-unc",
