@@ -1,6 +1,126 @@
 [
   {
     "org": "pirl-unc",
+    "name": "weirdo",
+    "description": "Metrics of immunological foreignness for candidate T-cell epitopes",
+    "url": "https://github.com/pirl-unc/weirdo",
+    "language": "Python",
+    "stars": 0,
+    "pushed_at": "2026-11-23",
+    "topics": []
+  },
+  {
+    "org": "pirl-unc",
+    "name": "tcrsift",
+    "description": "",
+    "url": "https://github.com/pirl-unc/tcrsift",
+    "language": "Python",
+    "stars": 0,
+    "pushed_at": "2026-11-23",
+    "topics": []
+  },
+  {
+    "org": "pirl-unc",
+    "name": "pirlygenes",
+    "description": "Gene sets used for cancer immunotherapy expression analysis",
+    "url": "https://github.com/pirl-unc/pirlygenes",
+    "language": "Python",
+    "stars": 1,
+    "pushed_at": "2026-11-23",
+    "topics": []
+  },
+  {
+    "org": "pirl-unc",
+    "name": "tsarina",
+    "description": "Tumor Specific Antigen discovery: personalized cancer immunotherapy targets from curated shared antigen data",
+    "url": "https://github.com/pirl-unc/tsarina",
+    "language": "Python",
+    "stars": 4,
+    "pushed_at": "2026-11-23",
+    "topics": []
+  },
+  {
+    "org": "pirl-unc",
+    "name": "hitlist",
+    "description": "Curated mass spectrometry evidence for MHC ligand data from IEDB and CEDAR",
+    "url": "https://github.com/pirl-unc/hitlist",
+    "language": "Python",
+    "stars": 3,
+    "pushed_at": "2026-11-23",
+    "topics": []
+  },
+  {
+    "org": "pirl-unc",
+    "name": "oncoref",
+    "description": "Curated cancer reference data: ontology, TMB, incidence/mortality, and expression. Bottom-of-stack for the openvax/PIRL libraries.",
+    "url": "https://github.com/pirl-unc/oncoref",
+    "language": "Python",
+    "stars": 3,
+    "pushed_at": "2026-11-23",
+    "topics": []
+  },
+  {
+    "org": "pirl-unc",
+    "name": "pirl-unc.github.io",
+    "description": "pirl.unc.edu",
+    "url": "https://github.com/pirl-unc/pirl-unc.github.io",
+    "language": "Python",
+    "stars": 0,
+    "pushed_at": "2026-11-23",
+    "topics": []
+  },
+  {
+    "org": "openvax",
+    "name": "pyensembl",
+    "description": "Python interface to access reference genome features (such as genes, transcripts, and exons) from Ensembl ",
+    "url": "https://github.com/openvax/pyensembl",
+    "language": "Python",
+    "stars": 410,
+    "pushed_at": "2026-11-23",
+    "topics": []
+  },
+  {
+    "org": "openvax",
+    "name": "datacache",
+    "description": "Helpers for transparently downloading datasets",
+    "url": "https://github.com/openvax/datacache",
+    "language": "Python",
+    "stars": 6,
+    "pushed_at": "2026-11-23",
+    "topics": []
+  },
+  {
+    "org": "openvax",
+    "name": "varlens",
+    "description": "commandline manipulation of genomic variants and NGS reads",
+    "url": "https://github.com/openvax/varlens",
+    "language": "Python",
+    "stars": 21,
+    "pushed_at": "2026-11-23",
+    "topics": []
+  },
+  {
+    "org": "openvax",
+    "name": "openvax.github.io",
+    "description": "openvax.github.io",
+    "url": "https://github.com/openvax/openvax.github.io",
+    "language": "HTML",
+    "stars": 0,
+    "pushed_at": "2026-11-23",
+    "topics": []
+  },
+  {
+    "org": "openvax",
+    "name": "openvax2",
+    "description": "OpenVax monorepo preparation: independent Python packages, version-gated releases, and a combined stack.",
+    "url": "https://github.com/openvax/openvax2",
+    "language": "CSS",
+    "stars": 0,
+    "pushed_at": "2026-11-23",
+    "topics": []
+  },
+  {
+    "org": "pirl-unc",
     "name": "Landscape-and-Selection-of-Vaccine-Epitopes-in-SARS-CoV-2",
     "description": "Code and data for \"Landscape and Selection of Vaccine Epitopes in SARS-CoV-2\"",
     "url": "https://github.com/pirl-unc/Landscape-and-Selection-of-Vaccine-Epitopes-in-SARS-CoV-2",
@@ -11,41 +131,31 @@
   },
   {
     "org": "pirl-unc",
-    "name": "weirdo",
-    "description": "Metrics of immunological foreignness for candidate T-cell epitopes",
-    "url": "https://github.com/pirl-unc/weirdo",
+    "name": "mhcgnomes",
+    "description": "Parsing MHC nomenclature in the wild",
+    "url": "https://github.com/pirl-unc/mhcgnomes",
     "language": "Python",
+    "stars": 21,
+    "pushed_at": "2026-11-22",
+    "topics": []
+  },
+  {
+    "org": "pirl-unc",
+    "name": "mhcseqs",
+    "description": "MHC sequences",
+    "url": "https://github.com/pirl-unc/mhcseqs",
+    "language": "Python",
+    "stars": 2,
+    "pushed_at": "2026-11-22",
+    "topics": []
+  },
+  {
+    "org": "pirl-unc",
+    "name": "golfy",
+    "description": "Heuristic solver for pooled peptide experiment design",
+    "url": "https://github.com/pirl-unc/golfy",
+    "language": "Jupyter Notebook",
     "stars": 0,
-    "pushed_at": "2026-11-22",
-    "topics": []
-  },
-  {
-    "org": "pirl-unc",
-    "name": "tcrsift",
-    "description": "",
-    "url": "https://github.com/pirl-unc/tcrsift",
-    "language": "Python",
-    "stars": 0,
-    "pushed_at": "2026-11-22",
-    "topics": []
-  },
-  {
-    "org": "pirl-unc",
-    "name": "tsarina",
-    "description": "Tumor Specific Antigen discovery: personalized cancer immunotherapy targets from curated shared antigen data",
-    "url": "https://github.com/pirl-unc/tsarina",
-    "language": "Python",
-    "stars": 4,
-    "pushed_at": "2026-11-22",
-    "topics": []
-  },
-  {
-    "org": "pirl-unc",
-    "name": "hitlist",
-    "description": "Curated mass spectrometry evidence for MHC ligand data from IEDB and CEDAR",
-    "url": "https://github.com/pirl-unc/hitlist",
-    "language": "Python",
-    "stars": 3,
     "pushed_at": "2026-11-22",
     "topics": []
   },
@@ -75,36 +185,6 @@
       "living-review",
       "wip"
     ]
-  },
-  {
-    "org": "pirl-unc",
-    "name": "oncoref",
-    "description": "Curated cancer reference data: ontology, TMB, incidence/mortality, and expression. Bottom-of-stack for the openvax/PIRL libraries.",
-    "url": "https://github.com/pirl-unc/oncoref",
-    "language": "Python",
-    "stars": 3,
-    "pushed_at": "2026-11-22",
-    "topics": []
-  },
-  {
-    "org": "pirl-unc",
-    "name": "pirl-unc.github.io",
-    "description": "pirl.unc.edu",
-    "url": "https://github.com/pirl-unc/pirl-unc.github.io",
-    "language": "Python",
-    "stars": 0,
-    "pushed_at": "2026-11-22",
-    "topics": []
-  },
-  {
-    "org": "openvax",
-    "name": "pyensembl",
-    "description": "Python interface to access reference genome features (such as genes, transcripts, and exons) from Ensembl ",
-    "url": "https://github.com/openvax/pyensembl",
-    "language": "Python",
-    "stars": 410,
-    "pushed_at": "2026-11-22",
-    "topics": []
   },
   {
     "org": "openvax",
@@ -198,32 +278,12 @@
   },
   {
     "org": "openvax",
-    "name": "varlens",
-    "description": "commandline manipulation of genomic variants and NGS reads",
-    "url": "https://github.com/openvax/varlens",
-    "language": "Python",
-    "stars": 21,
-    "pushed_at": "2026-11-21",
-    "topics": []
-  },
-  {
-    "org": "openvax",
     "name": "serializable",
     "description": "Base class with serialization methods for user-defined Python objects",
     "url": "https://github.com/openvax/serializable",
     "language": "Python",
     "stars": 0,
     "pushed_at": "2026-11-21",
-    "topics": []
-  },
-  {
-    "org": "openvax",
-    "name": "datacache",
-    "description": "Helpers for transparently downloading datasets",
-    "url": "https://github.com/openvax/datacache",
-    "language": "Python",
-    "stars": 6,
-    "pushed_at": "2026-11-20",
     "topics": []
   },
   {
@@ -272,16 +332,6 @@
     "topics": []
   },
   {
-    "org": "pirl-unc",
-    "name": "pirlygenes",
-    "description": "Gene sets used for cancer immunotherapy expression analysis",
-    "url": "https://github.com/pirl-unc/pirlygenes",
-    "language": "Python",
-    "stars": 1,
-    "pushed_at": "2026-11-16",
-    "topics": []
-  },
-  {
     "org": "openvax",
     "name": "gene-lists",
     "description": "Gene lists related to cancer immunotherapy",
@@ -293,42 +343,12 @@
   },
   {
     "org": "pirl-unc",
-    "name": "mhcgnomes",
-    "description": "Parsing MHC nomenclature in the wild",
-    "url": "https://github.com/pirl-unc/mhcgnomes",
-    "language": "Python",
-    "stars": 21,
-    "pushed_at": "2026-11-12",
-    "topics": []
-  },
-  {
-    "org": "pirl-unc",
     "name": "DoesExactoWorkYet",
     "description": "Simple end-to-end test of Exacto",
     "url": "https://github.com/pirl-unc/DoesExactoWorkYet",
     "language": "Python",
     "stars": 0,
     "pushed_at": "2026-11-09",
-    "topics": []
-  },
-  {
-    "org": "openvax",
-    "name": "openvax.github.io",
-    "description": "openvax.github.io",
-    "url": "https://github.com/openvax/openvax.github.io",
-    "language": "HTML",
-    "stars": 0,
-    "pushed_at": "2026-11-07",
-    "topics": []
-  },
-  {
-    "org": "pirl-unc",
-    "name": "mhcseqs",
-    "description": "MHC sequences",
-    "url": "https://github.com/pirl-unc/mhcseqs",
-    "language": "Python",
-    "stars": 2,
-    "pushed_at": "2026-11-05",
     "topics": []
   },
   {
@@ -409,16 +429,6 @@
     "language": "Python",
     "stars": 0,
     "pushed_at": "2026-10-19",
-    "topics": []
-  },
-  {
-    "org": "openvax",
-    "name": "openvax2",
-    "description": "OpenVax monorepo preparation: independent Python packages, version-gated releases, and a combined stack.",
-    "url": "https://github.com/openvax/openvax2",
-    "language": "CSS",
-    "stars": 0,
-    "pushed_at": "2026-10-14",
     "topics": []
   },
   {
@@ -533,16 +543,6 @@
     "language": "Python",
     "stars": 0,
     "pushed_at": "2026-04-13",
-    "topics": []
-  },
-  {
-    "org": "pirl-unc",
-    "name": "golfy",
-    "description": "Heuristic solver for pooled peptide experiment design",
-    "url": "https://github.com/pirl-unc/golfy",
-    "language": "Jupyter Notebook",
-    "stars": 0,
-    "pushed_at": "2026-04-08",
     "topics": []
   },
   {
