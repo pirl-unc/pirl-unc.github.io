@@ -124,7 +124,7 @@ openvax:
     - repo: neoantigen-vaccine-pipeline
       org: openvax
       name: Neoantigen vaccine pipeline
-      desc: The public version of the pipeline used to select patient-specific neoantigen vaccines in two phase I clinical trials.
+      desc: The public OpenVax v1 pipeline used in earlier Mount Sinai phase I clinical trials; still maintained with occasional fixes, though not the basis for new development in OpenVax v2.
   - title: Reference data
     items:
     - repo: oncoref
