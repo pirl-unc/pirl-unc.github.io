@@ -1,6 +1,116 @@
 [
   {
     "org": "pirl-unc",
+    "name": "mhcseqs",
+    "description": "MHC sequences",
+    "url": "https://github.com/pirl-unc/mhcseqs",
+    "language": "Python",
+    "stars": 2,
+    "pushed_at": "2026-11-24",
+    "topics": []
+  },
+  {
+    "org": "pirl-unc",
+    "name": "tcrsift",
+    "description": "",
+    "url": "https://github.com/pirl-unc/tcrsift",
+    "language": "Python",
+    "stars": 0,
+    "pushed_at": "2026-11-24",
+    "topics": []
+  },
+  {
+    "org": "pirl-unc",
+    "name": "hitlist",
+    "description": "Curated mass spectrometry evidence for MHC ligand data from IEDB and CEDAR",
+    "url": "https://github.com/pirl-unc/hitlist",
+    "language": "Python",
+    "stars": 3,
+    "pushed_at": "2026-11-24",
+    "topics": []
+  },
+  {
+    "org": "pirl-unc",
+    "name": "oncoref",
+    "description": "Curated cancer reference data: ontology, TMB, incidence/mortality, and expression. Bottom-of-stack for the openvax/PIRL libraries.",
+    "url": "https://github.com/pirl-unc/oncoref",
+    "language": "Python",
+    "stars": 3,
+    "pushed_at": "2026-11-24",
+    "topics": []
+  },
+  {
+    "org": "openvax",
+    "name": "pyensembl",
+    "description": "Python interface to access reference genome features (such as genes, transcripts, and exons) from Ensembl ",
+    "url": "https://github.com/openvax/pyensembl",
+    "language": "Python",
+    "stars": 410,
+    "pushed_at": "2026-11-24",
+    "topics": []
+  },
+  {
+    "org": "openvax",
+    "name": "datacache",
+    "description": "Helpers for transparently downloading datasets",
+    "url": "https://github.com/openvax/datacache",
+    "language": "Python",
+    "stars": 6,
+    "pushed_at": "2026-11-24",
+    "topics": []
+  },
+  {
+    "org": "openvax",
+    "name": "varcode",
+    "description": "Library for manipulating genomic variants and predicting their effects",
+    "url": "https://github.com/openvax/varcode",
+    "language": "Python",
+    "stars": 88,
+    "pushed_at": "2026-11-24",
+    "topics": []
+  },
+  {
+    "org": "openvax",
+    "name": "topiary",
+    "description": "Predict mutated T-cell epitopes from sequencing data",
+    "url": "https://github.com/openvax/topiary",
+    "language": "Python",
+    "stars": 31,
+    "pushed_at": "2026-11-24",
+    "topics": []
+  },
+  {
+    "org": "openvax",
+    "name": "mhcflurry",
+    "description": "Peptide-MHC I binding affinity prediction",
+    "url": "https://github.com/openvax/mhcflurry",
+    "language": "Python",
+    "stars": 283,
+    "pushed_at": "2026-11-24",
+    "topics": []
+  },
+  {
+    "org": "openvax",
+    "name": "isovar",
+    "description": "Assembly of RNA reads to determine the effect of a cancer mutation on protein sequence",
+    "url": "https://github.com/openvax/isovar",
+    "language": "Python",
+    "stars": 27,
+    "pushed_at": "2026-11-24",
+    "topics": []
+  },
+  {
+    "org": "openvax",
+    "name": "vaxrank",
+    "description": "Ranked vaccine peptides for personalized cancer immunotherapy",
+    "url": "https://github.com/openvax/vaxrank",
+    "language": "Python",
+    "stars": 69,
+    "pushed_at": "2026-11-24",
+    "topics": []
+  },
+  {
+    "org": "pirl-unc",
     "name": "mhcgnomes",
     "description": "Parsing MHC nomenclature in the wild",
     "url": "https://github.com/pirl-unc/mhcgnomes",
@@ -11,29 +121,9 @@
   },
   {
     "org": "pirl-unc",
-    "name": "mhcseqs",
-    "description": "MHC sequences",
-    "url": "https://github.com/pirl-unc/mhcseqs",
-    "language": "Python",
-    "stars": 2,
-    "pushed_at": "2026-11-23",
-    "topics": []
-  },
-  {
-    "org": "pirl-unc",
     "name": "weirdo",
     "description": "Metrics of immunological foreignness for candidate T-cell epitopes",
     "url": "https://github.com/pirl-unc/weirdo",
-    "language": "Python",
-    "stars": 0,
-    "pushed_at": "2026-11-23",
-    "topics": []
-  },
-  {
-    "org": "pirl-unc",
-    "name": "tcrsift",
-    "description": "",
-    "url": "https://github.com/pirl-unc/tcrsift",
     "language": "Python",
     "stars": 0,
     "pushed_at": "2026-11-23",
@@ -71,61 +161,11 @@
   },
   {
     "org": "pirl-unc",
-    "name": "hitlist",
-    "description": "Curated mass spectrometry evidence for MHC ligand data from IEDB and CEDAR",
-    "url": "https://github.com/pirl-unc/hitlist",
-    "language": "Python",
-    "stars": 3,
-    "pushed_at": "2026-11-23",
-    "topics": []
-  },
-  {
-    "org": "pirl-unc",
-    "name": "oncoref",
-    "description": "Curated cancer reference data: ontology, TMB, incidence/mortality, and expression. Bottom-of-stack for the openvax/PIRL libraries.",
-    "url": "https://github.com/pirl-unc/oncoref",
-    "language": "Python",
-    "stars": 3,
-    "pushed_at": "2026-11-23",
-    "topics": []
-  },
-  {
-    "org": "pirl-unc",
     "name": "pirl-unc.github.io",
     "description": "pirl.unc.edu",
     "url": "https://github.com/pirl-unc/pirl-unc.github.io",
     "language": "Python",
     "stars": 0,
-    "pushed_at": "2026-11-23",
-    "topics": []
-  },
-  {
-    "org": "openvax",
-    "name": "pyensembl",
-    "description": "Python interface to access reference genome features (such as genes, transcripts, and exons) from Ensembl ",
-    "url": "https://github.com/openvax/pyensembl",
-    "language": "Python",
-    "stars": 410,
-    "pushed_at": "2026-11-23",
-    "topics": []
-  },
-  {
-    "org": "openvax",
-    "name": "datacache",
-    "description": "Helpers for transparently downloading datasets",
-    "url": "https://github.com/openvax/datacache",
-    "language": "Python",
-    "stars": 6,
-    "pushed_at": "2026-11-23",
-    "topics": []
-  },
-  {
-    "org": "openvax",
-    "name": "varcode",
-    "description": "Library for manipulating genomic variants and predicting their effects",
-    "url": "https://github.com/openvax/varcode",
-    "language": "Python",
-    "stars": 88,
     "pushed_at": "2026-11-23",
     "topics": []
   },
@@ -141,51 +181,11 @@
   },
   {
     "org": "openvax",
-    "name": "topiary",
-    "description": "Predict mutated T-cell epitopes from sequencing data",
-    "url": "https://github.com/openvax/topiary",
-    "language": "Python",
-    "stars": 31,
-    "pushed_at": "2026-11-23",
-    "topics": []
-  },
-  {
-    "org": "openvax",
-    "name": "mhcflurry",
-    "description": "Peptide-MHC I binding affinity prediction",
-    "url": "https://github.com/openvax/mhcflurry",
-    "language": "Python",
-    "stars": 283,
-    "pushed_at": "2026-11-23",
-    "topics": []
-  },
-  {
-    "org": "openvax",
     "name": "varlens",
     "description": "commandline manipulation of genomic variants and NGS reads",
     "url": "https://github.com/openvax/varlens",
     "language": "Python",
     "stars": 21,
-    "pushed_at": "2026-11-23",
-    "topics": []
-  },
-  {
-    "org": "openvax",
-    "name": "isovar",
-    "description": "Assembly of RNA reads to determine the effect of a cancer mutation on protein sequence",
-    "url": "https://github.com/openvax/isovar",
-    "language": "Python",
-    "stars": 27,
-    "pushed_at": "2026-11-23",
-    "topics": []
-  },
-  {
-    "org": "openvax",
-    "name": "vaxrank",
-    "description": "Ranked vaccine peptides for personalized cancer immunotherapy",
-    "url": "https://github.com/openvax/vaxrank",
-    "language": "Python",
-    "stars": 69,
     "pushed_at": "2026-11-23",
     "topics": []
   },
