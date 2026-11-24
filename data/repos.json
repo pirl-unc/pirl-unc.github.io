@@ -1,6 +1,16 @@
 [
   {
     "org": "pirl-unc",
+    "name": "mhcgnomes",
+    "description": "Parsing MHC nomenclature in the wild",
+    "url": "https://github.com/pirl-unc/mhcgnomes",
+    "language": "Python",
+    "stars": 21,
+    "pushed_at": "2026-11-24",
+    "topics": []
+  },
+  {
+    "org": "pirl-unc",
     "name": "mhcseqs",
     "description": "MHC sequences",
     "url": "https://github.com/pirl-unc/mhcseqs",
@@ -21,6 +31,26 @@
   },
   {
     "org": "pirl-unc",
+    "name": "pirlygenes",
+    "description": "Gene sets used for cancer immunotherapy expression analysis",
+    "url": "https://github.com/pirl-unc/pirlygenes",
+    "language": "Python",
+    "stars": 1,
+    "pushed_at": "2026-11-24",
+    "topics": []
+  },
+  {
+    "org": "pirl-unc",
+    "name": "tsarina",
+    "description": "Tumor Specific Antigen discovery: personalized cancer immunotherapy targets from curated shared antigen data",
+    "url": "https://github.com/pirl-unc/tsarina",
+    "language": "Python",
+    "stars": 4,
+    "pushed_at": "2026-11-24",
+    "topics": []
+  },
+  {
+    "org": "pirl-unc",
     "name": "hitlist",
     "description": "Curated mass spectrometry evidence for MHC ligand data from IEDB and CEDAR",
     "url": "https://github.com/pirl-unc/hitlist",
@@ -36,6 +66,26 @@
     "url": "https://github.com/pirl-unc/oncoref",
     "language": "Python",
     "stars": 3,
+    "pushed_at": "2026-11-24",
+    "topics": []
+  },
+  {
+    "org": "pirl-unc",
+    "name": "pirl-unc.github.io",
+    "description": "pirl.unc.edu",
+    "url": "https://github.com/pirl-unc/pirl-unc.github.io",
+    "language": "Python",
+    "stars": 0,
+    "pushed_at": "2026-11-24",
+    "topics": []
+  },
+  {
+    "org": "openvax",
+    "name": "pepdata",
+    "description": "Python interface to amino acid properties and IEDB",
+    "url": "https://github.com/openvax/pepdata",
+    "language": "Python",
+    "stars": 58,
     "pushed_at": "2026-11-24",
     "topics": []
   },
@@ -71,6 +121,26 @@
   },
   {
     "org": "openvax",
+    "name": "mhctools",
+    "description": "Python interface to running command-line and web-based MHC binding predictors",
+    "url": "https://github.com/openvax/mhctools",
+    "language": "Python",
+    "stars": 112,
+    "pushed_at": "2026-11-24",
+    "topics": []
+  },
+  {
+    "org": "openvax",
+    "name": "typechecks",
+    "description": "Type checking helpers for Python",
+    "url": "https://github.com/openvax/typechecks",
+    "language": "Python",
+    "stars": 0,
+    "pushed_at": "2026-11-24",
+    "topics": []
+  },
+  {
+    "org": "openvax",
     "name": "topiary",
     "description": "Predict mutated T-cell epitopes from sequencing data",
     "url": "https://github.com/openvax/topiary",
@@ -86,6 +156,16 @@
     "url": "https://github.com/openvax/mhcflurry",
     "language": "Python",
     "stars": 283,
+    "pushed_at": "2026-11-24",
+    "topics": []
+  },
+  {
+    "org": "openvax",
+    "name": "varlens",
+    "description": "commandline manipulation of genomic variants and NGS reads",
+    "url": "https://github.com/openvax/varlens",
+    "language": "Python",
+    "stars": 21,
     "pushed_at": "2026-11-24",
     "topics": []
   },
@@ -110,13 +190,23 @@
     "topics": []
   },
   {
-    "org": "pirl-unc",
-    "name": "mhcgnomes",
-    "description": "Parsing MHC nomenclature in the wild",
-    "url": "https://github.com/pirl-unc/mhcgnomes",
+    "org": "openvax",
+    "name": "serializable",
+    "description": "Base class with serialization methods for user-defined Python objects",
+    "url": "https://github.com/openvax/serializable",
     "language": "Python",
-    "stars": 21,
-    "pushed_at": "2026-11-23",
+    "stars": 0,
+    "pushed_at": "2026-11-24",
+    "topics": []
+  },
+  {
+    "org": "openvax",
+    "name": "orfdata",
+    "description": "Reference open reading frames and experimental translation evidence on PyEnsembl transcripts",
+    "url": "https://github.com/openvax/orfdata",
+    "language": "Python",
+    "stars": 1,
+    "pushed_at": "2026-11-24",
     "topics": []
   },
   {
@@ -131,61 +221,11 @@
   },
   {
     "org": "pirl-unc",
-    "name": "pirlygenes",
-    "description": "Gene sets used for cancer immunotherapy expression analysis",
-    "url": "https://github.com/pirl-unc/pirlygenes",
-    "language": "Python",
-    "stars": 1,
-    "pushed_at": "2026-11-23",
-    "topics": []
-  },
-  {
-    "org": "pirl-unc",
     "name": "singlecell_images",
     "description": "Docker files for images containing seurat + scCDC and seurat + decontx ( celda )",
     "url": "https://github.com/pirl-unc/singlecell_images",
     "language": "Shell",
     "stars": 0,
-    "pushed_at": "2026-11-23",
-    "topics": []
-  },
-  {
-    "org": "pirl-unc",
-    "name": "tsarina",
-    "description": "Tumor Specific Antigen discovery: personalized cancer immunotherapy targets from curated shared antigen data",
-    "url": "https://github.com/pirl-unc/tsarina",
-    "language": "Python",
-    "stars": 4,
-    "pushed_at": "2026-11-23",
-    "topics": []
-  },
-  {
-    "org": "pirl-unc",
-    "name": "pirl-unc.github.io",
-    "description": "pirl.unc.edu",
-    "url": "https://github.com/pirl-unc/pirl-unc.github.io",
-    "language": "Python",
-    "stars": 0,
-    "pushed_at": "2026-11-23",
-    "topics": []
-  },
-  {
-    "org": "openvax",
-    "name": "mhctools",
-    "description": "Python interface to running command-line and web-based MHC binding predictors",
-    "url": "https://github.com/openvax/mhctools",
-    "language": "Python",
-    "stars": 112,
-    "pushed_at": "2026-11-23",
-    "topics": []
-  },
-  {
-    "org": "openvax",
-    "name": "varlens",
-    "description": "commandline manipulation of genomic variants and NGS reads",
-    "url": "https://github.com/openvax/varlens",
-    "language": "Python",
-    "stars": 21,
     "pushed_at": "2026-11-23",
     "topics": []
   },
@@ -216,16 +256,6 @@
     "url": "https://github.com/openvax/openvax2",
     "language": "CSS",
     "stars": 0,
-    "pushed_at": "2026-11-23",
-    "topics": []
-  },
-  {
-    "org": "openvax",
-    "name": "orfdata",
-    "description": "Reference open reading frames and experimental translation evidence on PyEnsembl transcripts",
-    "url": "https://github.com/openvax/orfdata",
-    "language": "Python",
-    "stars": 1,
     "pushed_at": "2026-11-23",
     "topics": []
   },
@@ -294,26 +324,6 @@
     "language": "",
     "stars": 0,
     "pushed_at": "2026-11-22",
-    "topics": []
-  },
-  {
-    "org": "openvax",
-    "name": "pepdata",
-    "description": "Python interface to amino acid properties and IEDB",
-    "url": "https://github.com/openvax/pepdata",
-    "language": "Python",
-    "stars": 58,
-    "pushed_at": "2026-11-21",
-    "topics": []
-  },
-  {
-    "org": "openvax",
-    "name": "serializable",
-    "description": "Base class with serialization methods for user-defined Python objects",
-    "url": "https://github.com/openvax/serializable",
-    "language": "Python",
-    "stars": 0,
-    "pushed_at": "2026-11-21",
     "topics": []
   },
   {
@@ -429,16 +439,6 @@
     "language": "Python",
     "stars": 4,
     "pushed_at": "2026-10-20",
-    "topics": []
-  },
-  {
-    "org": "openvax",
-    "name": "typechecks",
-    "description": "Type checking helpers for Python",
-    "url": "https://github.com/openvax/typechecks",
-    "language": "Python",
-    "stars": 0,
-    "pushed_at": "2026-10-19",
     "topics": []
   },
   {
