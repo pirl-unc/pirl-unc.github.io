@@ -31,6 +31,16 @@
   },
   {
     "org": "pirl-unc",
+    "name": "tsarina",
+    "description": "Tumor Specific Antigen discovery: personalized cancer immunotherapy targets from curated shared antigen data",
+    "url": "https://github.com/pirl-unc/tsarina",
+    "language": "Python",
+    "stars": 4,
+    "pushed_at": "2026-11-27",
+    "topics": []
+  },
+  {
+    "org": "pirl-unc",
     "name": "hitlist",
     "description": "Curated mass spectrometry evidence for MHC ligand data from IEDB and CEDAR",
     "url": "https://github.com/pirl-unc/hitlist",
@@ -56,6 +66,16 @@
     "url": "https://github.com/pirl-unc/oncoref",
     "language": "Python",
     "stars": 3,
+    "pushed_at": "2026-11-27",
+    "topics": []
+  },
+  {
+    "org": "pirl-unc",
+    "name": "pirl-unc.github.io",
+    "description": "pirl.unc.edu",
+    "url": "https://github.com/pirl-unc/pirl-unc.github.io",
+    "language": "Python",
+    "stars": 0,
     "pushed_at": "2026-11-27",
     "topics": []
   },
@@ -126,26 +146,6 @@
     "url": "https://github.com/pirl-unc/pirlygenes",
     "language": "Python",
     "stars": 1,
-    "pushed_at": "2026-11-26",
-    "topics": []
-  },
-  {
-    "org": "pirl-unc",
-    "name": "tsarina",
-    "description": "Tumor Specific Antigen discovery: personalized cancer immunotherapy targets from curated shared antigen data",
-    "url": "https://github.com/pirl-unc/tsarina",
-    "language": "Python",
-    "stars": 4,
-    "pushed_at": "2026-11-26",
-    "topics": []
-  },
-  {
-    "org": "pirl-unc",
-    "name": "pirl-unc.github.io",
-    "description": "pirl.unc.edu",
-    "url": "https://github.com/pirl-unc/pirl-unc.github.io",
-    "language": "Python",
-    "stars": 0,
     "pushed_at": "2026-11-26",
     "topics": []
   },
